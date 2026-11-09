@@ -134,6 +134,45 @@ def to_daily(closes: pd.DataFrame) -> pd.DataFrame:
     return closes.sort_index().groupby(level=0).last()
 
 
+def refetch_stale(prices: pd.DataFrame, end: pd.Timestamp | None) -> pd.DataFrame:
+    """Yahoo's batch download sometimes returns an out-of-date history for a few
+    symbols (on 6 Nov 2026: GOOG, META, NBIS, CRWV, CHA, BUG and BTC stopped at
+    the day before). Re-download any symbol whose last price is older than
+    SPY's, one at a time, and keep the fresher series."""
+    import yfinance as yf
+    cal = prices[MARKET_CALENDAR].dropna()
+    if cal.empty:
+        return prices
+    last = cal.index[-1]
+    stale = [s for s in prices.columns
+             if prices[s].dropna().empty or prices[s].dropna().index[-1] < last]
+    if not stale:
+        return prices
+    log(f"Re-downloading {len(stale)} out-of-date symbol(s) one by one: {', '.join(stale)}")
+    start = (end or pd.Timestamp.today()) - pd.Timedelta(days=640)
+    stop = end + pd.Timedelta(days=1) if end is not None else None
+    for s in stale:
+        for attempt in range(2):
+            try:
+                h = yf.Ticker(s).history(start=start, end=stop, auto_adjust=True, timeout=30)
+                if h.empty:
+                    raise RuntimeError("empty")
+                fresh = h["Close"].copy()
+                fresh.index = _naive(fresh.index).normalize()
+                fresh = fresh.groupby(level=0).last()
+                if fresh.index[-1] > (prices[s].dropna().index[-1]
+                                      if not prices[s].dropna().empty else pd.Timestamp.min):
+                    prices = prices.reindex(prices.index.union(fresh.index))
+                    prices[s] = fresh.reindex(prices.index).combine_first(prices[s])
+                break
+            except Exception as e:
+                if attempt:
+                    log(f"  {s}: re-download failed ({e})")
+                time.sleep(2)
+        time.sleep(1)
+    return prices
+
+
 def drop_unfinished_session(prices: pd.DataFrame) -> pd.DataFrame:
     """If New York's session is still open (before 4:30 pm New York time), drop
     rows dated today: Yahoo's 'close' for today would be a live mid-session price."""
@@ -469,6 +508,10 @@ def build_session(prices: pd.DataFrame, watch: list[dict], t: pd.Timestamp,
         c = change(prices[sym], t, unit)
         if c is None:
             a["notes"].append(f"No price on {t.date()} (holiday or not yet updated).")
+            if r["class"] in ("stock", "etf"):
+                # a US-listed asset with no price on a US session is a data failure,
+                # not a holiday: flag it so the digest falls back to the web for it
+                errors.append(f"{r['ticker']}: Yahoo has no {t.date()} price ({sym}); use web data")
             out["assets"].append(a)
             continue
         a.update({"close": c["close"], "prev_date": c["prev_date"],
@@ -545,6 +588,7 @@ def main():
         prices = pd.read_csv(args.prices_csv, parse_dates=["date"]).set_index("date").sort_index()
     else:
         prices = download(syms, end)
+        prices = refetch_stale(prices, end)
         prices = drop_unfinished_session(prices)
     log("Price download finished")
     fix_rate_scale(prices)
