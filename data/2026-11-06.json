@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "session_date": "2026-11-06",
- "generated_at_utc": "2026-11-09 17:46",
+ "generated_at_utc": "2026-11-09 17:57",
  "sources": {
   "prices": "Yahoo Finance via yfinance (adjusted closes)",
   "rates": "US Treasury and New York Fed (FRED as fallback); see each series' source",
@@ -1225,6 +1225,97 @@
    "note": "official end-of-day data; may lag the session by a day"
   }
  },
- "market_news": [],
+ "market_news": [
+  {
+   "time_utc": "2026-11-09 17:31",
+   "source": "CNBC",
+   "headline": "We're adding a consumer stock to diversify beyond the volatile AI trade",
+   "url": "https://www.cnbc.com/investingclub/2026/11/09/were-starting-a-position-to-diversify-beyond-the-volatile-ai-trade.html"
+  },
+  {
+   "time_utc": "2026-11-09 16:10",
+   "source": "CNBC",
+   "headline": "Honda to invest $3 billion in new vehicle assembly plant in Ohio",
+   "url": "https://www.cnbc.com/2026/11/09/honda-to-invest-3-billion-in-new-vehicle-assembly-plant-in-ohio.html"
+  },
+  {
+   "time_utc": "2026-11-09 14:30",
+   "source": "CNBC",
+   "headline": "Eli Lilly’s Foundayo obesity pill eases sleep apnea in late-stage trial, paving way for approval",
+   "url": "https://www.cnbc.com/2026/11/09/eli-lilly-foundayo-sleep-apnea-trial.html"
+  },
+  {
+   "time_utc": "2026-11-09 14:29",
+   "source": "CNBC",
+   "headline": "Goodyear Tire CEO Mark Stewart steps down as company continues turnaround plan",
+   "url": "https://www.cnbc.com/2026/11/09/goodyear-roger-wood-interim-ceo.html"
+  },
+  {
+   "time_utc": "2026-11-09 14:11",
+   "source": "CNBC",
+   "headline": "Jim Cramer's top 10 things to watch in the stock market Monday",
+   "url": "https://www.cnbc.com/investingclub/2026/11/09/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html"
+  },
+  {
+   "time_utc": "2026-11-09 13:54",
+   "source": "CNBC",
+   "headline": "Home listings pile up in October, but sellers won't slash prices",
+   "url": "https://www.cnbc.com/2026/11/09/home-listings-pile-up-in-october-but-sellers-wont-slash-prices.html"
+  },
+  {
+   "time_utc": "2026-11-09 11:46",
+   "source": "Reuters",
+   "headline": "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX0pwQmJtMVdmZDY2NVhWalgxSHZ0d0NvUzJ4cldzTHFQUmdHSERzZENUOXljYldMbFpRa3J5d0VhbkNtZGJVM1paVkFWZ1ZHZTFOQlNkNm5xZ2tkc0FYQkxvQkU3RHc5cm9lcjFXSzdCNlE5QjNXNnRoZktjUHhGRTRGOXZYbWZtUXlTaFBXN096VFZrTDBQQll5ZDJaZDlPdUlueEtHaGMyQ1ZnWHdxQll3UWI3WHdYZmc?oc=5"
+  },
+  {
+   "time_utc": "2026-11-09 09:19",
+   "source": "Reuters",
+   "headline": "Iran defends two-day proposal for peace talks after US rejects conditions - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQTF0eFRFOUtERE9BUEU4Sy13ZnpyT0pVdUo1aHRYY3ctUThfVzFOTlFmdlJvS1NYOExsalBydmhoQkpVOXRaVC1TTjZ0cDFVRWtnS2x1MGthR2RiQnQ3WC10emY1ck8yTUxZVU5LVHVmUmdkM2k0S2NEbWdKOEk5QnE3WGhBazc3aEpZaFdBMS1jVUJoOE81QXJHLU1HbGJMLXROZUlXa245Z0NIS05FSA?oc=5"
+  },
+  {
+   "time_utc": "2026-11-09 07:15",
+   "source": "Reuters",
+   "headline": "Saudi Arabia says danger passed in Riyadh after alert, day after Houthi attack - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRFo2NjBsd2ZzTWNuTGtJOWZvbGVUanhLN0p2V1owR092a3o2emVkZllMWjc3YkF5aTJubFhzU3d2Z0FDT09FVWRyanJjdHVydVBkTkxDVmNjaERnYmljaDRZcUJGRTZUdDkxNFhhT3dXaW9RUS1McGc1eXZGT29yVm8wVWpNU25CenRqb3RJQmJIS3RickZfRnhBeEJFclppT3B2SVl4eXJMLXR3V0pTdjFpWHNLQWZpSFViMTVSM01WaE1QNXg0?oc=5"
+  },
+  {
+   "time_utc": "2026-11-09 07:01",
+   "source": "Reuters",
+   "headline": "UAE's Gargash warns of prolonged regional uncertainty, says US-Iran settlement appears difficult - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMlI2UXNzNl84Z1ByMV9Ybm5YNjMtZkdPcDhsZ2plZk9udWViZDZ4eTRVQVNXN2x6U2hENlkxbXJ2SXVvVU0tVWFkZGlSLXBDcnBZM1pzLVBNMzA5bjdZOHlFSXd6ZzhsWWZvV3JWWXlTME1tMnJ5Q0RoWHk1ZmJzbzk5cjZFaDI4NXpTOGRaVDBTNGNxcnRZYjF0X2NzY3EwaEJZcVhMaHRRMXREdXBkeXh6OGRCdU9aaWRJdS1zNzBQSUJCZEE?oc=5"
+  },
+  {
+   "time_utc": "2026-11-09 04:23",
+   "source": "Reuters",
+   "headline": "Iran says no unauthorised vessels transited Strait of Hormuz overnight after navigation aids destroyed - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNFkyaVpFU2VKQUVYc0xKQ1NmMFhuUmhEZXpCRFF5Ym5HaVpwSENiYk9QaWJhd1BtcU9sSEVyeGVoZ1RxUS1UamJHbEJOTUJwQjhzWUhrYko5RmZCMXJZQ04wZ2tyeFJZTGNFdUotNURHOXpDQTdGdXlMMEpaU3pWT0lvVzNPVkV1aHRIdjVYTE5yM2dwdVpDM0pQdV9TTDhTLXRQTlgxRkVlVFZtU0haT29fdEpyZw?oc=5"
+  },
+  {
+   "time_utc": "2026-11-09 03:01",
+   "source": "Reuters",
+   "headline": "Gold gains as lower oil prices ease inflation fears - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbEdIVXlJc2RaUEw2RmFrR2FZcXYzYlBKUG9Cdl9WUVFfalVxT0hGcGFCdW1DS3JMT2daanhDYktBeXVGNGt5TGlsOGZJVWVSMFpnT3ZVa2RBUjZYakRlVlQ3SXd1ZkpTQVNXVkpoNUZoemdycWY0MG02dVk0cWRuWG4taG5VMm9kbEluSHctTVZVMXJwWXNWSWdVcmxQeWtRSW1EWDQ2dTJ6QVV2TzhoeQ?oc=5"
+  },
+  {
+   "time_utc": "2026-11-09 02:40",
+   "source": "Reuters",
+   "headline": "Indian shares inch higher to close at 8-month high as crude oil drops - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObkM4eVdiUXpCc3Jld1NOSlRzMEFUeHcxb09peUlKS3ZFNTVLS2lwMFE0T0x1NV94RGowQjZEM0luODhHRFNZWWxaX2w2Y0Rqc1d5X2tXYlRwcU5wMVMxNHNjeWVXZEZSNkYtV1JEV29LeDE2bEVRMnNBbUVNNGV5cjNlYVYydGhKT3Awc2VVeEY3WTZSbWJjak43bmpTdmJjR2ZSU01fSXhCeFNVNXlYeGxPODh2UUlHQ1FRb3VNSzc?oc=5"
+  },
+  {
+   "time_utc": "2026-11-09 01:46",
+   "source": "Reuters",
+   "headline": "Asian stocks steady as AI, Mideast jitters recede; dollar firm on Fed bets - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNV0oxRGlDMkl5NWVMcTZ3NjVxWU5RakhWT3BnZG1vc254T1RSXzg0SE5MelBYSTNsakduTFo5R0pJMkNWNXZKVW9SZEFOLWZfbWQwdG94bkpoeGw5V0I5bmtlRktsWmpqTGhwVzFNSkgyaDdEVUprbDNsMkI1WThjZ1cwQmpIRjN5VVFOVw?oc=5"
+  },
+  {
+   "time_utc": "2026-11-09 01:42",
+   "source": "Reuters",
+   "headline": "Trump to meet Qatar's prime minister as Iran diplomacy faces hurdles - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdS16MHhHTm9BaFNxQWlxTTl4Mm1YbHktbTZ3Yi0yY1MtdkJSQ0Q0RWI0eko3cVhDVHlybTBMTU05cDhwdG5oQzhVSS1ndXhfOWV6eEQ1M2J0cFI0SzFXenhSMWF1YzcyNkVzQ3lDVVRVVWhGbVA2cHdPV3BHc3B2UG82eUxHcHFCbHJ5c2xCU05nU01uYlJjU1pMZU5XWUFHdFFlaV9ma0RPOGFwYmVsY3dtTTcxQQ?oc=5"
+  }
+ ],
  "errors": []
 }
