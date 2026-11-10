@@ -25,8 +25,9 @@ Claude reads these files from the raw URL, e.g.
   `FINNHUB_API_KEY` repository secret, never in a file)
 
 ## Heatmap video
-After the data, `heatmap_video.py` makes a 13-second 16:9 video of the S&P 500:
-yesterday's map, then today replayed in one-hour steps, with the index's
+After the data, `heatmap_video.py` makes a 12-second 16:9 video of one US session
+of the S&P 500: it starts at the previous close (every tile grey), then replays
+the day in one-hour steps from the 9:30 open to the 4 pm close, with that day's
 15-minute chart and the change in total market value. Tiles are sized by
 market value (shares outstanding x previous close, refreshed weekly into
 `data/sp500_meta.csv`) and grouped by GICS sector. Videos are published to the

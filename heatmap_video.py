@@ -4,8 +4,8 @@ S&P 500 heatmap replay video for the market-move system.
 
 Makes a 16:9 MP4 (1920x1080, 30 fps, about 13 s) of the most recent completed
 US session:
-  * opens on YESTERDAY's map (close-to-close),
-  * then replays TODAY in one-hour steps: 9:30 open, 10:30, 11:30 ... close,
+  * starts from the previous close (every tile grey, 0%),
+  * then replays the session in one-hour steps: 9:30 open, 10:30, 11:30 ... close,
   * left panel: S&P 500 15-minute candles revealed in step with the map,
     plus the change in the index's total market value and the biggest $ moves.
 
@@ -51,7 +51,7 @@ INDEX = "^GSPC"
 
 W, H, FPS = 1920, 1080, 30
 # timeline (seconds)
-T_YEST_HOLD = 1.8
+T_START_HOLD = 1.0      # neutral 'previous close' baseline
 T_TRANS = 0.6          # one hour-step transition (tiles sweep left to right)
 T_TILE = 0.3           # each tile's own colour change inside a transition
 T_HOLD = 0.6           # hold on each hourly state
@@ -123,6 +123,8 @@ def fmt_money(v: float) -> str:
     """Dollars -> '+$1.23T' / '−$412B'."""
     sign = "+" if v >= 0 else "−"
     a = abs(v)
+    if a < 5e5:
+        return "$0"
     if a >= 1e12:
         return f"{sign}${a / 1e12:.2f}T"
     if a >= 1e9:
@@ -275,7 +277,7 @@ def build_real(date: str | None) -> Scene:
     if pos < 2:
         sys.exit("not enough daily history")
     y, y2 = d.index[pos - 1], d.index[pos - 2]
-    d = refetch_missing(d, [t, y, y2])
+    d = refetch_missing(d, [t, y])
     close_t, close_y, close_y2 = d.loc[t], d.loc[y], d.loc[y2]
 
     log("Downloading 60-minute bars")
@@ -541,19 +543,20 @@ class Renderer:
         self.cax.tick_params(colors=MUTED, labelsize=10, length=0)
         self.cax.grid(axis="y", color=GRID, linewidth=0.8)
         self.cax.set_axisbelow(True)
-        ny_ = len(scene.candles_y)
-        self.x_y = np.arange(ny_)
-        self.x_t = np.arange(len(scene.candles_t)) + ny_ + 2
-        allc = pd.concat([scene.candles_y, scene.candles_t])
-        lo, hi = allc["Low"].min(), allc["High"].max()
+        # x = 15-minute slot after 9:30 (0..25); only this session is drawn
+        ct = scene.candles_t
+        self.x_t = (ct["m"].to_numpy() / 15) if len(ct) else np.array([])
+        lo = min(ct["Low"].min(), scene.ref_t) if len(ct) else scene.ref_t * 0.99
+        hi = max(ct["High"].max(), scene.ref_t) if len(ct) else scene.ref_t * 1.01
         pad = (hi - lo) * 0.10
         self.cax.set_ylim(lo - pad, hi + pad)
-        self.cax.set_xlim(-1.5, self.x_t[-1] + 1.5 if len(self.x_t) else ny_ + 30)
-        self.cax.set_xticks([ny_ / 2, ny_ + 2 + 13])
-        self.cax.set_xticklabels([f"{scene.yday:%a %-d %b}", f"{scene.today:%a %-d %b}"])
+        self.cax.set_xlim(-0.8, 25.8)
+        self.cax.set_xticks([0, 6, 12, 18, 24])
+        self.cax.set_xticklabels(["9:30", "11:00", "12:30", "14:00", "15:30"])
         self.cax.yaxis.set_major_formatter(
             __import__("matplotlib").ticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
-        self.cax.axvline(ny_ + 0.5, color=GRID, linewidth=1)
+        self.cax.set_title(f"S&P 500 · 15-minute candles · {scene.today:%a %-d %b} (ET)",
+                           color=MUTED, fontsize=10.5, loc="left", pad=8)
         self.chart_artists = []
 
         # ---- left panel: counter and biggest moves
@@ -585,10 +588,11 @@ class Renderer:
 
     # --- per-state numbers -------------------------------------------------
     def state(self, k: int):
-        """k = 0 is yesterday; k >= 1 is today's keyframe k-1."""
+        """k = 0 is the previous close (no move yet); k >= 1 is keyframe k-1."""
         s = self.s
         if k == 0:
-            return s.yday_pct, s.yday_dollar, s.yday_index_pct
+            z = np.zeros(len(s.tickers))
+            return z, z, 0.0
         return s.key_pct[k - 1], s.key_dollar[k - 1], s.key_index_pct[k - 1]
 
     def draw_chart(self, k_a: int, k_b: int, e: float):
@@ -596,19 +600,15 @@ class Renderer:
         for a in self.chart_artists:
             a.remove()
         self.chart_artists = []
-        today_phase = not (k_a == 0 and k_b == 0)
-        y_alpha = 1.0 if not today_phase else (1 - 0.65 * e if k_a == 0 else 0.35)
         reveal = -1.0
-        if today_phase:
+        if k_b > 0:
             ma = -1.0 if k_a == 0 else s.key_minutes[k_a - 1]
             mb = s.key_minutes[k_b - 1]
             reveal = ma + (mb - ma) * e
-        self._candles(s.candles_y, self.x_y, None, y_alpha)
         if reveal >= 0:
             self._candles(s.candles_t, self.x_t, reveal, 1.0)
-        # reference line: previous close of the session being shown
-        use_today = today_phase and (k_a != 0 or e >= 0.5)
-        ref = s.ref_t if use_today else s.ref_y
+        # reference line: the previous close every % on screen is measured from
+        ref = s.ref_t
         ln = self.cax.axhline(ref, color="#d9b45a", linewidth=1, linestyle=(0, (4, 4)))
         tx = self.cax.text(0.99, ref, f"prev close {ref:,.0f}", color="#d9b45a", fontsize=9.5,
                            va="bottom", ha="right", transform=self.cax.get_yaxis_transform())
@@ -674,11 +674,11 @@ class Renderer:
         # header
         kk = k_b if e >= 0.5 else k_a
         if kk == 0:
-            self.pill_txt.set_text(f"YESTERDAY · {s.yday:%a %-d %b}".upper())
+            self.pill_txt.set_text(f"{s.today:%a %-d %b}".upper())
             self.pill.set_facecolor("#2a2f3d")
-            self.clock.set_text("CLOSE")
+            self.clock.set_text("PREVIOUS CLOSE")
         else:
-            self.pill_txt.set_text(f"TODAY · {s.today:%a %-d %b}".upper())
+            self.pill_txt.set_text(f"{s.today:%a %-d %b}".upper())
             self.pill.set_facecolor("#b8323a" if s.key_index_pct[-1] < 0 else "#23874a")
             self.clock.set_text(f"{s.key_labels[kk - 1]} ET")
         ip = ia + (ib - ia) * e
@@ -709,7 +709,7 @@ class Renderer:
 def timeline(scene: Scene):
     """List of (k_a, k_b, duration) segments."""
     K = len(scene.key_labels)
-    seg = [(0, 0, T_YEST_HOLD), (0, 1, T_TRANS)]
+    seg = [(0, 0, T_START_HOLD), (0, 1, T_TRANS)]
     for k in range(1, K + 1):
         seg.append((k, k, T_HOLD if k < K else T_END_HOLD))
         if k < K:
