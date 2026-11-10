@@ -66,7 +66,14 @@ jobs:
           git add data
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "Market data $(date -u +%Y-%m-%d)"
-          git push
+          # If someone uploaded a file while this run was working, catch up
+          # with it first; try up to 3 times.
+          for i in 1 2 3; do
+            git pull --rebase --quiet origin main && git push && exit 0
+            echo "Push failed (attempt $i); retrying in 10 s"
+            sleep 10
+          done
+          exit 1
 
       # Videos go to their own branch, "heatmap-videos", which is replaced (not
       # added to) every day: it only ever holds the last 30 sessions, so the
