@@ -14,6 +14,10 @@ on:
         description: "Also build this many earlier sessions (e.g. 20)"
         required: false
         default: "0"
+      video:
+        description: "Also make the heatmap video (yes/no)"
+        required: false
+        default: "yes"
 
 permissions:
   contents: write
@@ -23,7 +27,7 @@ concurrency: daily-data
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -42,6 +46,19 @@ jobs:
           if [ -n "$DATE_INPUT" ]; then ARGS="$ARGS --date $DATE_INPUT"; fi
           if [ -n "$BACKFILL_INPUT" ] && [ "$BACKFILL_INPUT" != "0" ]; then ARGS="$ARGS --backfill $BACKFILL_INPUT"; fi
           python daily_data.py $ARGS
+
+      # The video can never block the data: if this step fails, the job carries on.
+      - name: Make the heatmap video
+        id: video
+        if: inputs.video != 'no'
+        continue-on-error: true
+        env:
+          DATE_INPUT: ${{ inputs.date }}
+        run: |
+          ARGS=""
+          if [ -n "$DATE_INPUT" ]; then ARGS="--date $DATE_INPUT"; fi
+          python heatmap_video.py $ARGS
+
       - name: Save the files to the repository
         run: |
           git config user.name "github-actions[bot]"
@@ -50,3 +67,39 @@ jobs:
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "Market data $(date -u +%Y-%m-%d)"
           git push
+
+      # Videos go to their own branch, "heatmap-videos", which is replaced (not
+      # added to) every day: it only ever holds the last 30 sessions, so the
+      # repository does not grow. Files on a branch have direct raw links,
+      # which Notion can fetch (it cannot follow the redirect of a Release link).
+      - name: Publish the video (keeps the last 30 sessions)
+        if: steps.video.outcome == 'success'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -e
+          BR=heatmap-videos
+          URL="https://x-access-token:${GH_TOKEN}@github.com/${REPO}.git"
+          F=$(cat video/latest.txt)
+          STEM="${F%.mp4}"
+          PUB="$RUNNER_TEMP/pub"
+          rm -rf "$PUB"
+          git clone --quiet --depth 1 --branch "$BR" "$URL" "$PUB" 2>/dev/null || mkdir -p "$PUB"
+          cp "video/$STEM.mp4" "video/$STEM.png" "$PUB/"
+          cd "$PUB"
+          rm -rf .git
+          ls heatmap-????-??-??.mp4 | sort -r | tail -n +31 | while read -r OLD; do
+            rm -f "$OLD" "${OLD%.mp4}.png"
+          done
+          cp "$STEM.mp4" heatmap-latest.mp4
+          cp "$STEM.png" heatmap-latest.png
+          printf '# Daily S&P 500 heatmap videos\n\nMade by heatmap_video.py on the main branch. Last 30 sessions; this branch is rewritten daily.\n' > README.md
+          git init --quiet -b "$BR"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit --quiet -m "Heatmap videos up to $STEM"
+          git push --quiet --force "$URL" "$BR"
+          echo "Video: https://raw.githubusercontent.com/${REPO}/${BR}/${STEM}.mp4"
