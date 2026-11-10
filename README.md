@@ -24,6 +24,20 @@ Claude reads these files from the raw URL, e.g.
 - Headlines and earnings dates: Finnhub (free key, stored as the
   `FINNHUB_API_KEY` repository secret, never in a file)
 
+## Heatmap video
+After the data, `heatmap_video.py` makes a 13-second 16:9 video of the S&P 500:
+yesterday's map, then today replayed in one-hour steps, with the index's
+15-minute chart and the change in total market value. Tiles are sized by
+market value (shares outstanding x previous close, refreshed weekly into
+`data/sp500_meta.csv`) and grouped by GICS sector. Videos are published to the
+`heatmap-videos` branch, which is rewritten each day and keeps the last 30
+sessions, so the main branch never grows. Each video is under 4.5 MB so the
+digest can put it into Notion:
+- one day: `https://raw.githubusercontent.com/<your-username>/market-move-data/heatmap-videos/heatmap-YYYY-MM-DD.mp4`
+  (a `.png` still of the close sits beside it)
+- newest: `.../heatmap-videos/heatmap-latest.mp4`
+- test without real prices: `python heatmap_video.py --demo`
+
 ## Common jobs
 - **Add an asset:** add a row to `watchlist.csv` (Yahoo symbol in `symbol`),
   and a row in the Notion Watchlist.

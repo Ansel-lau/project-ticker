@@ -2,3 +2,6 @@ yfinance
 pandas
 numpy
 requests
+matplotlib
+squarify
+imageio-ffmpeg
