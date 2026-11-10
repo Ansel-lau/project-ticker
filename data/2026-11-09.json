@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "session_date": "2026-11-09",
- "generated_at_utc": "2026-11-10 09:03",
+ "generated_at_utc": "2026-11-10 09:17",
  "sources": {
   "prices": "Yahoo Finance via yfinance (adjusted closes)",
   "rates": "US Treasury and New York Fed (FRED as fallback); see each series' source",
@@ -578,6 +578,12 @@
      "url": "https://finnhub.io/api/news?id=27f9b966027aecf1d9158503adfb0b036cb8f95e4043c1d5c80d170af9f39aec"
     },
     {
+     "time_utc": "2026-11-09 22:22",
+     "source": "Yahoo",
+     "headline": "Nebius Stock Is Crashing as GPU Prices Rise. Here’s Why",
+     "url": "https://finnhub.io/api/news?id=ae206140eb639968fe70ebd090ddb3bfb81398aa3cf6fb5cac3304d2fc5ffcea"
+    },
+    {
      "time_utc": "2026-11-09 19:22",
      "source": "Yahoo",
      "headline": "Not Revenue. Not Growth. Here’s What I’ll Be Watching When CoreWeave and Nebius Report This Week.",
@@ -624,12 +630,6 @@
      "source": "SeekingAlpha",
      "headline": "IREN: This Is A Great Time To Go All-In",
      "url": "https://finnhub.io/api/news?id=0c3edcc1d46444bb9c740f082ccf2293aaf4f15232a46cfd1e2345f312af6d39"
-    },
-    {
-     "time_utc": "2026-11-09 13:28",
-     "source": "SeekingAlpha",
-     "headline": "Neocloud Sell-Off Leaves Bitcoin Miners Oversold",
-     "url": "https://finnhub.io/api/news?id=2d7556d5039221117c188b8b2bf932d31820047b68b3435531e019e7f3ee11fd"
     }
    ],
    "earnings": [
@@ -1226,97 +1226,6 @@
    "note": "official end-of-day data; may lag the session by a day"
   }
  },
- "market_news": [
-  {
-   "time_utc": "2026-11-10 02:23",
-   "source": "Reuters",
-   "headline": "Asian stocks climb as sliding oil prices buoy sentiment - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9CVDNSVXJpWURQMkF1dUt1amw1WkxILXhVSjZyZkQxdGlBdWZvT0tqclhabXRKZC1xNlRIRmJSdkhINDVsYXlRdk9paVRCa085WWVKRTJFcm9CZWo2VzNaYU5lQ2RXbDdqb3QxdkY4SDFRb2JMVE8yemVJMA?oc=5"
-  },
-  {
-   "time_utc": "2026-11-10 01:53",
-   "source": "Reuters",
-   "headline": "Saudi-led coalition says it intercepts two Houthi missiles fired towards Riyadh - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeEFMZHZXSnB4Q1RWMGxYRGJrYUFLdXBsc2ZGcmowbDhlNGVjMWxtOWt6bno5WWZnd2F2NVNncnJKdFM1bm1QU2RGQmNNOFBXampZcHpYLU1mdGxIRFJ4Z0drcHcyNHYtTmhVWEVlY0FldWp1d3ZoWlpoZXljR2w1b1lvb2pSR3owY2tnbUF2MDFYQXZlNUxsUUM1TGdaQ1lJZ3ZSUzl6cVp2czBFeTA3akRSS19vMTR3LW1qcGZGUExhbEJQTlpzSFdfNGc2dw?oc=5"
-  },
-  {
-   "time_utc": "2026-11-10 01:43",
-   "source": "Reuters",
-   "headline": "Oil falls as Trump downplays prospect of escalation with Iran - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYWIxdHFYZXdDLUkyNjhxSklldE1kTVJUMXBHOENVUUF0YWVXRmhpbGhvSDdJSUtSUG9ZUk5FVGxZdExQa0c0WmJFZDd2QXFNUnJUV0ZuZ0x3eHZCTFBiVXY3b0lVMVA0RkVaVllFRHJHSjJaUmlpSjNOQThxOGhoN05LelBtdjE4Qk5PbnRoTThFVWc3NE91WlE2WHJKbG5kWEVkeF9SS20wSGs?oc=5"
-  },
-  {
-   "time_utc": "2026-11-09 23:07",
-   "source": "Reuters",
-   "headline": "Trump says Qatar, Saudi prefer peace in Iran conflict - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX0pwQmJtMVdmZDY2NVhWalgxSHZ0d0NvUzJ4cldzTHFQUmdHSERzZENUOXljYldMbFpRa3J5d0VhbkNtZGJVM1paVkFWZ1ZHZTFOQlNkNm5xZ2tkc0FYQkxvQkU3RHc5cm9lcjFXSzdCNlE5QjNXNnRoZktjUHhGRTRGOXZYbWZtUXlTaFBXN096VFZrTDBQQll5ZDJaZDlPdUlueEtHaGMyQ1ZnWHdxQll3UWI3WHdYZmc?oc=5"
-  },
-  {
-   "time_utc": "2026-11-09 22:07",
-   "source": "Reuters",
-   "headline": "Trump says US military action against Iran not necessary 'at this point' - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTmtxNXdZTTY4U3h6bUNvMm5NZDBiWXNMMVJoalRMSzZ5OG4yR3ZkWkdaVU82SUFNYTlPcWhjZGZGUlVWczRwMnM1RjJLZGxtZUI3T0ZaTm1xS3RpZ0Z0V0lBQW5LRW9Ja3hoUXhuekl1UnNzWVE1QXA3MVk2Z2ppQVpwQ2pzSTdPbThuLUIzeko5UDIyQ21leGpreE9PdWEtN000NVQ2clduSTJQRC1wM2pwYmxWNjdmbGRLQTFFcjdjZw?oc=5"
-  },
-  {
-   "time_utc": "2026-11-09 21:28",
-   "source": "CNBC",
-   "headline": "Skydance outlines its $6 billion in planned cost savings. Here's the breakdown",
-   "url": "https://www.cnbc.com/2026/11/09/skydance-cost-savings-breakdown.html"
-  },
-  {
-   "time_utc": "2026-11-09 21:23",
-   "source": "Reuters",
-   "headline": "EXCLUSIVE: French officials blame Iran for refrigerator hacks, vow retaliation - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQam51ejNqNThjR0wtTnFjaTNObkVoS25CUzUySnBhRVc5bWlIZnhpM0ZleDhuSnJ2Z19xcWd3Q1Z3bnJkQmo1NmlJZGZnYUhEQ3ZCNHF6Y1hKM3BHZlpYOUZGTDA4WjhyaEZXcVU1NzM3YUxsUWJvRl9tYS1YSU1WSEpCN3h0eWx5SU1ReU1pRUlzaFNJd2N1YS1PNDFsbndESXV1ODJTaUE4YldYVzFicWln?oc=5"
-  },
-  {
-   "time_utc": "2026-11-09 20:57",
-   "source": "CNBC",
-   "headline": "Children’s Place files for bankruptcy protection, seeks buyer",
-   "url": "https://www.cnbc.com/2026/11/09/childrens-place-chapter-11-sale.html"
-  },
-  {
-   "time_utc": "2026-11-09 20:42",
-   "source": "Reuters",
-   "headline": "Trump tells Reuters that Qatar, Saudi Arabia want peaceful Iran deal, US ready for strikes if needed - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ2o4T2dDT1ZqQmlqM0JxZEViaHZzWjRPeGtRd2N5MEZweXhTWXV1b0RybWgxNzZrMUJmOXFDMGMtTGE1RzJCMHBNdkctTVZpWXhBUUcxYUhnOTRqOEpQZUpPWjdsZHgtTWc4cWYxYnRtZEgzb191X2tlOUVVYXh4SFpnejMxYXRidEhFalZMeDlSSlhmUm5IR0Nyd2hybHhWVjVrcXA1ODVaYWo1ODhFSEhNMFZxdmdaN3VLTEc0dE1MZ21pVGxFMFh0TQ?oc=5"
-  },
-  {
-   "time_utc": "2026-11-09 19:54",
-   "source": "Reuters",
-   "headline": "Pentagon chief Hegseth expected to face House impeachment vote this week - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMWxSRW95b2hyeC00X2Q5VmF0alVielFMcVhtMVFhdFBfRUNmQlAyM3IwUkthb3JDYldrNmhuX1dVXzRRS21LMWNxX2Q2VHN3WGdOSHRyVkVBSVc1UHpIYmVFYjRvUFlIS292a3VPMkljcW5HWVBYVkdpX1ZKSE1qRWs2T21JRm9pcjZVMzRSR0FVZk1fMUs5QlhCTnBFVXpUczJIbW1n?oc=5"
-  },
-  {
-   "time_utc": "2026-11-09 19:23",
-   "source": "CNBC",
-   "headline": "This beaten-down data center stock could be worth a look, says Mike Khouw",
-   "url": "https://www.cnbc.com/2026/11/09/this-beaten-down-data-center-stock-could-be-worth-a-look-says-mike-khouw.html"
-  },
-  {
-   "time_utc": "2026-11-09 18:28",
-   "source": "Reuters",
-   "headline": "OPEC oil output rises in October to 90% of pre-war rate, Reuters survey shows - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcGJ3LUpzaXpKMGVQTkVDUmxmck5BRE9ycmRsR2ljV2x5ZmpoOW5UbW1WSE9XUnd5XzJsano5X0hPMU1DZW5Za2lsQ05Sa2NzWWNnTkpHdVc4ZmFvRnZ1WDRGVnVLaFNJVVdNSGhhYmRBaXZSSVNjc29qT2dUbnEtZ3JBNXdyQ01IaWxJRDJsZThnT29yUmxnSTh2dHFidnZBd2R6QU5nS182LUFjV1U0RXJqSVR2VXpicTBjalNR?oc=5"
-  },
-  {
-   "time_utc": "2026-11-09 17:57",
-   "source": "CNBC",
-   "headline": "Boeing to cut 5% of commercial airplane workforce as production increase is slower than expected",
-   "url": "https://www.cnbc.com/2026/11/09/boeing-layoffs-commercial-airplane.html"
-  },
-  {
-   "time_utc": "2026-11-09 17:52",
-   "source": "CNBC",
-   "headline": "The issues a 'really frustrated' Trump may actually work with Democrats on, according to former Speaker Paul Ryan",
-   "url": "https://www.cnbc.com/2026/11/09/the-issues-a-really-frustrated-trump-may-actually-work-with-democrats-on-according-to-former-speaker-paul-ryan.html"
-  },
-  {
-   "time_utc": "2026-11-09 17:43",
-   "source": "Reuters",
-   "headline": "Saudi East-West oil pipeline hit in Medina region, state media reports - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeEtKMGZOdkpGT0I4d1dsaUtDQjlLSlhyV1o4M0Rqcm5KZHV4ZHhXeEdnTUwwV0x5eU1Ldmo1cFk0RG16SnFCMlZ0SkNlQzBmdkxPU2pmdmNqWmYwNEcwWGVVeEVNQVhqTnduTnZYNnVqZ3padlFRRkpGNGpYWHRRYVJsX0h3SXN6OFVaTWI2TGFfUVV2LVpLUGtydXppb0VFaDBNZy1YZ2pXWS1XSUxOTng3ZVpkZ18xd1E?oc=5"
-  }
- ],
+ "market_news": [],
  "errors": []
 }
