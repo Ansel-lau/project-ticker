@@ -42,7 +42,7 @@ digest can put it into Notion:
 ## Common jobs
 - **Add an asset:** add a row to `watchlist.csv` (Yahoo symbol in `symbol`),
   and a row in the Notion Watchlist.
-- **Rebuild a past day:** Actions > Daily market data > Run workflow, type the date.
+- **Rebuild a past day:** Actions > Project Ticker daily > Run workflow, type the date.
 - **Fill history:** Run workflow with `backfill` = 20.
 - **Test on your Mac:** `pip install -r requirements.txt` then `python daily_data.py`.
 
