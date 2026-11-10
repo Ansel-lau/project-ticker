@@ -1,4 +1,4 @@
-name: Daily market data
+name: Project Ticker Daily
 
 on:
   schedule:
