@@ -1,4 +1,4 @@
-# market-move-data
+# Project Ticker — data robot
 
 A free data robot for the **market-move-explainer** Claude skill.
 
@@ -14,7 +14,7 @@ specific split, then saves the results in `data/`:
 | `data/index.json` | The list of sessions available |
 
 Claude reads these files from the raw URL, e.g.
-`https://raw.githubusercontent.com/<your-username>/market-move-data/main/data/latest.json`.
+`https://raw.githubusercontent.com/Ansel-lau/project-ticker/main/data/latest.json`.
 
 ## Sources (all free)
 - Prices: Yahoo Finance via `yfinance` (unofficial; update the library if it breaks)
@@ -34,7 +34,7 @@ market value (shares outstanding x previous close, refreshed weekly into
 `heatmap-videos` branch, which is rewritten each day and keeps the last 30
 sessions, so the main branch never grows. Each video is under 4.5 MB so the
 digest can put it into Notion:
-- one day: `https://raw.githubusercontent.com/<your-username>/market-move-data/heatmap-videos/heatmap-YYYY-MM-DD.mp4`
+- one day: `https://raw.githubusercontent.com/Ansel-lau/project-ticker/heatmap-videos/heatmap-YYYY-MM-DD.mp4`
   (a `.png` still of the close sits beside it)
 - newest: `.../heatmap-videos/heatmap-latest.mp4`
 - test without real prices: `python heatmap_video.py --demo`
