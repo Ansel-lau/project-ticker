@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "session_date": "2026-11-09",
- "generated_at_utc": "2026-11-10 09:03",
+ "generated_at_utc": "2026-11-10 09:35",
  "sources": {
   "prices": "Yahoo Finance via yfinance (adjusted closes)",
   "rates": "US Treasury and New York Fed (FRED as fallback); see each series' source",
@@ -578,6 +578,12 @@
      "url": "https://finnhub.io/api/news?id=27f9b966027aecf1d9158503adfb0b036cb8f95e4043c1d5c80d170af9f39aec"
     },
     {
+     "time_utc": "2026-11-09 22:22",
+     "source": "Yahoo",
+     "headline": "Nebius Stock Is Crashing as GPU Prices Rise. Here’s Why",
+     "url": "https://finnhub.io/api/news?id=ae206140eb639968fe70ebd090ddb3bfb81398aa3cf6fb5cac3304d2fc5ffcea"
+    },
+    {
      "time_utc": "2026-11-09 19:22",
      "source": "Yahoo",
      "headline": "Not Revenue. Not Growth. Here’s What I’ll Be Watching When CoreWeave and Nebius Report This Week.",
@@ -624,12 +630,6 @@
      "source": "SeekingAlpha",
      "headline": "IREN: This Is A Great Time To Go All-In",
      "url": "https://finnhub.io/api/news?id=0c3edcc1d46444bb9c740f082ccf2293aaf4f15232a46cfd1e2345f312af6d39"
-    },
-    {
-     "time_utc": "2026-11-09 13:28",
-     "source": "SeekingAlpha",
-     "headline": "Neocloud Sell-Off Leaves Bitcoin Miners Oversold",
-     "url": "https://finnhub.io/api/news?id=2d7556d5039221117c188b8b2bf932d31820047b68b3435531e019e7f3ee11fd"
     }
    ],
    "earnings": [
