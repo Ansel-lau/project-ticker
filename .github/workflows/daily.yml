@@ -27,7 +27,7 @@ concurrency: daily-data
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -55,14 +55,44 @@ jobs:
         env:
           DATE_INPUT: ${{ inputs.date }}
         run: |
-          ARGS=""
-          if [ -n "$DATE_INPUT" ]; then ARGS="--date $DATE_INPUT"; fi
-          python heatmap_video.py $ARGS
+          # Always the same session as the data that was just built, never a
+          # day the video script works out on its own.
+          DATE="${DATE_INPUT:-$(python -c "import json; print(json.load(open('data/latest.json'))['session_date'])")}"
+          echo "Making the heatmap video for $DATE"
+          # Yahoo sometimes fails for a few minutes: try three times, 2 minutes apart.
+          for i in 1 2 3; do
+            python heatmap_video.py --date "$DATE" && exit 0
+            echo "Video attempt $i failed"
+            [ "$i" -lt 3 ] && sleep 120
+          done
+          exit 1
 
       - name: Save the files to the repository
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Never replace a session's file with one that has MORE missing prices
+          # (Yahoo can be flaky later in the day): keep the earlier, cleaner copy.
+          python - <<'PY'
+          import json, subprocess
+          out = subprocess.run(["git", "diff", "--name-only", "HEAD", "--", "data"],
+                               capture_output=True, text=True).stdout.split()
+          for f in out:
+              if not f.endswith(".json") or f.endswith("index.json"):
+                  continue
+              old = subprocess.run(["git", "show", f"HEAD:{f}"], capture_output=True, text=True)
+              if old.returncode != 0:
+                  continue                      # a new file: nothing to compare
+              try:
+                  old, new = json.loads(old.stdout), json.load(open(f))
+              except Exception:
+                  continue
+              if (old.get("session_date") == new.get("session_date")
+                      and len(new.get("errors", [])) > len(old.get("errors", []))):
+                  subprocess.run(["git", "checkout", "HEAD", "--", f], check=True)
+                  print(f"Kept the earlier {f}: it had {len(old.get('errors', []))} missing "
+                        f"price(s), this run had {len(new.get('errors', []))}")
+          PY
           git add data
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "Market data $(date -u +%Y-%m-%d)"
