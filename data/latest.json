@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "session_date": "2026-11-16",
- "generated_at_utc": "2026-11-16 22:20",
+ "generated_at_utc": "2026-11-17 04:30",
  "sources": {
   "prices": "Yahoo Finance via yfinance (adjusted closes)",
   "rates": "US Treasury and New York Fed (FRED as fallback); see each series' source",
@@ -41,32 +41,26 @@
   {
    "name": "US Dollar Index",
    "symbol": "DX-Y.NYB",
-   "close": 103.57,
-   "move_pct": 0.1547
+   "close": 103.497,
+   "move_pct": 0.0841
   },
   {
    "name": "Brent",
    "symbol": "BZ=F",
-   "close": 91.84,
-   "move_pct": -4.1736
+   "close": 91.59,
+   "move_pct": -4.4345
   },
   {
    "name": "WTI",
    "symbol": "CL=F",
-   "close": 85.06,
-   "move_pct": -3.9521
+   "close": 85.01,
+   "move_pct": -4.0086
   },
   {
    "name": "Gold",
    "symbol": "GC=F",
-   "close": 3859.0,
-   "move_pct": -0.7025
-  },
-  {
-   "name": "Bitcoin",
-   "symbol": "BTC-USD",
-   "close": 65326.4414,
-   "move_pct": 0.0327
+   "close": 3869.3999,
+   "move_pct": -0.4349
   }
  ],
  "sectors": [
@@ -166,64 +160,64 @@
    },
    "headlines": [
     {
+     "time_utc": "2026-11-17 02:03",
+     "source": "Yahoo",
+     "headline": "Elon Musk says Larry Page’s ‘Five Nines’ AI prediction is right, despite their decade-long feud",
+     "url": "https://finnhub.io/api/news?id=3416103fdf8de4f5270b1c0b68f544661c72c30eb0519d09ab4eadbcfd8abe25"
+    },
+    {
+     "time_utc": "2026-11-17 00:53",
+     "source": "Yahoo",
+     "headline": "Warren Buffett's Successor, Greg Abel, Overhauled Berkshire's Portfolio for a 3rd Straight Quarter, Reducing 6 Stocks and Piling Into a Hot Tech IPO",
+     "url": "https://finnhub.io/api/news?id=5f239adea28e5ce83e47d345a01a528e44ba166ff5c40f309eb960ad8f9451c7"
+    },
+    {
+     "time_utc": "2026-11-17 00:07",
+     "source": "Yahoo",
+     "headline": "Brad Gerstner Says AI Is at Its ‘Google 2005’ Moment. Here’s Who He Thinks Wins",
+     "url": "https://finnhub.io/api/news?id=e06740ac6f06db06748862cbc26aa287cbaa46061b7bb49b158a5174b63b8d28"
+    },
+    {
+     "time_utc": "2026-11-16 23:41",
+     "source": "Yahoo",
+     "headline": "Christian Muche of POSSIBLE Makes Room for Marketing’s Ever-Growing Guest List",
+     "url": "https://finnhub.io/api/news?id=0b040a84371978502eee1486697dd77658839d65a086d3ffed18ab4d148d4d02"
+    },
+    {
+     "time_utc": "2026-11-16 23:12",
+     "source": "Yahoo",
+     "headline": "Broadcom Is “the Best Play” on Nvidia’s CEO Exit, One Investor Argues. The Reason Is China",
+     "url": "https://finnhub.io/api/news?id=253766ded5ec62088f72f6e0e3d37114b2784666175a340a038183d0808b601e"
+    },
+    {
+     "time_utc": "2026-11-16 23:09",
+     "source": "Yahoo",
+     "headline": "David Tepper’s Appaloosa Goes Big on SpaceX, While Slashing Alphabet Stake",
+     "url": "https://finnhub.io/api/news?id=0de404b2bafd13f96cbdefd9ca9180f568a642bcafd0e82cdcad092a64dfdb37"
+    },
+    {
+     "time_utc": "2026-11-16 22:44",
+     "source": "Yahoo",
+     "headline": "Michael Burry Buys More Of Adobe And MercadoLibre, Exits ORCL, CAT Puts",
+     "url": "https://finnhub.io/api/news?id=fcc4ab31da72ebea36439132786a5dd95a457b24aa25901f233f4f8d26c5a504"
+    },
+    {
+     "time_utc": "2026-11-16 22:39",
+     "source": "Yahoo",
+     "headline": "Berkshire Hathaway Slashes This Top 5 Stock; Nvidia Boosts SpaceX",
+     "url": "https://finnhub.io/api/news?id=ccf100224929f783a6ae1a915c32f95799f47104f52b202942c1b8c8c1b8a4fb"
+    },
+    {
+     "time_utc": "2026-11-16 22:14",
+     "source": "Yahoo",
+     "headline": "Nvidia is not considering rehiring Jensen Huang, and Amazon's data center gets bought",
+     "url": "https://finnhub.io/api/news?id=2c187bcc0c45d3792e728d697d5ab75445f40c510d0907866e90edf00973ed69"
+    },
+    {
      "time_utc": "2026-11-16 21:49",
      "source": "Yahoo",
      "headline": "What's dragging down the S&P 500? Apple in focus",
      "url": "https://finnhub.io/api/news?id=247299d1ab30b189136329f7a2f877cabe730885cc260e39bc2ee29038a00a3f"
-    },
-    {
-     "time_utc": "2026-11-16 21:46",
-     "source": "Yahoo",
-     "headline": "The cost of ousting a founder: Is the 'bank of Nvidia' at risk?",
-     "url": "https://finnhub.io/api/news?id=6efbcfd3ef79aa754c5377906727bca8e3d8b534fb19688829cd30eb2af4ba06"
-    },
-    {
-     "time_utc": "2026-11-16 21:38",
-     "source": "Yahoo",
-     "headline": "ServiceNow Stock’s (NOW) Historic Sell-Off May Have Gone Too Far",
-     "url": "https://finnhub.io/api/news?id=dc235adc1b3d4da11003739d3be80fe7f0351ca22024054cc5e706c7d27c4633"
-    },
-    {
-     "time_utc": "2026-11-16 21:37",
-     "source": "Yahoo",
-     "headline": "Stock Market Today: Dow Dives As Trump Says This On Huang; Victoria's Secret Flashes Sell Signal (Live Coverage)",
-     "url": "https://finnhub.io/api/news?id=d40ba7070c563d11f06cb9deafd5238cf61191eae3fafb1eec373c28c1f94130"
-    },
-    {
-     "time_utc": "2026-11-16 21:13",
-     "source": "Yahoo",
-     "headline": "Data silos threaten banks’ competitive edge in AI",
-     "url": "https://finnhub.io/api/news?id=508a1ceeed21d9533f6e0624a3d255f0a9e57c1ead803952c5ef83e1cb7ff7a4"
-    },
-    {
-     "time_utc": "2026-11-16 21:03",
-     "source": "Yahoo",
-     "headline": "Direxion and Anthony Pompliano's Silvia Join Forces to Help Investors Rethink Income",
-     "url": "https://finnhub.io/api/news?id=a3f5087a794d25eefb10fe2b9ebe7ba696b273ee8307192ea6f0aa85c8ed468f"
-    },
-    {
-     "time_utc": "2026-11-16 19:49",
-     "source": "Yahoo",
-     "headline": "Microsoft Stocks Move Lower as $1 Billion Anthropic Bet Precedes Ignite",
-     "url": "https://finnhub.io/api/news?id=76627a773add19b3351cefafed4c57f44541d960a346e0699ad5d78308825b3e"
-    },
-    {
-     "time_utc": "2026-11-16 19:32",
-     "source": "Yahoo",
-     "headline": "ServiceNow vs. Palantir Technologies: Comparing Steady Sales Scale Against Rapid Revenue Acceleration",
-     "url": "https://finnhub.io/api/news?id=dfdcbd5a111fac951036b1e57d14382ec1afd534e475c05e831b4466869302f5"
-    },
-    {
-     "time_utc": "2026-11-16 19:25",
-     "source": "Yahoo",
-     "headline": "Alphabet Stocks Decline 3.1% as $10 Billion Anthropic Buy Lifts Stake Before IPO",
-     "url": "https://finnhub.io/api/news?id=43a0d4d3badc7e5417f7ad6ac195d8ed9284a5b6d80b8ece26660f2979df68c7"
-    },
-    {
-     "time_utc": "2026-11-16 18:46",
-     "source": "Yahoo",
-     "headline": "Altimeter Capital to invest $5 billion in Anthropic IPO - report",
-     "url": "https://finnhub.io/api/news?id=5047a14801e9b3353569236a18d6ac3d2e5c95f3fc48678dd0190b6fed84a0b9"
     }
    ],
    "earnings": []
@@ -267,6 +261,30 @@
    },
    "headlines": [
     {
+     "time_utc": "2026-11-16 23:03",
+     "source": "Yahoo",
+     "headline": "Daniel Loeb’s Third Point Returned to Nvidia Stock Just Before Its Fall",
+     "url": "https://finnhub.io/api/news?id=b11364e671f699aa6d8972651cd83506ddd75ac4386f241a632eb3d4ac81236b"
+    },
+    {
+     "time_utc": "2026-11-16 22:33",
+     "source": "Yahoo",
+     "headline": "Stock Market Today, Nov. 16: Snap Falls Amid Tech Sector Sell-Off and Ongoing Youth Social Media Addiction Lawsuit Exposure",
+     "url": "https://finnhub.io/api/news?id=656a6a3a253cb524e7a3396a821d9ed037d43b7d0072a7e4231b55d9769906de"
+    },
+    {
+     "time_utc": "2026-11-16 22:14",
+     "source": "Yahoo",
+     "headline": "Nvidia is not considering rehiring Jensen Huang, and Amazon's data center gets bought",
+     "url": "https://finnhub.io/api/news?id=2c187bcc0c45d3792e728d697d5ab75445f40c510d0907866e90edf00973ed69"
+    },
+    {
+     "time_utc": "2026-11-16 22:04",
+     "source": "Yahoo",
+     "headline": "Meta pays Nevoya to put 25 electric trucks on I-10",
+     "url": "https://finnhub.io/api/news?id=b3936da086e2e88b73afb2805153213057b1339ae9165a8d2ce751ad1579d32b"
+    },
+    {
      "time_utc": "2026-11-16 21:49",
      "source": "Yahoo",
      "headline": "What's dragging down the S&P 500? Apple in focus",
@@ -277,6 +295,12 @@
      "source": "Yahoo",
      "headline": "The cost of ousting a founder: Is the 'bank of Nvidia' at risk?",
      "url": "https://finnhub.io/api/news?id=6efbcfd3ef79aa754c5377906727bca8e3d8b534fb19688829cd30eb2af4ba06"
+    },
+    {
+     "time_utc": "2026-11-16 21:09",
+     "source": "Yahoo",
+     "headline": "Nasdaq Falls 626 Points to Start Nvidia-Anthropic Week: Stock Market Today",
+     "url": "https://finnhub.io/api/news?id=6ffcb140aa415ea1f5394342313e3573bcaae4ac8a703bf674f8e65f45cc8b3a"
     },
     {
      "time_utc": "2026-11-16 21:03",
@@ -295,36 +319,6 @@
      "source": "Yahoo",
      "headline": "Meta’s Prepayment Is Buying Oklo’s Nuclear Fuel for Up to Five Reactors",
      "url": "https://finnhub.io/api/news?id=6ff51f6d4931c70fb076d8842a7614d5b706979d29000c8009956c6012451958"
-    },
-    {
-     "time_utc": "2026-11-16 17:02",
-     "source": "Yahoo",
-     "headline": "Trump Media Sinks 12% Ahead of Convertible-Note Deadline and TAE Merger Vote; Rumble Tumbles 11%, Meta Declines 2%",
-     "url": "https://finnhub.io/api/news?id=560f5b435c832846c689f2a0c1f431aecd141997871d3b6f1c319a96762ce332"
-    },
-    {
-     "time_utc": "2026-11-16 16:00",
-     "source": "Yahoo",
-     "headline": "Mapbox Powers Hands-free Cycling Navigation on Meta Ray-Bans",
-     "url": "https://finnhub.io/api/news?id=c5d46c36e3092d178dd2b4af916c0e535c0dfbf84323204fa86908cd0628d39a"
-    },
-    {
-     "time_utc": "2026-11-16 15:45",
-     "source": "Yahoo",
-     "headline": "Broadcom’s Quiet 8% November Move Could Ramp Up Very Quickly in This Volatile Climate and I’m Buying",
-     "url": "https://finnhub.io/api/news?id=d4ae1e1b18ff6556a3c0b426b57089267620902f7b02bf656d4917279502965e"
-    },
-    {
-     "time_utc": "2026-11-16 15:44",
-     "source": "Yahoo",
-     "headline": "Google and Meta Tell Two Different Stories as Search Rebounds",
-     "url": "https://finnhub.io/api/news?id=19a6abce1309ed9ab61a9ba54f084f3fe41f471f6d64ed4761062a18c9099849"
-    },
-    {
-     "time_utc": "2026-11-16 14:58",
-     "source": "Yahoo",
-     "headline": "Global AR Waveguide Market Size, Share, Technology and Forecast, 2027-2037 | AI Glasses Growth and Foundry Expansion Create Opportunities Amid Supply Constraints",
-     "url": "https://finnhub.io/api/news?id=15cd4eccfbc4525a2f01b9aac6db2c38dbdd5bba2f4de288f16c43b70471dc59"
     }
    ],
    "earnings": []
@@ -370,6 +364,48 @@
    },
    "headlines": [
     {
+     "time_utc": "2026-11-17 00:08",
+     "source": "Yahoo",
+     "headline": "Bill Ackman Adds More To Netflix In Q3; Exits Hertz, Cuts Microsoft",
+     "url": "https://finnhub.io/api/news?id=20e89db6e669806b510a276ead872a1aa1934ad209b88a093ba569a56c409b20"
+    },
+    {
+     "time_utc": "2026-11-16 23:19",
+     "source": "Yahoo",
+     "headline": "Learn Why The Bull Case For IBM Stock Could Change Following Quantum Computing Expansion",
+     "url": "https://finnhub.io/api/news?id=4758815dc6bcf930aae572906d5e0bf884e22e433ff3c787980e753e7b941a7a"
+    },
+    {
+     "time_utc": "2026-11-16 23:09",
+     "source": "Yahoo",
+     "headline": "Armada Named a Priority Team Leader in the American SI Exports Program",
+     "url": "https://finnhub.io/api/news?id=75c21526bd7189cdce72b9543ede708ad1c5d35a6b7f88e60c043413d57242b1"
+    },
+    {
+     "time_utc": "2026-11-16 23:03",
+     "source": "Yahoo",
+     "headline": "Daniel Loeb’s Third Point Returned to Nvidia Stock Just Before Its Fall",
+     "url": "https://finnhub.io/api/news?id=b11364e671f699aa6d8972651cd83506ddd75ac4386f241a632eb3d4ac81236b"
+    },
+    {
+     "time_utc": "2026-11-16 22:14",
+     "source": "Yahoo",
+     "headline": "Nvidia is not considering rehiring Jensen Huang, and Amazon's data center gets bought",
+     "url": "https://finnhub.io/api/news?id=2c187bcc0c45d3792e728d697d5ab75445f40c510d0907866e90edf00973ed69"
+    },
+    {
+     "time_utc": "2026-11-16 22:01",
+     "source": "Yahoo",
+     "headline": "Customers report difficulty accessing online services at major US banks",
+     "url": "https://finnhub.io/api/news?id=f5897d30c562eb8cf63574806d274ffc93e70354865eda2f880f10f0aa1457d8"
+    },
+    {
+     "time_utc": "2026-11-16 22:01",
+     "source": "Yahoo",
+     "headline": "NVIDIA: The Most Important Earnings Chart This Week",
+     "url": "https://finnhub.io/api/news?id=4c25993ed96f0b042ad5b5cf83324481f3ca2b205d4877ee921b30b7a304c7b9"
+    },
+    {
      "time_utc": "2026-11-16 21:49",
      "source": "Yahoo",
      "headline": "What's dragging down the S&P 500? Apple in focus",
@@ -386,48 +422,6 @@
      "source": "Yahoo",
      "headline": "Microsoft (MSFT) Is One of NVIDIA’s Biggest Customers, and a Growing Rival",
      "url": "https://finnhub.io/api/news?id=ecc47e00860152fcc0487cce1a5392a80ae72118d6606f87f45d372012eb2e4e"
-    },
-    {
-     "time_utc": "2026-11-16 21:13",
-     "source": "Yahoo",
-     "headline": "A Third Outage Strikes, This Time at Chase, Big Banks. The Stocks Are Falling.",
-     "url": "https://finnhub.io/api/news?id=2c0b8c5130ced86ec2685a316fbc450f35b88fb38daea0cfa8096282f6c19a0d"
-    },
-    {
-     "time_utc": "2026-11-16 21:08",
-     "source": "Yahoo",
-     "headline": "Anthropic Launches Claude Sheets. Is Microsoft's Stock in Trouble?",
-     "url": "https://finnhub.io/api/news?id=50b4c3adadb39b06de29fe8cb4bf6ad8397425b060ef1a6f2325d1ecb3f81e9b"
-    },
-    {
-     "time_utc": "2026-11-16 20:43",
-     "source": "Yahoo",
-     "headline": "FAA, Microsoft outages show the perils of system upgrades",
-     "url": "https://finnhub.io/api/news?id=466885d8dbe6274bbbdd3ef2a4f53d8a93cf1b33da2a1943801caa8ce34545cc"
-    },
-    {
-     "time_utc": "2026-11-16 20:26",
-     "source": "Yahoo",
-     "headline": "Chase, Bank of America, other banks hit by online service outages",
-     "url": "https://finnhub.io/api/news?id=d4a798d3b4ab7050909a32fc859abd6a9d494d023d8cc15f9f950be79bbc3878"
-    },
-    {
-     "time_utc": "2026-11-16 20:03",
-     "source": "Yahoo",
-     "headline": "OpenAI Hit With Lawsuit by California AG Over Alleged Inadequate Safeguards, Monitoring of AI Models",
-     "url": "https://finnhub.io/api/news?id=1393b8ee6e63f42c9de02f729bbefbaaf1b6e40334489926224de586955494ee"
-    },
-    {
-     "time_utc": "2026-11-16 19:49",
-     "source": "Yahoo",
-     "headline": "Microsoft Stocks Move Lower as $1 Billion Anthropic Bet Precedes Ignite",
-     "url": "https://finnhub.io/api/news?id=76627a773add19b3351cefafed4c57f44541d960a346e0699ad5d78308825b3e"
-    },
-    {
-     "time_utc": "2026-11-16 19:46",
-     "source": "Yahoo",
-     "headline": "Customers of at least 4 major US banks report outages days after Microsoft issues",
-     "url": "https://finnhub.io/api/news?id=a9375a7b537d4777cd6d0206a1f3b2d83b04b3a3ffbf14e5a514800c1696a357"
     }
    ],
    "earnings": []
@@ -470,6 +464,18 @@
     }
    },
    "headlines": [
+    {
+     "time_utc": "2026-11-17 03:27",
+     "source": "Yahoo",
+     "headline": "UQPAY Deploys Visa Payment Passkey, Advancing the Next Generation of Agentic Payment Experience",
+     "url": "https://finnhub.io/api/news?id=f7b2de1d133fb09e3158bd9399ce8462034c1aba5a0fde3afd25b24bc2c9b93c"
+    },
+    {
+     "time_utc": "2026-11-16 21:46",
+     "source": "Yahoo",
+     "headline": "Top British Hedge Fund Loads Up on Martin Marietta Stock, Trims Stake in Visa",
+     "url": "https://finnhub.io/api/news?id=22bed5a22313dbfcce6bec9c99e6f68cb9841d82add58a46532a3fa61581d081"
+    },
     {
      "time_utc": "2026-11-16 21:11",
      "source": "Yahoo",
@@ -517,18 +523,6 @@
      "source": "Yahoo",
      "headline": "AmEx Plunges 13.3% YTD: Is the Selloff an Opportunity or a Warning?",
      "url": "https://finnhub.io/api/news?id=64435fed31bc9fa5c85ab85a259e9473a0d72fda3bb683dfded447ec31c7d927"
-    },
-    {
-     "time_utc": "2026-11-16 14:33",
-     "source": "Yahoo",
-     "headline": "OpenAI Debuts ChatGPT Payment Method",
-     "url": "https://finnhub.io/api/news?id=2b2d565b58af792518478f9229e5a871b02909e835d5798112c9e190c764d665"
-    },
-    {
-     "time_utc": "2026-11-16 13:38",
-     "source": "Yahoo",
-     "headline": "Beat the Market the Zacks Way: Vera Bradley, Herc, Visa in Focus",
-     "url": "https://finnhub.io/api/news?id=699953b9ecb801e59c93e9e33afdeca16c0b5556fe5429f8ff5c83c2ee1991b5"
     }
    ],
    "earnings": []
@@ -572,10 +566,28 @@
    },
    "headlines": [
     {
+     "time_utc": "2026-11-17 00:40",
+     "source": "Yahoo",
+     "headline": "Nebius Plans to Spend More Than $3 for Every $1 of Revenue Next Year. The Stock Has Lost 31% in Three Days",
+     "url": "https://finnhub.io/api/news?id=4be89034f6ca5e8405e1c5253dd36a7fa5b57486d5a6c46b7ef2374be0c50962"
+    },
+    {
+     "time_utc": "2026-11-16 21:04",
+     "source": "Yahoo",
+     "headline": "Morgan Stanley, other banks revalue AI stocks on financing, execution fears",
+     "url": "https://finnhub.io/api/news?id=35619fb8b0e58ad110b121fdd85a33708f089c7311a4633ddd26599a8633bdc8"
+    },
+    {
      "time_utc": "2026-11-16 19:26",
      "source": "Yahoo",
      "headline": "CoreWeave, Oracle and Nebius Plunge as Nvidia Fallout Rattles AI Stocks",
      "url": "https://finnhub.io/api/news?id=3dea76cc860ce05190f5d004c1ebf08bfcb6af058b484295a33656a16508f9c5"
+    },
+    {
+     "time_utc": "2026-11-16 18:30",
+     "source": "Yahoo",
+     "headline": "How CoreWeave Just Gave Nebius Stock a Major Lifeline",
+     "url": "https://finnhub.io/api/news?id=80282665b6772ca7e94609d2d8cf660fe239229ddd93d13d746b0a8a3fce458c"
     },
     {
      "time_utc": "2026-11-16 18:14",
@@ -612,24 +624,6 @@
      "source": "Yahoo",
      "headline": "A 64-Year-Old Bought Nebius at Its Peak and Lost $29,721. The IRS Lets Her Use It Before Dec. 31",
      "url": "https://finnhub.io/api/news?id=2227aa5eb703e5dcbbd56d5a09b4122c63b60a1aaf20d9f236abdf1871a319a9"
-    },
-    {
-     "time_utc": "2026-11-16 15:26",
-     "source": "Yahoo",
-     "headline": "Nebius Has a Spending Problem. Demand Isn’t an Issue, Say Analysts.",
-     "url": "https://finnhub.io/api/news?id=e09b646890b075ac98f5c4d76a233517bc9f8c5bd848bf153b7bbe553ff5aa76"
-    },
-    {
-     "time_utc": "2026-11-16 14:24",
-     "source": "Yahoo",
-     "headline": "AMD, Broadcom stocks sink on tighter US chip rules, CoreWeave and Nebius shares drop",
-     "url": "https://finnhub.io/api/news?id=74e6722a836921065a0e0a1988c79fe88c503d6bbebfbd781c1d84a0dae2c34e"
-    },
-    {
-     "time_utc": "2026-11-16 14:00",
-     "source": "Yahoo",
-     "headline": "New Research Challenges GPU Utilization as Measure of Inference Infrastructure",
-     "url": "https://finnhub.io/api/news?id=ed6abdcc4b9815803a115595ad00fc28d04cac7999034e00b6cd44dbdb69ab72"
     }
    ],
    "earnings": [
@@ -680,10 +674,22 @@
    },
    "headlines": [
     {
+     "time_utc": "2026-11-16 22:14",
+     "source": "Yahoo",
+     "headline": "Nvidia is not considering rehiring Jensen Huang, and Amazon's data center gets bought",
+     "url": "https://finnhub.io/api/news?id=2c187bcc0c45d3792e728d697d5ab75445f40c510d0907866e90edf00973ed69"
+    },
+    {
      "time_utc": "2026-11-16 21:37",
      "source": "Yahoo",
      "headline": "Stock Market Today: Dow Dives As Trump Says This On Huang; Victoria's Secret Flashes Sell Signal (Live Coverage)",
      "url": "https://finnhub.io/api/news?id=d40ba7070c563d11f06cb9deafd5238cf61191eae3fafb1eec373c28c1f94130"
+    },
+    {
+     "time_utc": "2026-11-16 21:07",
+     "source": "Yahoo",
+     "headline": "‘Nvidia Is an Unbelievably Important Technology Company’: CoreWeave’s Michael Intrator Is Shrugging Off Jensen Huang’s Scandal — ‘You Know We Continue to Work With Them Closely’",
+     "url": "https://finnhub.io/api/news?id=117fa1425a681281b7dc56cbef95910d06cfac7834cd3fcb95056fbdf8954f53"
     },
     {
      "time_utc": "2026-11-16 19:53",
@@ -696,6 +702,12 @@
      "source": "Yahoo",
      "headline": "CoreWeave, Oracle and Nebius Plunge as Nvidia Fallout Rattles AI Stocks",
      "url": "https://finnhub.io/api/news?id=3dea76cc860ce05190f5d004c1ebf08bfcb6af058b484295a33656a16508f9c5"
+    },
+    {
+     "time_utc": "2026-11-16 18:30",
+     "source": "Yahoo",
+     "headline": "How CoreWeave Just Gave Nebius Stock a Major Lifeline",
+     "url": "https://finnhub.io/api/news?id=80282665b6772ca7e94609d2d8cf660fe239229ddd93d13d746b0a8a3fce458c"
     },
     {
      "time_utc": "2026-11-16 18:14",
@@ -720,24 +732,6 @@
      "source": "Yahoo",
      "headline": "Wall Street Analyst Picks a Winner Between CoreWeave and Nebius After Earnings",
      "url": "https://finnhub.io/api/news?id=a1078beb0ba41770d7cdab4157b02855aa2e5e8b7ef0157b3a869060a4a47f36"
-    },
-    {
-     "time_utc": "2026-11-16 17:43",
-     "source": "Yahoo",
-     "headline": "Cathie Wood Adds Nvidia Stock Before Earnings While Selling Palantir",
-     "url": "https://finnhub.io/api/news?id=875f158fd55ce518430ae948c13c80fec10e7089d02013770220982c534fd7d3"
-    },
-    {
-     "time_utc": "2026-11-16 17:00",
-     "source": "Yahoo",
-     "headline": "CoreWeave Becomes First Cloud Provider to Deliver Multi-Rack NVIDIA Vera Rubin Results in MLPerf® Training v6.1",
-     "url": "https://finnhub.io/api/news?id=49fdab8ee4d4a8f12caca48876615ace8aeccd926ebf206802d63b37b139d79d"
-    },
-    {
-     "time_utc": "2026-11-16 16:33",
-     "source": "Yahoo",
-     "headline": "$150 Billion of Anthropic’s Nvidia-Tied Compute “Can Be Ended on Short Notice”",
-     "url": "https://finnhub.io/api/news?id=2af524401ea648ce2b98a9bf4506e0233273e655c8cd6bd5924ee9dd323bf1e1"
     }
    ],
    "earnings": []
@@ -838,7 +832,7 @@
     "move_pct": -1.76,
     "interval_start": "2026-11-13",
     "market_pp": -2.1,
-    "sector_pp": 0.1,
+    "sector_pp": 0.2,
     "specific_pp": 0.2,
     "beta_market": 1.1,
     "beta_sector": -1.11,
@@ -922,19 +916,19 @@
    "notes": [
     "Continuous front-month futures: check for a contract roll if the move looks out of line with news."
    ],
-   "close": 3859.0,
+   "close": 3869.3999,
    "prev_date": "2026-11-13",
-   "move_pct": -0.7025,
-   "sigma": -0.517,
+   "move_pct": -0.4349,
+   "sigma": -0.3201,
    "above_2_sigma": false,
    "attribution": {
     "market": "DX-Y.NYB",
     "sector": null,
-    "move_pct": -0.7,
+    "move_pct": -0.43,
     "interval_start": "2026-11-13",
-    "market_pp": -0.3,
+    "market_pp": -0.2,
     "sector_pp": null,
-    "specific_pp": -0.4,
+    "specific_pp": -0.3,
     "beta_market": -2.1,
     "beta_sector": null,
     "r2": 0.154,
@@ -946,7 +940,7 @@
    },
    "peers": {
     "SI=F": {
-     "move_pct": -4.3258
+     "move_pct": -3.6018
     },
     "GLD": {
      "move_pct": -0.709
@@ -961,19 +955,19 @@
    "notes": [
     "Continuous front-month futures: check for a contract roll if the move looks out of line with news."
    ],
-   "close": 5.9855,
+   "close": 5.973,
    "prev_date": "2026-11-13",
-   "move_pct": -1.5462,
-   "sigma": -1.0836,
+   "move_pct": -1.7518,
+   "sigma": -1.2277,
    "above_2_sigma": false,
    "attribution": {
     "market": "DX-Y.NYB",
     "sector": "MCHI",
-    "move_pct": -1.55,
+    "move_pct": -1.75,
     "interval_start": "2026-11-13",
-    "market_pp": -0.3,
-    "sector_pp": -0.4,
-    "specific_pp": -0.9,
+    "market_pp": -0.1,
+    "sector_pp": -0.5,
+    "specific_pp": -1.1,
     "beta_market": -1.71,
     "beta_sector": 0.53,
     "r2": 0.23,
@@ -1000,15 +994,15 @@
    "notes": [
     "Continuous front-month futures: check for a contract roll if the move looks out of line with news."
    ],
-   "close": 91.84,
+   "close": 91.59,
    "prev_date": "2026-11-13",
-   "move_pct": -4.1736,
-   "sigma": -1.4053,
+   "move_pct": -4.4345,
+   "sigma": -1.4932,
    "above_2_sigma": false,
    "attribution": {
     "market": "DX-Y.NYB",
     "sector": null,
-    "move_pct": -4.17,
+    "move_pct": -4.43,
     "interval_start": "2026-11-13",
     "market_pp": null,
     "sector_pp": null,
@@ -1022,10 +1016,10 @@
    },
    "peers": {
     "CL=F": {
-     "move_pct": -3.9521
+     "move_pct": -4.0086
     },
     "NG=F": {
-     "move_pct": -3.3746
+     "move_pct": -4.5201
     },
     "XLE": {
      "move_pct": -1.955
@@ -1096,20 +1090,20 @@
    "class": "fx",
    "symbol": "DX-Y.NYB",
    "notes": [],
-   "close": 103.57,
+   "close": 103.497,
    "prev_date": "2026-11-13",
-   "move_pct": 0.1547,
-   "sigma": 0.4943,
+   "move_pct": 0.0841,
+   "sigma": 0.2688,
    "above_2_sigma": false,
    "attribution": {
     "na_reason": "no split for rates, FX, policy or the market itself"
    },
    "peers": {
     "EURUSD=X": {
-     "move_pct": -0.4554
+     "move_pct": -0.2293
     },
     "JPY=X": {
-     "move_pct": -0.2946
+     "move_pct": -0.0594
     }
    }
   },
@@ -1119,17 +1113,17 @@
    "class": "fx",
    "symbol": "SGD=X",
    "notes": [],
-   "close": 1.288,
+   "close": 1.2878,
    "prev_date": "2026-11-13",
-   "move_pct": 0.0878,
-   "sigma": 0.5092,
+   "move_pct": 0.073,
+   "sigma": 0.4236,
    "above_2_sigma": false,
    "attribution": {
     "na_reason": "no split for rates, FX, policy or the market itself"
    },
    "peers": {
     "DX-Y.NYB": {
-     "move_pct": 0.1547
+     "move_pct": 0.0841
     }
    }
   },
@@ -1139,42 +1133,8 @@
    "class": "crypto",
    "symbol": "BTC-USD",
    "notes": [
-    "Split measured from 2026-11-13 (last day all benchmarks traded), so its move (-4.28%) differs from the headline move.",
-    "Crypto trades 24/7; the move is close-to-close on Yahoo's UTC daily bars and the latest bar may be partial."
-   ],
-   "close": 65326.4414,
-   "prev_date": "2026-11-15",
-   "move_pct": 0.0327,
-   "sigma": 0.0149,
-   "above_2_sigma": false,
-   "attribution": {
-    "market": "QQQ",
-    "sector": null,
-    "move_pct": -4.28,
-    "interval_start": "2026-11-13",
-    "market_pp": -2.4,
-    "sector_pp": null,
-    "specific_pp": -1.9,
-    "beta_market": 0.89,
-    "beta_sector": null,
-    "r2": 0.194,
-    "observations": 252,
-    "na_reason": null,
-    "notes": [
-     "R^2 below 0.25: treat the split as rough"
-    ]
-   },
-   "peers": {
-    "ETH-USD": {
-     "move_pct": -0.2286
-    },
-    "COIN": {
-     "move_pct": -6.1183
-    },
-    "MSTR": {
-     "move_pct": -7.6958
-    }
-   }
+    "No price on 2026-11-16 (holiday or not yet updated)."
+   ]
   }
  ],
  "fred": {
@@ -1221,10 +1181,70 @@
  },
  "market_news": [
   {
+   "time_utc": "2026-11-17 03:04",
+   "source": "Reuters",
+   "headline": "Celebrity style at the Governors Awards - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZWpxQXhYUjlmNXV4eUZfdWFvZmFqc2xMdW9PZU1oR0JKN29mVFRQci1JQXFvbzF4VWZCTDV4ZzJPTnVlVU01a2JpajlaYnVEYTRadlJIWGFKSTBrdnJ0bWxqSW0tQnprZ3VfSVFHVFJveG5YbEpKTGFLN1VwdGZqOUZlNA?oc=5"
+  },
+  {
+   "time_utc": "2026-11-17 01:37",
+   "source": "Reuters",
+   "headline": "Oil slips on supply surplus outlook despite Gulf tensions - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQm40d1ZiR2k1S1RxaFdvQzJVYmRJUE1rcnNLZkEyRkZzbk5KZjlqWl9sZW9MUFB2OHpwdGZzT3duNzVnMnNaMEJMYkFKWndKTWE1OWNtd0hLcWRtSmVVYU5JaTBlNXZuT2t0V1AzVHdXVEhPMWt5QnhXakxpWkxiQk50ZEt0UGtXT3RpeXdiNEY0UXBqeXk2RGVHYURMNzJzNm13Zldtbm8tQQ?oc=5"
+  },
+  {
+   "time_utc": "2026-11-16 23:32",
+   "source": "Reuters",
+   "headline": "US condemns Iranian strikes in Bahrain as Rubio holds call with Bahraini counterpart - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQUI4WnRjazloVU5KUTR5MndXU19SVjNiQzRib2JHSC1ZOTFFVE5kdUlweUZjNkJrZzNheVc0bUlJY3UzRGtoanF1NDV4eGdTUnZIOEh4QUZ1MEF1NWt5M2Y3UmtZdnVRN3QwZzg1NTlGQWxsMlFjNzE4c0t6VnVTaUNPTFRZUWxnMVRMUHRZV18tMWttdm80V21kSFgzVUhxdEpUYk9MZElPZXJyTVN3LWVBM2VJTXpmdzlINTFZcTVER1pXV0ZnMHFsWEI?oc=5"
+  },
+  {
+   "time_utc": "2026-11-16 22:42",
+   "source": "CNBC",
+   "headline": "United Airlines reports system outage affecting departing flights",
+   "url": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html"
+  },
+  {
+   "time_utc": "2026-11-16 22:23",
+   "source": "Reuters",
+   "headline": "Trump approval holds near career low at 32%, Reuters/Ipsos poll finds - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRUpsOFJNT0Q1TUExNXF1cUJ6b1ExaTFpTFptdnluUVRMR1RvNDFkQlpLa3ZxeUxRM0kxOEJyQVJkeTJIOHBxTjhlQ05nUmp6dVQ2emVBclZ3TTJLbERHeUpRTkIwMmFLaG1VeVA1UU91Yk5UZFFaU2dZVFFCNzY1RXNTRjFCTHhpRGhWQksxQndNNHZZT1hGX1RQMGtVS25GNGQ4T2VmOHZmSHNl?oc=5"
+  },
+  {
+   "time_utc": "2026-11-16 22:22",
+   "source": "CNBC",
+   "headline": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
+   "url": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html"
+  },
+  {
+   "time_utc": "2026-11-16 22:09",
+   "source": "Reuters",
+   "headline": "PODCAST: Huang petition, James Bond, Trump in Asia (Updated) - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRGQyZXZ3UFM5bWs0cDNVSllOQ3RJc3NaWEVOa3BjSHNHWEQzb242LUROZjJlTkFMVzN5Qm11TUJ6Z2hFYW92TWRhamJMVTVaVmNqMWxuenYtVm9HbVlHRlB2VUcyRTAyY3FubHBFSU1rZEVSOFk0X2dPOHp2NThrVm9xWEJHYy1wRy1TSVQ2bU9Hd3FCTG9yaU5hZVp6SkU?oc=5"
+  },
+  {
+   "time_utc": "2026-11-16 22:06",
+   "source": "Reuters",
+   "headline": "US to curb China's access to AI chips as Trump heads to Asia - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOFRscFU2Tnd4dkpNWURqN2NDcEg1eHBNUW9VTTd5YkRBNlA2eVJkV0xsWHpqNExCek4xTUY0VlU5TjJYM1ZJaWE3YkVNZndhUE5CamYyZlh3WGhRUHhUVzhDRW1IUkVTXzBBQ1hXMTkzM0tiNF9DZGpZcUlTb0xQOFBsVEM1VDhnV0taSlpYYTNsQUpyMnlKQzNSenU3alBia0ZJR1QyQ2hSX3g5bG1yX3d3dTBublY1?oc=5"
+  },
+  {
+   "time_utc": "2026-11-16 21:58",
+   "source": "Reuters",
+   "headline": "Russia's Putin could meet North Korean leader if he also comes to APEC summit, Interfax quotes Kremlin - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaEFSNlFrUU5OZ21iTTZkZUtzWU04LU1mWFpXLU9LNXMxelFic2QtYU5oNTNWaXAzZjQwTEpSY0JySU00ZU10TkRKazBHOWhIWmlmeUw5dFh4MTJwNmU1WGp4dE5Ia2toeUZlanUyaW5GVHN3dlJ0dFMydU1kZzRrZjgzT0FoRDFRV1hYMFIyaGxSanpyUnl5aEp6SVFMQ3A0MHAtcHY0Q19jUHlvalJvbmVtV2tLdGs4YUo3RHlR?oc=5"
+  },
+  {
    "time_utc": "2026-11-16 21:42",
    "source": "CNBC",
    "headline": "JPMorgan Chase says temporary software bug is affecting consumer banking",
    "url": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html"
+  },
+  {
+   "time_utc": "2026-11-16 21:03",
+   "source": "Reuters",
+   "headline": "Iran's Isfahan security official says no hostile aircraft detected in airspace - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMVRuYzhlNFNVYUVWV1FWNUlWNC0tV2UwWTd4Y1l5LXZzMWVNQm4ySlV1Z0NrMmdrR3M5YzloMm0yMl9PaDRZcC1GckpGX05Jc2xKSWN0Rm5lLU5xa2wzR1NtRERsekZneE1YNEczNXN0NXhwWDFBR1BGeTBlby15QTFWN3RZc0xmV0hPUXhjWFU1ZXhxSDdtVHVkUW9lQVRrYWpVZUtlaUkxZnJUQXJXSkYxLWpLZWpGbE9WNUVWNnBSSHlvSDJJ?oc=5"
   },
   {
    "time_utc": "2026-11-16 20:07",
@@ -1245,70 +1265,10 @@
    "url": "https://www.cnbc.com/2026/11/16/disney-options-trade-before-earnings.html"
   },
   {
-   "time_utc": "2026-11-16 17:25",
-   "source": "CNBC",
-   "headline": "Robert Pattinson cast as next James Bond",
-   "url": "https://www.cnbc.com/2026/11/16/robert-pattinson-james-bond.html"
-  },
-  {
-   "time_utc": "2026-11-16 17:16",
+   "time_utc": "2026-11-16 18:03",
    "source": "Reuters",
-   "headline": "Bank of Canada Governor Macklem to step down once term ends in 2027 - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOExHMHhYSmZUdF9OVlBnTkQ4N29jLTA4RmFPa09hdTgzMHQ0UlhYRkZmcHU3S19ZckE1MURrQU43U3FQOU9ENTdGZHZBTUZvT2hNcExZcWVPTUUzWEhtX1BvX3lpXzVXQktFMTBybkRMaTdsM3FfVFZnYTlnUVhRSGRob2paU0JMcXA1NmxKUjI0UkRGQmVSbFhuOVliZDYwbFhXZ2ZnanpBR1lmOGc?oc=5"
-  },
-  {
-   "time_utc": "2026-11-16 17:15",
-   "source": "Reuters",
-   "headline": "Trump says he might meet with North Korea's Kim Jong Un in China - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb29EcDdndEN4TW9IeVFRVnVQTV9YVzNZVHUyT0F3aElTeTFQMFU2X05QUXR3c01hVVlrTEotZjVhU3YwNFZuTlUyZDVfM2pTTjNGTHR1Q25GalEtUFByZTFKLUd4TV84UU9vUngxd245SktvQ00tbWNOMDZ0WkRoVDV3OXh6UWxMZ0t3aWVuSC01U2VYclVHX2k1ZnpnTHFTSTh3bw?oc=5"
-  },
-  {
-   "time_utc": "2026-11-16 16:28",
-   "source": "Reuters",
-   "headline": "Iran’s proxy in Iraq rakes in hundreds of millions through oil smuggling - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUlTdkFxaWpmd0tNUXA5WXRMbmQydm9xVGtYVXYwbnAxVWx3QnZfOUdJS2YwUkFmRWV3TkRHclFKdEZzcFlKLUlGSXhQQ1VBZUFENE9pSWdzRHBsYzg1QVA5am4weVVXeUJHZzF3OGZuVnZ6dmZlbmxUZExnREs4NEMwUFFFMGRsN2N4VThtbUZFS21hblF2bXEzQk5pR3k4SDJBZVhLTDEtT0V3UHN0dnRpWkZKNEk?oc=5"
-  },
-  {
-   "time_utc": "2026-11-16 16:06",
-   "source": "CNBC",
-   "headline": "U.S. crude oil declines to $87 a barrel on recovering Middle East exports",
-   "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html"
-  },
-  {
-   "time_utc": "2026-11-16 15:50",
-   "source": "CNBC",
-   "headline": "Prediction market odds for Tesla-SpaceX merger by April 2027 top 60%",
-   "url": "https://www.cnbc.com/2026/11/16/prediction-market-odds-for-tesla-spacex-merger-by-april-2027-top-60percent.html"
-  },
-  {
-   "time_utc": "2026-11-16 15:49",
-   "source": "Reuters",
-   "headline": "After Yemen setback, Saudi Arabia replaces military commander - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbllfNkZoYzF4U1ZLdmUtaGE2VnZsblBfeXMyV0xFSEVwcDRya3hzTG1jR2JVS08zYUFBR1laaGhkTVhyZ3hueTl5N1k5ZkFTc3V0blFaUm02WFd0Y2Y2bTR5Rm53XzhTZV8wYy1YWVRNQWo3Vjc5VF9GeXJMaU9zZnhOV3N4aDNkbmcyalJnenlReWFCamtKS0NPZWNLRV9EQ1A3SEVLeU9BNjBvYzd6VzNnQQ?oc=5"
-  },
-  {
-   "time_utc": "2026-11-16 15:00",
-   "source": "CNBC",
-   "headline": "Novo says Wegovy injection lowers BMI and obesity rates in children in trial",
-   "url": "https://www.cnbc.com/2026/11/16/novo-wegovy-obesity-children-trial.html"
-  },
-  {
-   "time_utc": "2026-11-16 14:53",
-   "source": "Reuters",
-   "headline": "Supertanker rates plunge more than 60% from record highs - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY0ZJYjdxQndHZmhXNXpBLTVhN0p2NmtoMXliTHZFeURJMU05VVpzQW16STBtZzNuMnUyelRkTzRPODgxR21pdm9YY2JIaUhPbmM2MVVDMVlPSkp5UjY1VjVkbVkzQmhmZGR5TXFiMTRuMkc1SWF5a1hVVGZQdUlFUjA0Y3Z6YnJtX1BKTkF3TXpuMXc5Nk9OMTRjTVp4eXAtanJkOA?oc=5"
-  },
-  {
-   "time_utc": "2026-11-16 14:42",
-   "source": "Reuters",
-   "headline": "Iranian leaders fret over public mood as gas shortages add to war ills - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdVZUbUF0OWE4QmgxWkRxLS1rbDYwYk9Oc1pBOFI5V081cFdZaGZGT3FEbExZTE9ZZTdYUWh0Y2F2TmlMMi1TdS1lSzhLakhETGJaUTR0Mk90Y0NvM0dXdW1tWEdrWVNtVElTWWtITzZPWjhySnZ5ZXFLRWNsWWh5ZGc2cTZDc3lQYkhlOC1CU1pFbUxweGIzOE5yMVo4NFZmVVJoREVvV0puUzFjQlIzRVVST3lWNTQ?oc=5"
-  },
-  {
-   "time_utc": "2026-11-16 14:29",
-   "source": "CNBC",
-   "headline": "Bitcoin slides to $62,000 following liquidation cascade, then rebounds slightly",
-   "url": "https://www.cnbc.com/2026/11/16/bitcoin-slides-to-62000-following-liquidation-cascade-then-rebounds-slightly.html"
+   "headline": "Gold sinks to 1-year low as Treasury yields and dollar bite, set for worst year since 2015 - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVkNEMWt0MEpVV2U4c0tCZEQ0N3FJRnBMWEFJRktVNVpBNGZ4RWFjVXA0TnR0VE8yam5OenZaaF9KWVhuc3RCQkZXWGlwb0pPRElEM0JoU0Rsb3BpX2ZTUjBLUG52SUM1V2RkcHRKLVdLR1ZmeXFISlplcTRQU0xJMzZHcFBFbUZPVWtYeGpqbWxKU1gtQjMxZXBMZU5rdldKOTRaWXpNSkZqd3MwajRHUzVvSVI2QTBOb1dJMGc3U3VzdTFP?oc=5"
   }
  ],
  "errors": []
