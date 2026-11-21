@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "session_date": "2026-11-20",
- "generated_at_utc": "2026-11-20 22:20",
+ "generated_at_utc": "2026-11-21 03:14",
  "sources": {
   "prices": "Yahoo Finance via yfinance (adjusted closes)",
   "rates": "US Treasury and New York Fed (FRED as fallback); see each series' source",
@@ -61,12 +61,6 @@
    "symbol": "GC=F",
    "close": 3539.0,
    "move_pct": -3.975
-  },
-  {
-   "name": "Bitcoin",
-   "symbol": "BTC-USD",
-   "close": 59170.8789,
-   "move_pct": -4.4117
   }
  ],
  "sectors": [
@@ -166,64 +160,64 @@
    },
    "headlines": [
     {
+     "time_utc": "2026-11-21 01:04",
+     "source": "Yahoo",
+     "headline": "Top 5 Stocks to Buy According to Billionaire George Soros",
+     "url": "https://finnhub.io/api/news?id=4a077acbd47dd06441eee14ead442dee8323d5f1ccca353898d9a45162a20695"
+    },
+    {
+     "time_utc": "2026-11-21 01:03",
+     "source": "Yahoo",
+     "headline": "Morgan Stanley sends a strong signal to Google stock investors",
+     "url": "https://finnhub.io/api/news?id=a750d68064e78021841a1fea88232ede1f2408e59cd1894e03c2b32a9a6b25dd"
+    },
+    {
+     "time_utc": "2026-11-21 00:55",
+     "source": "Yahoo",
+     "headline": "Review & Preview: Hype Halted",
+     "url": "https://finnhub.io/api/news?id=179be75c97d4a5c5ead611295d018d548fab7e632172b3b9d8a037a1747fdb7b"
+    },
+    {
+     "time_utc": "2026-11-21 00:46",
+     "source": "Yahoo",
+     "headline": "Has AI's honeymoon ended on Wall Street?",
+     "url": "https://finnhub.io/api/news?id=756f37927d322199d5e8977084eeb5e39a3ad9648b693b5264e2ab73fc0323fc"
+    },
+    {
+     "time_utc": "2026-11-21 00:45",
+     "source": "Yahoo",
+     "headline": "Zero To Sixty: Tesla Expands Cybercab To Dallas As Waymo Pauses Freeway Operations This Week",
+     "url": "https://finnhub.io/api/news?id=3d9ee83e57c90bb559284617899cc7d8692945ccb84539a5eb6a17293e7d9fe5"
+    },
+    {
+     "time_utc": "2026-11-20 23:25",
+     "source": "Yahoo",
+     "headline": "Data Center AI Chips Could Change the Winners: Broadcom and Marvell",
+     "url": "https://finnhub.io/api/news?id=350b7b787df4ab1d9e0d47982aacd2338851263fb35869cc7aa66e9b84608c46"
+    },
+    {
+     "time_utc": "2026-11-20 22:35",
+     "source": "Yahoo",
+     "headline": "Stock Market Today, Nov. 20: Stocks Plunge as AI Trade Unwinds",
+     "url": "https://finnhub.io/api/news?id=6db0b5ea38168b31537fe8795759a1dfa1bd385ef3ac42934f57f320fe7e3418"
+    },
+    {
+     "time_utc": "2026-11-20 22:19",
+     "source": "Yahoo",
+     "headline": "Tech sees huge sell-off as Anthropic IPO fails to lift the market",
+     "url": "https://finnhub.io/api/news?id=09625ee9d3c5e2fb68a7a2811777cb0c53cd129b0e96b5e1e104a9c1941ecb39"
+    },
+    {
+     "time_utc": "2026-11-20 22:01",
+     "source": "Yahoo",
+     "headline": "Jevons paradox and AI: Data shows usage soars as prices plunge",
+     "url": "https://finnhub.io/api/news?id=d7999998d0d9d99668b90e876591a2e9b79d738cef3798366df3ea6006f80441"
+    },
+    {
      "time_utc": "2026-11-20 21:43",
      "source": "Yahoo",
      "headline": "Nvidia’s Stock Slide Deepens After Report of SEC Accounting Probe",
      "url": "https://finnhub.io/api/news?id=8ea45aa89b25bf662ec532ef89c9c04f096153d6e9dc711db4f16a9cd9d560e8"
-    },
-    {
-     "time_utc": "2026-11-20 21:41",
-     "source": "Yahoo",
-     "headline": "Alphabet Raises $4.19 Billion in Debt as Free Cash Flow Turns Negative",
-     "url": "https://finnhub.io/api/news?id=fcdf2e7cef07f2d1cc7ec4af08bba571f7f29b3c313c8e1286341af0d72f5f15"
-    },
-    {
-     "time_utc": "2026-11-20 21:38",
-     "source": "Yahoo",
-     "headline": "Nasdaq turns negative: Why Anthropic & other tech stocks are getting crushed",
-     "url": "https://finnhub.io/api/news?id=3727581ad505816946886143beae7cc306984789dc03346171bca34594c5a843"
-    },
-    {
-     "time_utc": "2026-11-20 21:26",
-     "source": "Yahoo",
-     "headline": "Atalanta CEO Anjana Rajan Addresses Software Understanding Gap at The National Academies Cyber Resilience Forum",
-     "url": "https://finnhub.io/api/news?id=321883b10bae1d5418ed2fa69efb902815d1a3b96325c3f19d7b0867f7f3f4bd"
-    },
-    {
-     "time_utc": "2026-11-20 21:21",
-     "source": "Yahoo",
-     "headline": "Funds With Anthropic Exposure Got Off To a Rough Start. More Trouble May Be on The Way",
-     "url": "https://finnhub.io/api/news?id=06ab81f0065a1b9c4360251846e244fbdde7fd0b2f723c4fafd3a7c76849a1cb"
-    },
-    {
-     "time_utc": "2026-11-20 21:17",
-     "source": "Yahoo",
-     "headline": "YouTube nears $3B settlement with school districts over addiction claims: report",
-     "url": "https://finnhub.io/api/news?id=eaec2b0d00c8e28a5daa83530e30e835c7341a5aea927010219a91aea187a71e"
-    },
-    {
-     "time_utc": "2026-11-20 21:12",
-     "source": "Yahoo",
-     "headline": "$1,000 in Anthropic or Bitcoin: Which Could Be Worth More by 2030?",
-     "url": "https://finnhub.io/api/news?id=5ef879f5b021b5831305f2a25e044ee9a7d520a82f3354e79f80765b16f96703"
-    },
-    {
-     "time_utc": "2026-11-20 21:07",
-     "source": "Yahoo",
-     "headline": "Amazon Provides Options To Buy Ads Across Entire Ecosystem",
-     "url": "https://finnhub.io/api/news?id=20ff9736b41cda72cfa81c42424375ca33ab04b0f7e8fb037444a3eda9008122"
-    },
-    {
-     "time_utc": "2026-11-20 20:53",
-     "source": "Yahoo",
-     "headline": "Is Apple Stock Increasing Your Market Risk?",
-     "url": "https://finnhub.io/api/news?id=935619fe4cc137e8cc74cd82a39ce88ddcdf01e17375cd86c0a01b675f1b35a4"
-    },
-    {
-     "time_utc": "2026-11-20 20:38",
-     "source": "Yahoo",
-     "headline": "“Pretty Bizarre”: Microsoft Is Worth More Than Alphabet. Which Makes No Sense",
-     "url": "https://finnhub.io/api/news?id=f3917d843f41b893d16faa82ff8b5ffdf12bc7684c3ffc75c7066654b6aa0860"
     }
    ],
    "earnings": []
@@ -267,6 +261,54 @@
    },
    "headlines": [
     {
+     "time_utc": "2026-11-21 01:38",
+     "source": "Yahoo",
+     "headline": "Billionaire Bill Ackman’s Top 5 Stocks After Selling Stakes to Open a Brand-New Position",
+     "url": "https://finnhub.io/api/news?id=e5c4ea0223297e04921da09ba89a491acd565a7c6be166e6e6674a3081cb461c"
+    },
+    {
+     "time_utc": "2026-11-21 01:32",
+     "source": "Yahoo",
+     "headline": "Bill Ackman’s Top 10 Stocks After Selling Stakes to Open a Brand-New Position",
+     "url": "https://finnhub.io/api/news?id=f093848c98999f79b8d3e4797748101340881220eb6498190d0490421d697a27"
+    },
+    {
+     "time_utc": "2026-11-21 01:10",
+     "source": "Yahoo",
+     "headline": "George Soros Raised His Meta (META) Stake by 596%. Then the Stock Fell",
+     "url": "https://finnhub.io/api/news?id=18455e52fcc792b425f28b7085acae25e32b36a7e3eec0362c6db618e1508c2b"
+    },
+    {
+     "time_utc": "2026-11-21 00:46",
+     "source": "Yahoo",
+     "headline": "Has AI's honeymoon ended on Wall Street?",
+     "url": "https://finnhub.io/api/news?id=756f37927d322199d5e8977084eeb5e39a3ad9648b693b5264e2ab73fc0323fc"
+    },
+    {
+     "time_utc": "2026-11-20 22:00",
+     "source": "Yahoo",
+     "headline": "Shots Fired: Meta Will Reportedly Sell a $300 Muse Charm With Free Verizon 5G as Apple Builds Its Agent",
+     "url": "https://finnhub.io/api/news?id=86f208791ec5260330118592ce7b5f2fe19295c50369697cc057dacfd1c817de"
+    },
+    {
+     "time_utc": "2026-11-20 21:59",
+     "source": "Yahoo",
+     "headline": "Billionaire Dan Loeb’s “Bear Math”: AI Needs $2-3 Trillion of New Yearly Revenue. He Sold Amazon",
+     "url": "https://finnhub.io/api/news?id=d0a0d35dfda840c12e7ea23775b061c3a623adcc6ae874d56b4097878c46a177"
+    },
+    {
+     "time_utc": "2026-11-20 21:42",
+     "source": "Yahoo",
+     "headline": "Meta's Server Chip Shake-Up Could Hand Nvidia a Win",
+     "url": "https://finnhub.io/api/news?id=0912a37346b503b2c1f773bca69026883c2a75a22ce0433b7338df1d149d9d33"
+    },
+    {
+     "time_utc": "2026-11-20 21:40",
+     "source": "Yahoo",
+     "headline": "Apple Stock Has a New AI Catalyst -- It Could Take on OpenAI, Meta and Anthropic",
+     "url": "https://finnhub.io/api/news?id=fc0fd101b072c60f9cd334e1cc8280a1c4f54f4821689719105e7931e4f3e530"
+    },
+    {
      "time_utc": "2026-11-20 21:21",
      "source": "Yahoo",
      "headline": "Funds With Anthropic Exposure Got Off To a Rough Start. More Trouble May Be on The Way",
@@ -277,54 +319,6 @@
      "source": "Yahoo",
      "headline": "YouTube nears $3B settlement with school districts over addiction claims: report",
      "url": "https://finnhub.io/api/news?id=eaec2b0d00c8e28a5daa83530e30e835c7341a5aea927010219a91aea187a71e"
-    },
-    {
-     "time_utc": "2026-11-20 21:17",
-     "source": "Yahoo",
-     "headline": "Anthropic Stock Came Within 5 Cents of Its $83 IPO Price on Day 2, Then Bounced 6% to Close at $88.30. Facebook Closed Its Day 2 10% Below Its IPO Price",
-     "url": "https://finnhub.io/api/news?id=656aa700767e15c9c48e52fd9dcf70d23697de73137b37f35398ea52150a3f91"
-    },
-    {
-     "time_utc": "2026-11-20 21:12",
-     "source": "Yahoo",
-     "headline": "$1,000 in Anthropic or Bitcoin: Which Could Be Worth More by 2030?",
-     "url": "https://finnhub.io/api/news?id=5ef879f5b021b5831305f2a25e044ee9a7d520a82f3354e79f80765b16f96703"
-    },
-    {
-     "time_utc": "2026-11-20 20:38",
-     "source": "Yahoo",
-     "headline": "“Pretty Bizarre”: Microsoft Is Worth More Than Alphabet. Which Makes No Sense",
-     "url": "https://finnhub.io/api/news?id=f3917d843f41b893d16faa82ff8b5ffdf12bc7684c3ffc75c7066654b6aa0860"
-    },
-    {
-     "time_utc": "2026-11-20 20:25",
-     "source": "Yahoo",
-     "headline": "Wall Street Thinks Oklo Is a Buy. Here’s Why I’m Not So Sure.",
-     "url": "https://finnhub.io/api/news?id=a05aed74ed5db447d9cfb9133d80e44cd1f81870afbe719dcd59c2267cd3b4f6"
-    },
-    {
-     "time_utc": "2026-11-20 18:13",
-     "source": "Yahoo",
-     "headline": "Apple Plans an AI Agent to Rival Meta's Muse",
-     "url": "https://finnhub.io/api/news?id=95393650dc2b424e093834ad8cac95425494210e75ab2c2050a7db696a84374f"
-    },
-    {
-     "time_utc": "2026-11-20 18:10",
-     "source": "Yahoo",
-     "headline": "Meta (META) Stock Looks Discounted As Its 76% Five Year Run Cools",
-     "url": "https://finnhub.io/api/news?id=31717b756c3171ae58c32b534e7c09cd0860d2dab5c7af84beda01a158b04933"
-    },
-    {
-     "time_utc": "2026-11-20 18:07",
-     "source": "Yahoo",
-     "headline": "Can Booking Holdings Stock Jump 40%?",
-     "url": "https://finnhub.io/api/news?id=9821479ac8330d4fe9b7498325367a511a3e4efb0db3a0e5c961798edb69650b"
-    },
-    {
-     "time_utc": "2026-11-20 18:06",
-     "source": "Yahoo",
-     "headline": "Could a handful of tech giants control the future of AI?",
-     "url": "https://finnhub.io/api/news?id=c1632eaea856a65a1cdb5d2eb5064b7529eaa7047b63a223d1bcb7cc31482b35"
     }
    ],
    "earnings": []
@@ -370,64 +364,64 @@
    },
    "headlines": [
     {
-     "time_utc": "2026-11-20 21:47",
+     "time_utc": "2026-11-21 01:38",
      "source": "Yahoo",
-     "headline": "Salesforce vs. ServiceNow: Which Technology Stock Is a Better Buy for 2027?",
-     "url": "https://finnhub.io/api/news?id=9e72c9827b130344ad5727844d60aeaeb26fdd16c97401afefcf81254bdadc53"
+     "headline": "Billionaire Bill Ackman’s Top 5 Stocks After Selling Stakes to Open a Brand-New Position",
+     "url": "https://finnhub.io/api/news?id=e5c4ea0223297e04921da09ba89a491acd565a7c6be166e6e6674a3081cb461c"
     },
     {
-     "time_utc": "2026-11-20 21:26",
+     "time_utc": "2026-11-21 00:46",
      "source": "Yahoo",
-     "headline": "Atalanta CEO Anjana Rajan Addresses Software Understanding Gap at The National Academies Cyber Resilience Forum",
-     "url": "https://finnhub.io/api/news?id=321883b10bae1d5418ed2fa69efb902815d1a3b96325c3f19d7b0867f7f3f4bd"
+     "headline": "Has AI's honeymoon ended on Wall Street?",
+     "url": "https://finnhub.io/api/news?id=756f37927d322199d5e8977084eeb5e39a3ad9648b693b5264e2ab73fc0323fc"
     },
     {
-     "time_utc": "2026-11-20 20:53",
+     "time_utc": "2026-11-21 00:06",
      "source": "Yahoo",
-     "headline": "Is Apple Stock Increasing Your Market Risk?",
-     "url": "https://finnhub.io/api/news?id=935619fe4cc137e8cc74cd82a39ce88ddcdf01e17375cd86c0a01b675f1b35a4"
+     "headline": "Allooloo Tops 100M Capital Markets AI Agent Traffic a Month",
+     "url": "https://finnhub.io/api/news?id=3b05e2ec9500786fd766835b58041987d5499fd6429dac29dc74f89085f778a1"
     },
     {
-     "time_utc": "2026-11-20 20:38",
+     "time_utc": "2026-11-20 23:56",
      "source": "Yahoo",
-     "headline": "“Pretty Bizarre”: Microsoft Is Worth More Than Alphabet. Which Makes No Sense",
-     "url": "https://finnhub.io/api/news?id=f3917d843f41b893d16faa82ff8b5ffdf12bc7684c3ffc75c7066654b6aa0860"
+     "headline": "CrowdStrike, Zscaler Merger Would Create Cybersecurity Giant",
+     "url": "https://finnhub.io/api/news?id=8db09f48a9a0d3285ad7db8b1609f2f3e7a3f02e77d91e03993324f1d8c4e7a6"
     },
     {
-     "time_utc": "2026-11-20 20:18",
+     "time_utc": "2026-11-20 23:47",
      "source": "Yahoo",
-     "headline": "Intuit: 3 Key Takeaways for Long-Term Investors",
-     "url": "https://finnhub.io/api/news?id=ef5c3002e68ccecd2dda335166b677db77415d8ffbf4cbec046656b2d9bc1cdd"
+     "headline": "Mets Owner Steve Cohen’s Fund Dumped Nearly All of Its AMD and Bet $1 Billion That Microsoft Is the Safer AI Stock. AMD Has Fallen 31% Since",
+     "url": "https://finnhub.io/api/news?id=3ed3775304109e922a44a7c0c9b047047affab0885a662640efcd93b5eff7e1c"
     },
     {
-     "time_utc": "2026-11-20 19:50",
+     "time_utc": "2026-11-20 23:25",
      "source": "Yahoo",
-     "headline": "Cerebras Stock Looks Like a Buy as Customer Base Expands",
-     "url": "https://finnhub.io/api/news?id=077bd8147d4f43a84d75030623589825f50acd34e2a88128ded92230fbe3e01b"
+     "headline": "Nvidia Can Rebound to $200, Analyst Says. Plus, L3Harris and 4 More Stocks.",
+     "url": "https://finnhub.io/api/news?id=d134c672de700998ae32c72c5dc3077a421b7dc19577e16d692e0f310d4c7304"
     },
     {
-     "time_utc": "2026-11-20 19:39",
+     "time_utc": "2026-11-20 23:14",
      "source": "Yahoo",
-     "headline": "Take-Two Smashes Sales Records With 'Grand Theft Auto 6'",
-     "url": "https://finnhub.io/api/news?id=cd36eb91463868449e0e1ffe73ced6cf09729252933c52cffea6121f5ec0b526"
+     "headline": "International Business Machines (IBM) Opens Lightwell Access On Microsoft Marketplace, Is It Still Undervalued?",
+     "url": "https://finnhub.io/api/news?id=60db4e4877318a10c6b40e46aedf228d8a680a4d6f5c36430c115b30f5ae2ff2"
     },
     {
-     "time_utc": "2026-11-20 19:04",
+     "time_utc": "2026-11-20 22:26",
      "source": "Yahoo",
-     "headline": "Trump vows tax on U.S. firms building data centers abroad",
-     "url": "https://finnhub.io/api/news?id=c6b8a2e8e768012994234b248ead6ebf05a84aa3daa1f4cda2bf2b0b631e2f28"
+     "headline": "Andrew Ross Sorkin Doubts OpenAI Will Be “Worth More Than Anthropic.” That’s a Problem for Microsoft",
+     "url": "https://finnhub.io/api/news?id=562bc8c3c37c41cab1f57e35f909216a1cb02ae822d73b0399c75799f6562dbb"
     },
     {
-     "time_utc": "2026-11-20 19:02",
+     "time_utc": "2026-11-20 22:22",
      "source": "Yahoo",
-     "headline": "Should Anthropic Thank Ilya Sutskever?",
-     "url": "https://finnhub.io/api/news?id=0310f764460a96a804a8cc8c28fc0ca118212426ace0ff1d708c727933c025c2"
+     "headline": "Mercedes F1's drivers still get the final say, even as it utilizes AI agents",
+     "url": "https://finnhub.io/api/news?id=55f979c2b2e628dcfe6bb9e55b13a0f1eea9a13a6c06fdf0cd57d9874e140d80"
     },
     {
-     "time_utc": "2026-11-20 18:50",
+     "time_utc": "2026-11-20 22:22",
      "source": "Yahoo",
-     "headline": "How Microsoft’s (MSFT) Valuation Crashed From 75x to 10x – Even as Earnings Kept Growing",
-     "url": "https://finnhub.io/api/news?id=84b60d70d68f71074a55b84bc4737bf49e56a2970236fa7539f0f735ff83cf5d"
+     "headline": "Cramer: Microsoft the “Smartest of the Hyperscalers” With Relentless Focus on Positive Cashflow. That Includes Asking 60,000 Employees to Quit",
+     "url": "https://finnhub.io/api/news?id=363666341e72fc627189a37f4004cccb8b2386c8554b724ddf690a99b113419b"
     }
    ],
    "earnings": []
@@ -471,6 +465,24 @@
    },
    "headlines": [
     {
+     "time_utc": "2026-11-21 01:32",
+     "source": "Yahoo",
+     "headline": "Bill Ackman’s Top 10 Stocks After Selling Stakes to Open a Brand-New Position",
+     "url": "https://finnhub.io/api/news?id=f093848c98999f79b8d3e4797748101340881220eb6498190d0490421d697a27"
+    },
+    {
+     "time_utc": "2026-11-20 23:30",
+     "source": "Yahoo",
+     "headline": "Shopping Till We Drop",
+     "url": "https://finnhub.io/api/news?id=c8c854f78884d0471e7816ee33ee1862b2772712af91498765ddd097078cb262"
+    },
+    {
+     "time_utc": "2026-11-20 22:38",
+     "source": "Yahoo",
+     "headline": "Weekly Wrap: Crypto Falls As Stocks Struggle",
+     "url": "https://finnhub.io/api/news?id=ce4c04f2b5d997adf20030e6b9e5e44af1e917321f780534b475f8bf24c22e0f"
+    },
+    {
      "time_utc": "2026-11-20 17:55",
      "source": "Yahoo",
      "headline": "JPMorgan, Visa Warn of Cyberattack That Hit Outside Vendor",
@@ -511,24 +523,6 @@
      "source": "SeekingAlpha",
      "headline": "My Top Dividend Growth Picks In Each GICS Sector (November 2026)",
      "url": "https://finnhub.io/api/news?id=441dc6b71818f9baa7ca2edc982fb9c9144f0f87d43c10f3535b02fc9cefde47"
-    },
-    {
-     "time_utc": "2026-11-20 11:57",
-     "source": "Yahoo",
-     "headline": "How Low Could Circle Stock Go?",
-     "url": "https://finnhub.io/api/news?id=43abce44988da485bbb58f5a285e14d2a45a5ac22d823f7de5de08edc3a3c70e"
-    },
-    {
-     "time_utc": "2026-11-20 11:04",
-     "source": "Yahoo",
-     "headline": "What Capital Group Growth ETF (CGGR) Bought: Meta Leads on Wednesday",
-     "url": "https://finnhub.io/api/news?id=683c003008e00a6b52a1afa0f2aad63de2dd88ee6c2e402381eef490e2594778"
-    },
-    {
-     "time_utc": "2026-11-20 11:03",
-     "source": "Yahoo",
-     "headline": "What SPDR Dow Jones Industrial Avg ETF (DIA) Bought: Goldman Leads on Nov. 18",
-     "url": "https://finnhub.io/api/news?id=0d0b01b866e6da4e3cfbc0f4e9db5dc722cf4bded58c96dc683a8dd18e2e2855"
     }
    ],
    "earnings": []
@@ -572,6 +566,18 @@
    },
    "headlines": [
     {
+     "time_utc": "2026-11-21 01:44",
+     "source": "Yahoo",
+     "headline": "Michael Burry Says He Tried to Warn You About Nebius. The Stock Just Crashed 16% and Is 72% Below Its Record",
+     "url": "https://finnhub.io/api/news?id=329aa6e1fc1822dad29246337dd0063b591b6ccae2d44123c949494139afd44a"
+    },
+    {
+     "time_utc": "2026-11-20 20:11",
+     "source": "Yahoo",
+     "headline": "SpaceX’s New ‘Game Plan’ Could Pay Off, Says Top Analyst",
+     "url": "https://finnhub.io/api/news?id=bbf257194baf07cbb79197c18cc12cb51b90b30e15ded13483dab99e9650f8c5"
+    },
+    {
      "time_utc": "2026-11-20 17:51",
      "source": "Yahoo",
      "headline": "CoreWeave Stocks Fall 6.10% After Co-Founder's $30 Million Bond Bet Fails to Hold Rally",
@@ -582,6 +588,12 @@
      "source": "Yahoo",
      "headline": "Nebius vs. SoundHound AI: Which AI Tech Stock Is a Better Buy for 2027?",
      "url": "https://finnhub.io/api/news?id=316cb5eb04ec93c786b04625dcc3e8dad95e1b78e2aad2e3b585b877823e25f8"
+    },
+    {
+     "time_utc": "2026-11-20 17:03",
+     "source": "SeekingAlpha",
+     "headline": "Nebius: I Was Wrong, Growth Financing In Danger (Rating Downgrade)",
+     "url": "https://finnhub.io/api/news?id=975fd130b75d9865a1667fd392326dc61aac260cdece2fcbeafe1c221c4318de"
     },
     {
      "time_utc": "2026-11-20 15:53",
@@ -612,24 +624,6 @@
      "source": "Yahoo",
      "headline": "Nvidia stock extends 6-day losing streak, as AMD, Broadcom lead chip sector lower",
      "url": "https://finnhub.io/api/news?id=3532bec63f350a811119d8c4900d5119f293d138942ab85f0b590ae95b1f3b54"
-    },
-    {
-     "time_utc": "2026-11-20 13:22",
-     "source": "SeekingAlpha",
-     "headline": "Anthropic And Nvidia Are Saying The AI Bubble Is Finally Popping",
-     "url": "https://finnhub.io/api/news?id=6fa5e9748a919351152f99dc01d2430e10eaf2ac257798fdb0c401a36c296e9f"
-    },
-    {
-     "time_utc": "2026-11-20 13:07",
-     "source": "Yahoo",
-     "headline": "Zacks Investment Ideas feature highlights: Nasdaq, Nvidia, Advanced Micro Devices, SanDisk, Nebius Arm Holdings and Anthropic",
-     "url": "https://finnhub.io/api/news?id=dbfb6a14ee30561a26c59ef8da671f9a189277db0ec3d26f1be31212ebb8d1bb"
-    },
-    {
-     "time_utc": "2026-11-20 13:05",
-     "source": "Yahoo",
-     "headline": "Musk Slams Nvidia’s Board for Kicking “Michael Jordan Off Your Team.” Cramer Sees a Fight Over Chip Prices",
-     "url": "https://finnhub.io/api/news?id=e2e0a3c95e2467e7245ad64dd33ac16d97cce9036bd3a5a01a22d0b9d48eda90"
     }
    ],
    "earnings": []
@@ -1099,10 +1093,10 @@
    },
    "peers": {
     "EURUSD=X": {
-     "move_pct": 0.023
+     "move_pct": -0.0208
     },
     "JPY=X": {
-     "move_pct": -0.5452
+     "move_pct": 0.2045
     }
    }
   },
@@ -1112,10 +1106,10 @@
    "class": "fx",
    "symbol": "SGD=X",
    "notes": [],
-   "close": 1.29,
+   "close": 1.2916,
    "prev_date": "2026-11-19",
-   "move_pct": 0.0543,
-   "sigma": 0.3212,
+   "move_pct": 0.1745,
+   "sigma": 1.0326,
    "above_2_sigma": false,
    "attribution": {
     "na_reason": "no split for rates, FX, policy or the market itself"
@@ -1132,41 +1126,8 @@
    "class": "crypto",
    "symbol": "BTC-USD",
    "notes": [
-    "Crypto trades 24/7; the move is close-to-close on Yahoo's UTC daily bars and the latest bar may be partial."
-   ],
-   "close": 59170.8789,
-   "prev_date": "2026-11-19",
-   "move_pct": -4.4117,
-   "sigma": -2.1336,
-   "above_2_sigma": true,
-   "attribution": {
-    "market": "QQQ",
-    "sector": null,
-    "move_pct": -4.41,
-    "interval_start": "2026-11-19",
-    "market_pp": -5.1,
-    "sector_pp": null,
-    "specific_pp": 0.7,
-    "beta_market": 0.91,
-    "beta_sector": null,
-    "r2": 0.203,
-    "observations": 252,
-    "na_reason": null,
-    "notes": [
-     "R^2 below 0.25: treat the split as rough"
-    ]
-   },
-   "peers": {
-    "ETH-USD": {
-     "move_pct": -7.4356
-    },
-    "COIN": {
-     "move_pct": -6.3378
-    },
-    "MSTR": {
-     "move_pct": -9.6714
-    }
-   }
+    "No price on 2026-11-20 (holiday or not yet updated)."
+   ]
   }
  ],
  "fred": {
@@ -1213,6 +1174,48 @@
  },
  "market_news": [
   {
+   "time_utc": "2026-11-20 23:45",
+   "source": "Reuters",
+   "headline": "US Vice President Vance declines to say he would have ordered Iran strikes - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQUp6a3JFdW5UTE50bkNkVmExSGVkZlNWMHR0YnZMaWxGQzlZaF9CNFdQYXZCVWFwYXA2QmI1eG1EUGFLY0FydzFDZ0FBNGlkVjZKMURfb0hNOWZ4a3ZEU3V1TXVwaEMzU0dxZVVxTWhxeHFOd1RwQmFmV19MYlc3LW9MVm5TOG5uTjFhVU5RSXZaZ2ZwRmZ5Y1BmdlBUMllHMlNSeEplQ2IyXzU5NE51NnRlUm1HUUU?oc=5"
+  },
+  {
+   "time_utc": "2026-11-20 23:36",
+   "source": "Reuters",
+   "headline": "Saudi Arabia says it intercepts three Houthi missiles targeting Riyadh - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZEM0V09PMzNwMW5Eck5aSWVqWU02QzZsOHlJdHZrUHh1VDNOUFZIc1ZBbWJWOG9RX0ljdlpoMUhfX3o3QzQwNlJSUzRIbXhDbTBtZ0VEV0VtUWZCOUlwczJCQXVEN3hDN0x5TVVVZ1NaWm9LT3BPWTNsTHZicmpGOEM3bHhNa0VvQTJ0UzQ1NERFR1diOXdvYXlnUk9QeHMtaEw4MHFGR0VHTV9KZHpsT0hjZTQ?oc=5"
+  },
+  {
+   "time_utc": "2026-11-20 23:11",
+   "source": "Reuters",
+   "headline": "Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMmJ1MkI1NFRhVGFBd09OcklwWXpmN2taa1EtT1pfNWxDSzZhamdaUkJubjMxb01yQV9zQ0hqQ0JFVGFGUE92RFRvRjh1Q21UeElHcWFxWnRhdnFlZFNuT1BBY081U2tyTVpaZmU5RmR6cmRfcklWUG1LeXRfdUZJTlNGQ213X0JDNGdzMTZOdVlPTVZYZVZaUmdGVVFpYmJFdG5xSUlBclI0QWlPYzdsTFdncWJjeF80XzI5N3NXMDM4b1E?oc=5"
+  },
+  {
+   "time_utc": "2026-11-20 21:53",
+   "source": "Reuters",
+   "headline": "US Treasury sanctions Iranian 'trustees' collecting oil revenues - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQV3NtX0JqMFVBeHBVcTdlV1ZTaXRRMUhnLV9YWmR3VEZqUHVwbFlnOTlFTlZtTTExbUhTNzBsWXR6YTNYQmdMdVg4VGJuTTRYR19wSHhSZUJaTlRxWWpFT0o3SGgzb2JrOXY4b2xMd3cxQ2VlbGZPUzFGU2hJNFJLLTV6YlZLdmlGbUNaY19jMDdMLXVLTGRiT2ZfR2dMY0JuNzc0UzE0akxlelRNNl9sYzhLMkFwczA?oc=5"
+  },
+  {
+   "time_utc": "2026-11-20 21:37",
+   "source": "Reuters",
+   "headline": "EXCLUSIVE: Nvidia's accounting is a focus of US SEC investigation, sources say - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMzlPdFVTT2cyVkhmMFVKNWZ1MnpNT0NLcURnblg4THMwUWNuYTRBLWUxU0ZSSUR5bk1zNnBmVlhIUjByNkN6TzVBNC1uaXQxM0dwY2FkMzZQdm00a0xyMXo3NFNpSUNPdERZWU82aGZLa0lNZHpMOXVnVDBVQW9lMmNrWEVRczVYS1Racm1NNlNERDBJeTFJRG1pZVRfTC1LTy1pNjhpVzRaeGRrY25kSzQ1aDNUUQ?oc=5"
+  },
+  {
+   "time_utc": "2026-11-20 21:33",
+   "source": "Reuters",
+   "headline": "UK finds fix for fridge and freezer vulnerability after European hacks - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORVlPYjE2cEpJQjlLNzNNcjVjRnI3LUxkcnE5UVJBak9QOTlPUXR2S1htU3BEUWxfM0RfUmo2QVVfX0g3cXpzTjdUSFNRMERVR0FKUVJ4T21TYUhUU2d3bE9tV2hpaGo1bUxqc25WR0VYWFl0Z0UxZDBiMGM3RUdYODlURmFxYnVvcm9KTXVhZWdObGl0bTZfNENXTTlhdG9ibzVNX1hCOFpkQ1k?oc=5"
+  },
+  {
+   "time_utc": "2026-11-20 21:04",
+   "source": "Reuters",
+   "headline": "Trump cites good talks with Putin on Ukraine, holds back on security guarantees - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX3JPLTZVMmozZDY5c0piSTJBajFkeXRoMVc0UWVRRVVtZTdHb3BNcU8temVfeW1TNWRzZzBGVVVTUEs4TGl3eFpuSGNCNFpsLUpPRE1PSjdQYzZDbl9LM2NkMlo3TmpFVEV5QkNhODJyZy1qTUc3U0VNSFhUZHhqWWowLUxSamJlUlIxYjgyVV81ZjFOYmM0ZjdDUQ?oc=5"
+  },
+  {
    "time_utc": "2026-11-20 20:06",
    "source": "CNBC",
    "headline": "Intensifying AI rout wipes out Nasdaq's 2026 gains. Alphabet is a tech bright spot",
@@ -1223,6 +1226,12 @@
    "source": "CNBC",
    "headline": "A massive bearish trade just happened in the chip stocks",
    "url": "https://www.cnbc.com/2026/11/20/a-massive-bearish-trade-just-happened-in-the-chip-stocks.html"
+  },
+  {
+   "time_utc": "2026-11-20 19:21",
+   "source": "Reuters",
+   "headline": "Former Nvidia CEO Huang agreed to testify at public US Senate hearing, senator's aide says - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVXRKZGYxUkVSVnNCbGJHOG9wWjFSY1puTVMtdUMyeGg4VTFXR2xhRXd1ZmxYZ1g5QlBZRzljX1F0V1R5WERUOGdhb09IWXE0MTJXWXl3Z0F1czYyck1OT1NHc012Rm1PaDdXR1BQSkVRTkNqQkpCVUZZSUdTMnY1S1Zsa0kwYV8tai16c1Z3QnBwb0JZNjA5QXA1TkllMFhacFZMcm9MNHoyYU1LNHBlY2ZiN1lHUElQSURVSFo5aw?oc=5"
   },
   {
    "time_utc": "2026-11-20 19:16",
@@ -1237,70 +1246,22 @@
    "url": "https://www.cnbc.com/make-it/2026/11/20/worker-turnover-quits-hiring-2027.html"
   },
   {
-   "time_utc": "2026-11-20 18:35",
+   "time_utc": "2026-11-20 18:36",
    "source": "Reuters",
-   "headline": "UK finds fix for fridge and freezer vulnerability after European hacks - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORVlPYjE2cEpJQjlLNzNNcjVjRnI3LUxkcnE5UVJBak9QOTlPUXR2S1htU3BEUWxfM0RfUmo2QVVfX0g3cXpzTjdUSFNRMERVR0FKUVJ4T21TYUhUU2d3bE9tV2hpaGo1bUxqc25WR0VYWFl0Z0UxZDBiMGM3RUdYODlURmFxYnVvcm9KTXVhZWdObGl0bTZfNENXTTlhdG9ibzVNX1hCOFpkQ1k?oc=5"
+   "headline": "At least 4 dead after overloaded funeral boat capsizes in Nigeria - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU3hySDBHaTNmM2U2ZG9mUjNtRVRlaHZiZW5RdmUwaVBGUUlxNUhJX0w3alVrQ1hNUEFLVndrSXJyTTQxMTM3WjNvZGlLaVJaTVR6Q3g1MHdVRGM5dXVXMGJqeGNrMlU5NG9MTWNqRDd4UWZTRVljdDBoeGRkZXVCOVBrY2hjN3BsZ2QwdjdFSVBTVEQ3eGx1ZjlnMjhRRkZ2RXdVSk9NUnZ6X0prdHhVaEw0aDk4V01UY19ad2VpM0g?oc=5"
+  },
+  {
+   "time_utc": "2026-11-20 18:29",
+   "source": "Reuters",
+   "headline": "Houthi attacks add to worries over Trump Saudi nuclear power pact - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeERTd2VXX21mYUpEQUFyRjN2dk5Hdkl3RTZLTDUzbV9HRzE5cy1CcThnQkF3WVNsMDR0bWsxZDMxTlI1d0o2dFZwNjEtX0ZKSVBYQmFycVN2dGNYaXVTRnh3a2Y2M09uM0RkQU4wSDdGWEo3TF94ZlVySy1RNTNEaGhjZmlQZFJ4VjNzM094Rmp4Y0RJZHJZZG5MZVB1VHBkUjJxTmUwUlpBc1JFa2NhQkdGTVhOcGc?oc=5"
   },
   {
    "time_utc": "2026-11-20 18:26",
    "source": "CNBC",
    "headline": "Home Depot vs. Lowe's: Which stock has the edge after earnings and our support?",
    "url": "https://www.cnbc.com/2026/11/20/home-depot-vs-lowes-which-stock-has-the-edge-after-earnings-and-our-support.html"
-  },
-  {
-   "time_utc": "2026-11-20 18:01",
-   "source": "Reuters",
-   "headline": "Congress struggles to avert US shutdown as Iran war divides lawmakers - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUDZZTmpNTGpqLUMwR0JBZUJuaVBuMDAwYVpVanpkNTJDSGpNMEkxdXlSX1JkSDJpaG1SNUlmMnJZTHZ2Y192UmFKSjlGazN5UE9hZEJfcmFwdzVGWFE0QWk3OXBGWEpudkV5bTdiLVEwWjJicDFrTHJWVGVQT2RNMlBYZ3pMMmhQTHhKRnJ1QktWbGhVWWxRb0paRGZvdVNDdlRJNEd1N1lEbG9LOU1mTURPZE9CZlVvUk5j?oc=5"
-  },
-  {
-   "time_utc": "2026-11-20 17:51",
-   "source": "CNBC",
-   "headline": "We’re making another small buy as the market sell-off deepens",
-   "url": "https://www.cnbc.com/investingclub/2026/11/20/were-making-another-small-buy-as-the-market-sell-off-deepens.html"
-  },
-  {
-   "time_utc": "2026-11-20 17:42",
-   "source": "Reuters",
-   "headline": "India cyber agency warns of unauthorised payment transactions - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQVBjYmYzYWxqaFJPbzVjTUhKX1RMLW16dnlpT1lLdHJVOTc5VHZMUTMyRXM1bF85bFB3Rkg2d0wxT29aUmpYUHZoOHpuamhBc2JTdXptTl9QTHN6Q1g5Y1VVcDBwc3BDYmFMdjFldV9DbU9XRFN1LWh4TU5EQjJ5VW8zVmJMNFVuWlJIUExfOExIWEpPMmltVUdZd3l6QWpMQlFZSUZvSmpLbklq?oc=5"
-  },
-  {
-   "time_utc": "2026-11-20 17:22",
-   "source": "CNBC",
-   "headline": "Here's why we want to buy the sharp decline in this chip stock",
-   "url": "https://www.cnbc.com/investingclub/2026/11/20/heres-why-we-want-to-buy-the-sharp-decline-in-this-chip-stock.html"
-  },
-  {
-   "time_utc": "2026-11-20 17:05",
-   "source": "Reuters",
-   "headline": "Tanker catches fire after projectile strike near Strait of Hormuz, UKMTO says - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUFlEbXRhcG1QdzdPMU5DZTludFpwQllURVktV0I4cC1pX2g4V1k1dEhTWFVibXk4Wm9IUWFNYjZLRTlCZHBnM044cGo3amFOdTQ2SWdZWkVBUG9LaERYQ3pUQTdvd1loNVlxN0VPTUJTS29tcWsxWlIydFcxRGp4N2xlTUUyMDk1Y1VfLTVfXzYxZGZnVVFEUWpxaW05bS1MTlNQRGZpYUMwQ2xMY3MyMDRFUm1PM1JjaXc?oc=5"
-  },
-  {
-   "time_utc": "2026-11-20 15:52",
-   "source": "CNBC",
-   "headline": "Jensen Huang wasn't mentioned in latest talks with China, Bessent says",
-   "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html"
-  },
-  {
-   "time_utc": "2026-11-20 15:17",
-   "source": "CNBC",
-   "headline": "Ex-GM CEO on Mary Barra succession planning: 'It's going to be tough'",
-   "url": "https://www.cnbc.com/2026/11/20/gm-ceo-succession-mary-barra-dan-akerson.html"
-  },
-  {
-   "time_utc": "2026-11-20 15:14",
-   "source": "Reuters",
-   "headline": "Germany's Merz says Qatar pledged €15 billion in investments - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTUhiT2daQ0h0eGJ1N21DMm1xczhGbWRBT2UxS3MzMjFTdmFTRWxnZlVKRWgxZ0FWWXJEUHZoOW5NRV84NW9BN2dzRmhjek5TWV8waGtJajlUTmlKTmYxc0V1aWROblFraEZSVUFrYWc2a1NWekZEeXJQb1NaZVBYajZycVRsNHo5Uk43U29NeHJ1UzdjTkpXb2NBYi1UYkhSSGRQRUJCOG5ybTJLQlE?oc=5"
-  },
-  {
-   "time_utc": "2026-11-20 15:09",
-   "source": "CNBC",
-   "headline": "Bitcoin selloff: Crypto is failing the 'digital gold' test again as it sinks with stocks",
-   "url": "https://www.cnbc.com/2026/11/20/bitcoin-price-gold-market-hedge.html"
   }
  ],
  "errors": []
