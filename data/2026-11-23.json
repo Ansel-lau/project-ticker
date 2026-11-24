@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "session_date": "2026-11-23",
- "generated_at_utc": "2026-11-23 22:21",
+ "generated_at_utc": "2026-11-24 06:05",
  "sources": {
   "prices": "Yahoo Finance via yfinance (adjusted closes)",
   "rates": "US Treasury and New York Fed (FRED as fallback); see each series' source",
@@ -41,32 +41,26 @@
   {
    "name": "US Dollar Index",
    "symbol": "DX-Y.NYB",
-   "close": 104.35,
-   "move_pct": 0.5202
+   "close": 104.32,
+   "move_pct": 0.4913
   },
   {
    "name": "Brent",
    "symbol": "BZ=F",
-   "close": 86.72,
-   "move_pct": -6.3195
+   "close": 89.37,
+   "move_pct": -3.4568
   },
   {
    "name": "WTI",
    "symbol": "CL=F",
-   "close": 80.25,
-   "move_pct": -4.4415
+   "close": 80.17,
+   "move_pct": -4.5368
   },
   {
    "name": "Gold",
    "symbol": "GC=F",
-   "close": 3634.3999,
-   "move_pct": 3.3851
-  },
-  {
-   "name": "Bitcoin",
-   "symbol": "BTC-USD",
-   "close": 61251.3516,
-   "move_pct": 0.1462
+   "close": 3651.3999,
+   "move_pct": 3.8687
   }
  ],
  "sectors": [
@@ -166,64 +160,64 @@
    },
    "headlines": [
     {
+     "time_utc": "2026-11-24 00:42",
+     "source": "Yahoo",
+     "headline": "The Nasdaq Just Had Its Best Day Since April 2025. Anthropic Stock Fell Anyway.",
+     "url": "https://finnhub.io/api/news?id=8a14852da62acd080567b88a490342814d127f3ca0006c7eba9ddd5299af0482"
+    },
+    {
+     "time_utc": "2026-11-24 00:25",
+     "source": "Yahoo",
+     "headline": "Is Amazon's Profit Riskier Than It Looks?",
+     "url": "https://finnhub.io/api/news?id=3ab430afc44d1ae5ba6304d2610bb5a7795a1cb493dcd1e1b465663bfea1ae2f"
+    },
+    {
+     "time_utc": "2026-11-23 22:54",
+     "source": "Yahoo",
+     "headline": "Steve Eisman Said AI Was “No Longer One Trade.” Huang Is Back, but Alphabet and CoreWeave Still Show the Split",
+     "url": "https://finnhub.io/api/news?id=cce76ef68e89ce2696f214b1480abf834d9ef713c8b68864824d4466e62cf846"
+    },
+    {
+     "time_utc": "2026-11-23 22:47",
+     "source": "Yahoo",
+     "headline": "Crypto traders saw Anthropic's 34% debut pop coming",
+     "url": "https://finnhub.io/api/news?id=2e9867823f7e68e4507d79f97fa8e399b291159effcc42fc1df92c74d323bb66"
+    },
+    {
+     "time_utc": "2026-11-23 22:33",
+     "source": "Yahoo",
+     "headline": "Google's Gemini 4 Neon gains momentum ahead of OpenAI, data shows",
+     "url": "https://finnhub.io/api/news?id=9df03e2716b9ed3c01042a57db22beb7f3a278837f477e8ff4bceca55b3b52ac"
+    },
+    {
+     "time_utc": "2026-11-23 22:12",
+     "source": "Yahoo",
+     "headline": "Jensen Huang is back: Does Washington have a seat in the boardroom?",
+     "url": "https://finnhub.io/api/news?id=a52908d4c341923ace40bdd938c2a932b312ac5edeb57fa42d635d4bc0266178"
+    },
+    {
+     "time_utc": "2026-11-23 22:07",
+     "source": "Yahoo",
+     "headline": "Steve Eisman Says “Stock Picking Is Back” Now That AI Is “No Longer One Trade”",
+     "url": "https://finnhub.io/api/news?id=298ca49f3d03ed48354ee2566932230843837433061006224edb8e3d81d503d9"
+    },
+    {
+     "time_utc": "2026-11-23 21:58",
+     "source": "Yahoo",
+     "headline": "It's not over for Jensen Huang",
+     "url": "https://finnhub.io/api/news?id=3a56e647ab0a784ceec16368952f194531c0c93e39a4c015e56e8ae5d061b77b"
+    },
+    {
+     "time_utc": "2026-11-23 21:54",
+     "source": "Yahoo",
+     "headline": "How Risky Is Snap Stock Now?",
+     "url": "https://finnhub.io/api/news?id=73b4fd62921d0762aa937ed10ad61270d3ef34eaed8a8ce4bb4267f7eef52bd0"
+    },
+    {
      "time_utc": "2026-11-23 21:44",
      "source": "Yahoo",
      "headline": "Plot Twist: Cathie Wood Sold Nvidia Over “Losing Jensen.” Nvidia Just Rehired Him, but Her Other Worry Remains",
      "url": "https://finnhub.io/api/news?id=2d415468040bde72ff572d8e686b7ce97389157d61f5d83bdf29c0835a1782b3"
-    },
-    {
-     "time_utc": "2026-11-23 21:39",
-     "source": "Yahoo",
-     "headline": "Google AI Bridges Search And Wallet To Unlock Spending Signals",
-     "url": "https://finnhub.io/api/news?id=389a0e7a9bbd383ea1652904f98e6a7e2b3d9dbf2be525ff4180c9ae557e1d21"
-    },
-    {
-     "time_utc": "2026-11-23 21:25",
-     "source": "Yahoo",
-     "headline": "Jensen Huang's reinstatement changes how politics, business interact forever",
-     "url": "https://finnhub.io/api/news?id=a4e50d5d77f3243aa38967cccdc2446d87c653bfd50741fa82087f6e93907f54"
-    },
-    {
-     "time_utc": "2026-11-23 20:08",
-     "source": "Yahoo",
-     "headline": "Google Can Spend $48 Billion More On AI From Its Own Cash. Is That Enough For Nvidia?",
-     "url": "https://finnhub.io/api/news?id=9e3813b9cc10d4fb8701c0c4136d55c9e965896156db049edb9c26ca770c513e"
-    },
-    {
-     "time_utc": "2026-11-23 19:56",
-     "source": "Yahoo",
-     "headline": "Why Alphabet Stock Popped Today",
-     "url": "https://finnhub.io/api/news?id=134d85e6196d278b0675343e16c3e6777bea384a062f2676d06846619b6b93d2"
-    },
-    {
-     "time_utc": "2026-11-23 19:46",
-     "source": "Yahoo",
-     "headline": "Nvidia gains nearly $1T as Trump says nobody could 'revive the stock like it's being revived'",
-     "url": "https://finnhub.io/api/news?id=0c3e3ef2df2e53ca8e8a38a8255bc31e7f00e8092a6c267803d512b20c89573b"
-    },
-    {
-     "time_utc": "2026-11-23 19:38",
-     "source": "Yahoo",
-     "headline": "Why Jensen Huang is the 'key man' behind the market rally",
-     "url": "https://finnhub.io/api/news?id=146805ecb80f21b060b3c5ec2374551bcf5271da42890c7236a2d374bcad8881"
-    },
-    {
-     "time_utc": "2026-11-23 19:00",
-     "source": "Yahoo",
-     "headline": "Alphabet Soars 6% as Jensen Huang’s Return to Nvidia Reignites AI Stocks",
-     "url": "https://finnhub.io/api/news?id=f661f5894ff43491fcd5027889f9ed4d9e7cdcc41bfdb8709e99aab1788b00a0"
-    },
-    {
-     "time_utc": "2026-11-23 18:59",
-     "source": "Yahoo",
-     "headline": "Jensen Huang's return to Nvidia: Long or short accountability?",
-     "url": "https://finnhub.io/api/news?id=6d12e224d34ccec424c6cb59d7420c45315303a15ec9b5eee98b1d8a6a988346"
-    },
-    {
-     "time_utc": "2026-11-23 18:33",
-     "source": "Yahoo",
-     "headline": "Jim Cramer sees a Google bargain after $120 million exit",
-     "url": "https://finnhub.io/api/news?id=04dbca640b4293b4c862558f7641590f2795d6e0821bab1cabc49a5b59eed9dc"
     }
    ],
    "earnings": []
@@ -267,64 +261,64 @@
    },
    "headlines": [
     {
+     "time_utc": "2026-11-24 03:47",
+     "source": "Yahoo",
+     "headline": "AMD Stock Dips Overnight After Nvidia-Triggered Rally: AMD Registers 337M Shares For Resale Tied To OpenAI, Meta Warrants",
+     "url": "https://finnhub.io/api/news?id=65b84ff5d824ba1bb5f8a8b11ce90a25daf9124937c7c86a0c8450b6953663bc"
+    },
+    {
+     "time_utc": "2026-11-24 02:43",
+     "source": "Yahoo",
+     "headline": "Mark Zuckerberg Has Collected Nearly $2 Billion in Dividends From the Stock He Started in a Dorm Room. It Now Pays Him About $2 Million a Day",
+     "url": "https://finnhub.io/api/news?id=e76a2a18869b2b645990066a0a4a46d8bbc9e809d445409f5f2e3ba24a592383"
+    },
+    {
+     "time_utc": "2026-11-24 01:30",
+     "source": "Yahoo",
+     "headline": "'He's Not Quite a God': Palmer Luckey Opens Up About Facebook Firing, Explains Why He'd Still Make a Deal With Mark Zuckerberg",
+     "url": "https://finnhub.io/api/news?id=46d6aa5c127ed0bc92a4cd3a7e0d82a56653ab4a95a1f5103e78bf65c13b089e"
+    },
+    {
+     "time_utc": "2026-11-24 00:42",
+     "source": "Yahoo",
+     "headline": "The Nasdaq Just Had Its Best Day Since April 2025. Anthropic Stock Fell Anyway.",
+     "url": "https://finnhub.io/api/news?id=8a14852da62acd080567b88a490342814d127f3ca0006c7eba9ddd5299af0482"
+    },
+    {
+     "time_utc": "2026-11-24 00:25",
+     "source": "Yahoo",
+     "headline": "Is Amazon's Profit Riskier Than It Looks?",
+     "url": "https://finnhub.io/api/news?id=3ab430afc44d1ae5ba6304d2610bb5a7795a1cb493dcd1e1b465663bfea1ae2f"
+    },
+    {
+     "time_utc": "2026-11-23 23:27",
+     "source": "Yahoo",
+     "headline": "SpaceX Is “Following the Exact Same Pattern That Meta Followed” After Its IPO, per Steve Jurvetson. Time to Buy?",
+     "url": "https://finnhub.io/api/news?id=b97ae1cc4562a3b91f65ffd0a6d155812e8dae909514bb651daaf15765bdb269"
+    },
+    {
+     "time_utc": "2026-11-23 23:22",
+     "source": "Yahoo",
+     "headline": "AMD registers up to 337 million shares for resale tied to OpenAI, Meta warrants",
+     "url": "https://finnhub.io/api/news?id=49385280ce2cf6da69bae0a4eb80cd25a5eb876579dd27db8f3bd02e7ee77745"
+    },
+    {
+     "time_utc": "2026-11-23 21:58",
+     "source": "Yahoo",
+     "headline": "It's not over for Jensen Huang",
+     "url": "https://finnhub.io/api/news?id=3a56e647ab0a784ceec16368952f194531c0c93e39a4c015e56e8ae5d061b77b"
+    },
+    {
+     "time_utc": "2026-11-23 21:54",
+     "source": "Yahoo",
+     "headline": "How Risky Is Snap Stock Now?",
+     "url": "https://finnhub.io/api/news?id=73b4fd62921d0762aa937ed10ad61270d3ef34eaed8a8ce4bb4267f7eef52bd0"
+    },
+    {
      "time_utc": "2026-11-23 21:33",
      "source": "Yahoo",
      "headline": "Meta’s AI Chief Warns “Superintelligence Is Arriving.” Lawmakers Are Now Quoting Him to Push a Ban",
      "url": "https://finnhub.io/api/news?id=c04e6bcd641c3c5a85100b2fc4c43d221fb9b5d107d6320aeafeddfb855249c8"
-    },
-    {
-     "time_utc": "2026-11-23 21:22",
-     "source": "Yahoo",
-     "headline": "AMD’s Blockbuster Q3 Report Is Getting Lost in the Pullback",
-     "url": "https://finnhub.io/api/news?id=b6f8562fc76e50d714924252a35e4a7a1f823db98a9fb57cda2ce980af617bc0"
-    },
-    {
-     "time_utc": "2026-11-23 21:15",
-     "source": "Yahoo",
-     "headline": "Emerging Growth Research Releases Q2:FY27 Quarterly Update on Virtuix Holdings",
-     "url": "https://finnhub.io/api/news?id=48926e3631ae9313a1e580ec9ff666f8947a17efab0563d0bc06133ec376a2f8"
-    },
-    {
-     "time_utc": "2026-11-23 21:00",
-     "source": "Yahoo",
-     "headline": "Clariant confirms talks regarding a potential acquisition of Ashland",
-     "url": "https://finnhub.io/api/news?id=e411caae92b71a77d8b7948c405348193b90fd15722198152918cb1d49e68efb"
-    },
-    {
-     "time_utc": "2026-11-23 20:08",
-     "source": "Yahoo",
-     "headline": "Google Can Spend $48 Billion More On AI From Its Own Cash. Is That Enough For Nvidia?",
-     "url": "https://finnhub.io/api/news?id=9e3813b9cc10d4fb8701c0c4136d55c9e965896156db049edb9c26ca770c513e"
-    },
-    {
-     "time_utc": "2026-11-23 19:14",
-     "source": "Yahoo",
-     "headline": "What Is The Case For Waiting On Roblox Stock?",
-     "url": "https://finnhub.io/api/news?id=de8131bbfba16af2fcda037cd52e8b9233bf4409f60303ab549ebefde23b0488"
-    },
-    {
-     "time_utc": "2026-11-23 19:07",
-     "source": "Yahoo",
-     "headline": "A $109 Billion Fund Just Bought These 3 Stocks",
-     "url": "https://finnhub.io/api/news?id=a6376d20e4559aebb812f3b7850c435f29d3c8f20c029c0ca783bd4ae7c69b80"
-    },
-    {
-     "time_utc": "2026-11-23 18:59",
-     "source": "Yahoo",
-     "headline": "Jensen Huang's return to Nvidia: Long or short accountability?",
-     "url": "https://finnhub.io/api/news?id=6d12e224d34ccec424c6cb59d7420c45315303a15ec9b5eee98b1d8a6a988346"
-    },
-    {
-     "time_utc": "2026-11-23 18:52",
-     "source": "Yahoo",
-     "headline": "Oracle Stock Snaps Losing Streak. Funding for Data-Center Buildout Is in Place.",
-     "url": "https://finnhub.io/api/news?id=99987f206c1629bf1fdbfd19fb72a538a9a91c514928e07b85316b6260720810"
-    },
-    {
-     "time_utc": "2026-11-23 18:48",
-     "source": "Yahoo",
-     "headline": "Did Anthropic Stock's 9% Slide Make It Cheap?",
-     "url": "https://finnhub.io/api/news?id=10d285a20a4f020edd0a2b95d8f9021a6ef81ffbf411bec7e5363fffed515946"
     }
    ],
    "earnings": []
@@ -370,6 +364,48 @@
    },
    "headlines": [
     {
+     "time_utc": "2026-11-24 02:30",
+     "source": "Yahoo",
+     "headline": "Microsoft CEO Satya Nadella Offered 60,000 Employees Buyouts So Everyone 'Felt Like They Had Agency' — Yet Insists Software Engineering Is 'Very Much Alive'",
+     "url": "https://finnhub.io/api/news?id=75459d02e78aae7755381d1837d3dc7e1b07feab2bde4f595117d249c5eda08f"
+    },
+    {
+     "time_utc": "2026-11-24 00:25",
+     "source": "Yahoo",
+     "headline": "Is Amazon's Profit Riskier Than It Looks?",
+     "url": "https://finnhub.io/api/news?id=3ab430afc44d1ae5ba6304d2610bb5a7795a1cb493dcd1e1b465663bfea1ae2f"
+    },
+    {
+     "time_utc": "2026-11-24 00:17",
+     "source": "Yahoo",
+     "headline": "What Microsoft (MSFT)'s Enterprise AI Partnerships Mean For Shareholders",
+     "url": "https://finnhub.io/api/news?id=a0bf40cb2c71ceebbbe64eb60b060782227959c745b969a95336ac9adf0a8cdc"
+    },
+    {
+     "time_utc": "2026-11-23 22:50",
+     "source": "Yahoo",
+     "headline": "Chamath Says Microsoft “Clearly Is Going to Need to Have a Frontier Model.” Nadella Is Betting It Won’t",
+     "url": "https://finnhub.io/api/news?id=39f3d390f731ef3ef1fea99637909813c359f0b067ba589c5861452146a15e4b"
+    },
+    {
+     "time_utc": "2026-11-23 22:47",
+     "source": "Yahoo",
+     "headline": "Crypto traders saw Anthropic's 34% debut pop coming",
+     "url": "https://finnhub.io/api/news?id=2e9867823f7e68e4507d79f97fa8e399b291159effcc42fc1df92c74d323bb66"
+    },
+    {
+     "time_utc": "2026-11-23 22:07",
+     "source": "Yahoo",
+     "headline": "Steve Eisman Says “Stock Picking Is Back” Now That AI Is “No Longer One Trade”",
+     "url": "https://finnhub.io/api/news?id=298ca49f3d03ed48354ee2566932230843837433061006224edb8e3d81d503d9"
+    },
+    {
+     "time_utc": "2026-11-23 21:58",
+     "source": "Yahoo",
+     "headline": "It's not over for Jensen Huang",
+     "url": "https://finnhub.io/api/news?id=3a56e647ab0a784ceec16368952f194531c0c93e39a4c015e56e8ae5d061b77b"
+    },
+    {
      "time_utc": "2026-11-23 21:39",
      "source": "Yahoo",
      "headline": "China Is “Only 12 Hours” Behind US AI Labs. ByteDance’s Reported Azure Deal Puts Microsoft in the Middle",
@@ -382,52 +418,10 @@
      "url": "https://finnhub.io/api/news?id=31cec952cc3b46ba393864bdabcccdc1ff667f0665c65ba675b34c1657ac898e"
     },
     {
-     "time_utc": "2026-11-23 20:57",
+     "time_utc": "2026-11-23 21:02",
      "source": "Yahoo",
-     "headline": "Billionaire Andreas Halvorsen Exited Microsoft and Made TSMC His Top Holding at $1.8 Billion",
-     "url": "https://finnhub.io/api/news?id=c2592fdda67ab8bdce4316f7cbf1833bea67d19e89e9d6b861eb29dfeb62a04f"
-    },
-    {
-     "time_utc": "2026-11-23 20:08",
-     "source": "Yahoo",
-     "headline": "Google Can Spend $48 Billion More On AI From Its Own Cash. Is That Enough For Nvidia?",
-     "url": "https://finnhub.io/api/news?id=9e3813b9cc10d4fb8701c0c4136d55c9e965896156db049edb9c26ca770c513e"
-    },
-    {
-     "time_utc": "2026-11-23 20:08",
-     "source": "Yahoo",
-     "headline": "Palantir Rips 10% to Lead Software Stocks. Cloudflare and ServiceNow Also Join ‘Jensen Rally’",
-     "url": "https://finnhub.io/api/news?id=29cae95436dfbe92b60836af8703c316d047501108ae5e43fb4ad24e8f9fa28c"
-    },
-    {
-     "time_utc": "2026-11-23 20:06",
-     "source": "Yahoo",
-     "headline": "Building the virtual analyst that never sleeps",
-     "url": "https://finnhub.io/api/news?id=a4ab4934836ff52e073cbf73d21692ff320f59e4b2242cf0ff6ae8720254b985"
-    },
-    {
-     "time_utc": "2026-11-23 19:46",
-     "source": "Yahoo",
-     "headline": "Nvidia gains nearly $1T as Trump says nobody could 'revive the stock like it's being revived'",
-     "url": "https://finnhub.io/api/news?id=0c3e3ef2df2e53ca8e8a38a8255bc31e7f00e8092a6c267803d512b20c89573b"
-    },
-    {
-     "time_utc": "2026-11-23 19:38",
-     "source": "Yahoo",
-     "headline": "Dell Wants Up to 45% More on Signed AI Deals. IREN Has a Big Problem",
-     "url": "https://finnhub.io/api/news?id=5d8fcd43bbb4d8a4517beefbc938f5855d8c2d2c175dd3e95c2cd2e7a164741c"
-    },
-    {
-     "time_utc": "2026-11-23 19:28",
-     "source": "Yahoo",
-     "headline": "GTA VI Broke Every Record in 24 Hours, So Why Did Take-Two Shareholders Sell?",
-     "url": "https://finnhub.io/api/news?id=88a8b2719b785cbd0bb4bf6ab7103f8eba6146ca9d5e2d82b5c6f9b532e3763c"
-    },
-    {
-     "time_utc": "2026-11-23 19:14",
-     "source": "Yahoo",
-     "headline": "What Is The Case For Waiting On Roblox Stock?",
-     "url": "https://finnhub.io/api/news?id=de8131bbfba16af2fcda037cd52e8b9233bf4409f60303ab549ebefde23b0488"
+     "headline": "Don't Chase After the Market's Big AI Gains",
+     "url": "https://finnhub.io/api/news?id=e2ce0c229e3d869f0c103a08908f8f2187119342279859a88e274b53c95f3ba4"
     }
    ],
    "earnings": []
@@ -572,64 +566,64 @@
    },
    "headlines": [
     {
+     "time_utc": "2026-11-24 03:05",
+     "source": "Yahoo",
+     "headline": "Dead Cat Bounce? AI Stocks Climb 20%+, but IREN, Applied Digital Stay Down 50%+",
+     "url": "https://finnhub.io/api/news?id=af9de0750afbcd335d98e07191c599534c0ec5c5d8db80819b5365b42e95951b"
+    },
+    {
+     "time_utc": "2026-11-23 23:27",
+     "source": "Yahoo",
+     "headline": "SpaceX Is “Following the Exact Same Pattern That Meta Followed” After Its IPO, per Steve Jurvetson. Time to Buy?",
+     "url": "https://finnhub.io/api/news?id=b97ae1cc4562a3b91f65ffd0a6d155812e8dae909514bb651daaf15765bdb269"
+    },
+    {
+     "time_utc": "2026-11-23 22:09",
+     "source": "Yahoo",
+     "headline": "Stock Market Today, Nov. 23: CoreWeave Surges 22% as Nvidia Reinstates Jensen Huang as CEO",
+     "url": "https://finnhub.io/api/news?id=de6f3f31fb962997897218f454f4a4aabecdb5ddc77f7f444d14001ce7fd0b17"
+    },
+    {
+     "time_utc": "2026-11-23 21:58",
+     "source": "Yahoo",
+     "headline": "It's not over for Jensen Huang",
+     "url": "https://finnhub.io/api/news?id=3a56e647ab0a784ceec16368952f194531c0c93e39a4c015e56e8ae5d061b77b"
+    },
+    {
+     "time_utc": "2026-11-23 21:56",
+     "source": "Yahoo",
+     "headline": "From Resignation to Reinstatement: Huang's Market Impact",
+     "url": "https://finnhub.io/api/news?id=33295978b450a8ed6cd1591bfeb27da655878dc02c06fded0df4e9489d332b15"
+    },
+    {
+     "time_utc": "2026-11-23 21:27",
+     "source": "Yahoo",
+     "headline": "Nvidia, Dell, Micron, Anthropic, CrowdStrike, UnitedHealth, and More Stocks That Explain Today’s Market",
+     "url": "https://finnhub.io/api/news?id=09cf19af0fe9a0487238ba27a10caf366fe163161448fa75ad70d74e6b741720"
+    },
+    {
+     "time_utc": "2026-11-23 21:22",
+     "source": "Yahoo",
+     "headline": "AMD’s Blockbuster Q3 Report Is Getting Lost in the Pullback",
+     "url": "https://finnhub.io/api/news?id=b6f8562fc76e50d714924252a35e4a7a1f823db98a9fb57cda2ce980af617bc0"
+    },
+    {
+     "time_utc": "2026-11-23 20:30",
+     "source": "Yahoo",
+     "headline": "Gavin Baker: “At Least Three Companies” Want to Replace Nvidia as AI’s Central Bank. Good News for CoreWeave",
+     "url": "https://finnhub.io/api/news?id=0ae527b722afcca0fdbaa72a692f24df4bb58c73d02080e303f785f0560b5296"
+    },
+    {
+     "time_utc": "2026-11-23 20:16",
+     "source": "Yahoo",
+     "headline": "Nebius & CoreWeave Jump 21% While Oracle Sees 12% Gains on Monday Following Jensen’s Return",
+     "url": "https://finnhub.io/api/news?id=ae1d79a6722f12eb6ab68f314c9f071e8a0a60f18f80c55aceae5fac4f053799"
+    },
+    {
      "time_utc": "2026-11-23 19:28",
      "source": "Yahoo",
      "headline": "Scott Galloway Says Neoclouds Are “Going to Default.” CoreWeave’s Interest Bill Is the Problem",
      "url": "https://finnhub.io/api/news?id=5c083a1938037ddca745486cddea912d760a3c48cc2e909f255cb1c95a94cd11"
-    },
-    {
-     "time_utc": "2026-11-23 19:20",
-     "source": "Yahoo",
-     "headline": "Tech stocks surge as Nvidia rally adds $2 trillion to Nasdaq 100",
-     "url": "https://finnhub.io/api/news?id=28d1af4b27f817969c4333a489d9b1688b6e6e9ce643c75317be27d2352362d5"
-    },
-    {
-     "time_utc": "2026-11-23 19:08",
-     "source": "Yahoo",
-     "headline": "Nvidia-backed AI stock soars 26% as Jensen Huang returns as CEO",
-     "url": "https://finnhub.io/api/news?id=c8f78afc2e46ea30b3e38b162cc796810f0ce77c36538db809b1cbea7ea85177"
-    },
-    {
-     "time_utc": "2026-11-23 17:55",
-     "source": "Yahoo",
-     "headline": "Stock Market Today: Dow Surges As Trump Says This On Huang's Nvidia Return; AI Plays Rocket (Live Coverage)",
-     "url": "https://finnhub.io/api/news?id=788ff0bfa2cc7d282f2645e183c11e7569d2f805989cbd86e6a866d0851b848c"
-    },
-    {
-     "time_utc": "2026-11-23 17:54",
-     "source": "Yahoo",
-     "headline": "Nebius Stocks Surge 20.33% as Neocloud Rally Follows Jensen Huang's Nvidia Return",
-     "url": "https://finnhub.io/api/news?id=5d1a3219771d69f1900d69185100d37af178a2e353e5ae655f840400d3957422"
-    },
-    {
-     "time_utc": "2026-11-23 17:45",
-     "source": "Yahoo",
-     "headline": "Nebius Keeps Plummeting Amid 50% Drop This Month: This Wall Street Pro Now Predicts 370% Returns After Slight Adjustment",
-     "url": "https://finnhub.io/api/news?id=5688bed6854955cbc2f3ef9d1e65ce3f4c64aff31453410d08f36265bb9f9f23"
-    },
-    {
-     "time_utc": "2026-11-23 17:44",
-     "source": "Yahoo",
-     "headline": "Cathie Wood Just Bought $21 Million of Cerebras Across 2 ARK Funds",
-     "url": "https://finnhub.io/api/news?id=5259c6c3ba4db6f2a1ecd22ca618b94e3be7034f13dd1c1c6b2c12f0e95b1c25"
-    },
-    {
-     "time_utc": "2026-11-23 17:30",
-     "source": "Yahoo",
-     "headline": "Nebius (NBIS) Stock Is Up 24.2% Today in AI Infrastructure Rally",
-     "url": "https://finnhub.io/api/news?id=0cee3d54eec422a5ae2e8460efd1dea13a9c5c52d539f97031beee9a5d2e5fda"
-    },
-    {
-     "time_utc": "2026-11-23 17:28",
-     "source": "Yahoo",
-     "headline": "Situational Awareness Stock Portfolio: Leopold Aschenbrenner’s Top 5 Picks",
-     "url": "https://finnhub.io/api/news?id=f1187e29b66254dcf651b8b07e71513ec96a454292cfdecd22a6f4a71ac98e0b"
-    },
-    {
-     "time_utc": "2026-11-23 16:46",
-     "source": "Yahoo",
-     "headline": "Monday's Rebound Reaches Rocket, Satellite and AI Cloud Stocks",
-     "url": "https://finnhub.io/api/news?id=9e58f37581a2d21e113717b4645ec9205eeb861066481a522b075087a3791fbf"
     }
    ],
    "earnings": []
@@ -673,6 +667,42 @@
    },
    "headlines": [
     {
+     "time_utc": "2026-11-24 03:15",
+     "source": "Yahoo",
+     "headline": "CoreWeave Inc. (CRWV) Just Turned the Tables. What Changed?",
+     "url": "https://finnhub.io/api/news?id=8d7df2f4f063aaacad70261077d0437b39b0ab3f00a3b8c05bd778fb509b2d48"
+    },
+    {
+     "time_utc": "2026-11-24 03:05",
+     "source": "Yahoo",
+     "headline": "Dead Cat Bounce? AI Stocks Climb 20%+, but IREN, Applied Digital Stay Down 50%+",
+     "url": "https://finnhub.io/api/news?id=af9de0750afbcd335d98e07191c599534c0ec5c5d8db80819b5365b42e95951b"
+    },
+    {
+     "time_utc": "2026-11-24 02:00",
+     "source": "Yahoo",
+     "headline": "Dow, Nasdaq and Bitcoin Jump on Huang's Return, but Why Did Bitcoin Reverse?",
+     "url": "https://finnhub.io/api/news?id=ace188020776219023abc6bfdecfd5a11e3ea453f17d945efa1fb4d580b1386b"
+    },
+    {
+     "time_utc": "2026-11-23 22:54",
+     "source": "Yahoo",
+     "headline": "Steve Eisman Said AI Was “No Longer One Trade.” Huang Is Back, but Alphabet and CoreWeave Still Show the Split",
+     "url": "https://finnhub.io/api/news?id=cce76ef68e89ce2696f214b1480abf834d9ef713c8b68864824d4466e62cf846"
+    },
+    {
+     "time_utc": "2026-11-23 22:09",
+     "source": "Yahoo",
+     "headline": "Stock Market Today, Nov. 23: CoreWeave Surges 22% as Nvidia Reinstates Jensen Huang as CEO",
+     "url": "https://finnhub.io/api/news?id=de6f3f31fb962997897218f454f4a4aabecdb5ddc77f7f444d14001ce7fd0b17"
+    },
+    {
+     "time_utc": "2026-11-23 21:58",
+     "source": "Yahoo",
+     "headline": "It's not over for Jensen Huang",
+     "url": "https://finnhub.io/api/news?id=3a56e647ab0a784ceec16368952f194531c0c93e39a4c015e56e8ae5d061b77b"
+    },
+    {
      "time_utc": "2026-11-23 21:56",
      "source": "Yahoo",
      "headline": "Stock Market Today: Dow, Nasdaq Surge As Jensen Huang Returns To Nvidia; Chip Plays Rocket (Live Coverage)",
@@ -695,42 +725,6 @@
      "source": "Yahoo",
      "headline": "Gavin Baker: “At Least Three Companies” Want to Replace Nvidia as AI’s Central Bank. Good News for CoreWeave",
      "url": "https://finnhub.io/api/news?id=0ae527b722afcca0fdbaa72a692f24df4bb58c73d02080e303f785f0560b5296"
-    },
-    {
-     "time_utc": "2026-11-23 20:16",
-     "source": "Yahoo",
-     "headline": "Nebius & CoreWeave Jump 21% While Oracle Sees 12% Gains on Monday Following Jensen’s Return",
-     "url": "https://finnhub.io/api/news?id=ae1d79a6722f12eb6ab68f314c9f071e8a0a60f18f80c55aceae5fac4f053799"
-    },
-    {
-     "time_utc": "2026-11-23 20:08",
-     "source": "Yahoo",
-     "headline": "Google Can Spend $48 Billion More On AI From Its Own Cash. Is That Enough For Nvidia?",
-     "url": "https://finnhub.io/api/news?id=9e3813b9cc10d4fb8701c0c4136d55c9e965896156db049edb9c26ca770c513e"
-    },
-    {
-     "time_utc": "2026-11-23 19:28",
-     "source": "Yahoo",
-     "headline": "Scott Galloway Says Neoclouds Are “Going to Default.” CoreWeave’s Interest Bill Is the Problem",
-     "url": "https://finnhub.io/api/news?id=5c083a1938037ddca745486cddea912d760a3c48cc2e909f255cb1c95a94cd11"
-    },
-    {
-     "time_utc": "2026-11-23 19:20",
-     "source": "Yahoo",
-     "headline": "Tech stocks surge as Nvidia rally adds $2 trillion to Nasdaq 100",
-     "url": "https://finnhub.io/api/news?id=28d1af4b27f817969c4333a489d9b1688b6e6e9ce643c75317be27d2352362d5"
-    },
-    {
-     "time_utc": "2026-11-23 19:08",
-     "source": "Yahoo",
-     "headline": "Nvidia-backed AI stock soars 26% as Jensen Huang returns as CEO",
-     "url": "https://finnhub.io/api/news?id=c8f78afc2e46ea30b3e38b162cc796810f0ce77c36538db809b1cbea7ea85177"
-    },
-    {
-     "time_utc": "2026-11-23 19:00",
-     "source": "Yahoo",
-     "headline": "Alphabet Soars 6% as Jensen Huang’s Return to Nvidia Reignites AI Stocks",
-     "url": "https://finnhub.io/api/news?id=f661f5894ff43491fcd5027889f9ed4d9e7cdcc41bfdb8709e99aab1788b00a0"
     }
    ],
    "earnings": []
@@ -743,13 +737,13 @@
    "notes": [],
    "close": 11.06,
    "prev_date": "2026-11-20",
-   "move_pct": -15.7654,
-   "sigma": -4.9674,
-   "above_2_sigma": true,
+   "move_pct": -1.0733,
+   "sigma": -0.3382,
+   "above_2_sigma": false,
    "attribution": {
     "market": "SPY",
     "sector": "MCHI",
-    "move_pct": -15.77,
+    "move_pct": -1.07,
     "interval_start": "2026-11-20",
     "market_pp": null,
     "sector_pp": null,
@@ -763,13 +757,19 @@
    },
    "peers": {
     "LKNCY": {
-     "move_pct": -0.0539
+     "move_pct": -0.1886
     },
     "SBUX": {
      "move_pct": 3.132
     }
    },
    "headlines": [
+    {
+     "time_utc": "2026-11-23 11:00",
+     "source": "Yahoo",
+     "headline": "Chagee to Announce Third Quarter 2026 Financial Results on November 30, 2026",
+     "url": "https://finnhub.io/api/news?id=3b8f3a6000b7d86d02f5939042733b147746e3b9d92af3dcf98e77053eeffd90"
+    },
     {
      "time_utc": "2026-11-23 09:01",
      "source": "Benzinga",
@@ -928,19 +928,19 @@
    "notes": [
     "Continuous front-month futures: check for a contract roll if the move looks out of line with news."
    ],
-   "close": 3634.3999,
+   "close": 3651.3999,
    "prev_date": "2026-11-20",
-   "move_pct": 3.3851,
-   "sigma": 2.2974,
+   "move_pct": 3.8687,
+   "sigma": 2.6256,
    "above_2_sigma": true,
    "attribution": {
     "market": "DX-Y.NYB",
     "sector": null,
-    "move_pct": 3.39,
+    "move_pct": 3.87,
     "interval_start": "2026-11-20",
     "market_pp": -1.1,
     "sector_pp": null,
-    "specific_pp": 4.5,
+    "specific_pp": 4.9,
     "beta_market": -2.17,
     "beta_sector": null,
     "r2": 0.156,
@@ -952,7 +952,7 @@
    },
    "peers": {
     "SI=F": {
-     "move_pct": 4.7642
+     "move_pct": 5.1468
     },
     "GLD": {
      "move_pct": 3.1437
@@ -967,19 +967,19 @@
    "notes": [
     "Continuous front-month futures: check for a contract roll if the move looks out of line with news."
    ],
-   "close": 5.612,
+   "close": 5.627,
    "prev_date": "2026-11-20",
-   "move_pct": 2.4648,
-   "sigma": 1.5809,
+   "move_pct": 2.7387,
+   "sigma": 1.7565,
    "above_2_sigma": false,
    "attribution": {
     "market": "DX-Y.NYB",
     "sector": "MCHI",
-    "move_pct": 2.46,
+    "move_pct": 2.74,
     "interval_start": "2026-11-20",
     "market_pp": -0.9,
-    "sector_pp": 1.7,
-    "specific_pp": 1.8,
+    "sector_pp": 1.6,
+    "specific_pp": 2.0,
     "beta_market": -1.82,
     "beta_sector": 0.55,
     "r2": 0.242,
@@ -1006,15 +1006,15 @@
    "notes": [
     "Continuous front-month futures: check for a contract roll if the move looks out of line with news."
    ],
-   "close": 86.72,
+   "close": 89.37,
    "prev_date": "2026-11-20",
-   "move_pct": -6.3195,
-   "sigma": -2.1513,
-   "above_2_sigma": true,
+   "move_pct": -3.4568,
+   "sigma": -1.1768,
+   "above_2_sigma": false,
    "attribution": {
     "market": "DX-Y.NYB",
     "sector": null,
-    "move_pct": -6.32,
+    "move_pct": -3.46,
     "interval_start": "2026-11-20",
     "market_pp": null,
     "sector_pp": null,
@@ -1028,10 +1028,10 @@
    },
    "peers": {
     "CL=F": {
-     "move_pct": -4.4415
+     "move_pct": -4.5368
     },
     "NG=F": {
-     "move_pct": 3.6939
+     "move_pct": -6.6549
     },
     "XLE": {
      "move_pct": -1.0577
@@ -1054,7 +1054,7 @@
    },
    "peers": {
     "^FVX": {
-     "move_bp": 2.6999
+     "move_bp": 2.7
     },
     "^TYX": {
      "move_bp": -0.9
@@ -1102,20 +1102,20 @@
    "class": "fx",
    "symbol": "DX-Y.NYB",
    "notes": [],
-   "close": 104.35,
+   "close": 104.32,
    "prev_date": "2026-11-20",
-   "move_pct": 0.5202,
-   "sigma": 1.6592,
+   "move_pct": 0.4913,
+   "sigma": 1.567,
    "above_2_sigma": false,
    "attribution": {
     "na_reason": "no split for rates, FX, policy or the market itself"
    },
    "peers": {
     "EURUSD=X": {
-     "move_pct": -0.5889
+     "move_pct": 0.0165
     },
     "JPY=X": {
-     "move_pct": -0.4809
+     "move_pct": -0.4859
     }
    }
   },
@@ -1125,17 +1125,17 @@
    "class": "fx",
    "symbol": "SGD=X",
    "notes": [],
-   "close": 1.2907,
+   "close": 1.2895,
    "prev_date": "2026-11-20",
-   "move_pct": -0.0697,
-   "sigma": -0.4103,
+   "move_pct": -0.1556,
+   "sigma": -0.9162,
    "above_2_sigma": false,
    "attribution": {
     "na_reason": "no split for rates, FX, policy or the market itself"
    },
    "peers": {
     "DX-Y.NYB": {
-     "move_pct": 0.5202
+     "move_pct": 0.4913
     }
    }
   },
@@ -1145,42 +1145,8 @@
    "class": "crypto",
    "symbol": "BTC-USD",
    "notes": [
-    "Split measured from 2026-11-20 (last day all benchmarks traded), so its move (+4.17%) differs from the headline move.",
-    "Crypto trades 24/7; the move is close-to-close on Yahoo's UTC daily bars and the latest bar may be partial."
-   ],
-   "close": 61251.3516,
-   "prev_date": "2026-11-22",
-   "move_pct": 0.1462,
-   "sigma": 0.074,
-   "above_2_sigma": false,
-   "attribution": {
-    "market": "QQQ",
-    "sector": null,
-    "move_pct": 4.17,
-    "interval_start": "2026-11-20",
-    "market_pp": 6.3,
-    "sector_pp": null,
-    "specific_pp": -2.2,
-    "beta_market": 0.91,
-    "beta_sector": null,
-    "r2": 0.214,
-    "observations": 252,
-    "na_reason": null,
-    "notes": [
-     "R^2 below 0.25: treat the split as rough"
-    ]
-   },
-   "peers": {
-    "ETH-USD": {
-     "move_pct": -0.084
-    },
-    "COIN": {
-     "move_pct": 6.6784
-    },
-    "MSTR": {
-     "move_pct": 8.4833
-    }
-   }
+    "No price on 2026-11-23 (holiday or not yet updated)."
+   ]
   }
  ],
  "fred": {
@@ -1225,97 +1191,6 @@
    "note": "official end-of-day data; may lag the session by a day"
   }
  },
- "market_news": [
-  {
-   "time_utc": "2026-11-23 21:02",
-   "source": "CNBC",
-   "headline": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
-   "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
-  },
-  {
-   "time_utc": "2026-11-23 20:57",
-   "source": "CNBC",
-   "headline": "Jensen Huang cheered by Nvidia employees after return, pledges to be a better CEO",
-   "url": "https://www.cnbc.com/2026/11/23/jensen-huang-nvidia-ceo-return.html"
-  },
-  {
-   "time_utc": "2026-11-23 20:03",
-   "source": "CNBC",
-   "headline": "Nvidia breathes new life into the AI trade. Plus, Qnity inks a smart deal to get stronger",
-   "url": "https://www.cnbc.com/investingclub/2026/11/23/nvidia-breathes-new-life-into-the-ai-trade-plus-qnity-inks-a-smart-deal-to-get-stronger.html"
-  },
-  {
-   "time_utc": "2026-11-23 19:39",
-   "source": "Reuters",
-   "headline": "US imposes sanctions on dozens linked to Iran's shadow banking networks - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON2NaMVlXcGRFQ3BpRFVieGtVRzR4bXFtTXRTRnpSV3JmNzY1REhheG5xNlV5MlptZ1lIM1BQWUhGcTBZNWpHckdxZG1kWUZoZUdxSnRneHJhVzBpUzg0ZGpXQ1lQblItbHg5WXpNUXBqbHpWZ0NqZzdQZEdhNTZKbDZXaHNydXhYM05hd2YtY1lvU0JkVnJBQ3diRVNDV210Z0pZdm5mRnMtUEk4TTNkOXNDMGpvbmpD?oc=5"
-  },
-  {
-   "time_utc": "2026-11-23 19:12",
-   "source": "CNBC",
-   "headline": "DNI Jay Clayton tapped as acting national cyber director",
-   "url": "https://www.cnbc.com/2026/11/23/jay-clayton-cyber-director-kirsten-davies-trump.html"
-  },
-  {
-   "time_utc": "2026-11-23 19:08",
-   "source": "CNBC",
-   "headline": "ESPN, NFL to show Super Bowl 61 in Imax theaters",
-   "url": "https://www.cnbc.com/2026/11/23/espn-nfl-super-bowl-imax.html"
-  },
-  {
-   "time_utc": "2026-11-23 18:52",
-   "source": "CNBC",
-   "headline": "An options strategy for making even more of your money back in Nvidia",
-   "url": "https://www.cnbc.com/2026/11/23/an-options-strategy-for-making-even-more-of-your-money-back-in-nvidia-.html"
-  },
-  {
-   "time_utc": "2026-11-23 17:24",
-   "source": "CNBC",
-   "headline": "Here's where we stand on AMD shares after Jensen Huang's return to Nvidia",
-   "url": "https://www.cnbc.com/investingclub/2026/11/23/heres-where-we-stand-on-amd-shares-after-jensen-huangs-return-to-nvidia-.html"
-  },
-  {
-   "time_utc": "2026-11-23 16:47",
-   "source": "Reuters",
-   "headline": "Mexico, China agree to create working group to boost trade - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNGQzdEcwdnZKUC05dU4zQWZFRkRKV0tmVTM1d0oxeU5ldlM0Ukk4RVhlZTNPZXZtQ2tGejdIa1V1SEdvLUx5VHJ6dGxDWlhya041NE9MckZkOEFzbjNneGhwMzFDOXhrWGx3c0JFMFg1NnhnaURuYVNpRWRIakNqbWxueHlYeU1zY3ZLYkVtZTVoX1JEV2N0Ug?oc=5"
-  },
-  {
-   "time_utc": "2026-11-23 16:45",
-   "source": "Reuters",
-   "headline": "'Iron Felix', architect of Bolshevik 'Terror', honoured with Moscow plaque - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORmZoM2ctX3Fod2Q1MDRlYnV5cUQwSmJNb1ZmVHhpaFJ1cThuLTFCU3c2SXpXU1cyVnY0VzMyMDNzTDd3eVBaV3ppeVBBYjNIUXRxSE1kTGk3cXI3TjZXd1U5Wm85T21pMGxvcGZKb2xxZG5ieVVNZmNzWWlkVXVWZGQ1Vjl4VzVQdlQ4VGNpdFBnSDNnSnRkb0dBT3F2emJhMHVXNzBkNTBVSXc?oc=5"
-  },
-  {
-   "time_utc": "2026-11-23 16:29",
-   "source": "Reuters",
-   "headline": "EXCLUSIVE: Canada and Qatar to sign investment pact on Tuesday, source says - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZk1ZWWo1bkc0R09JNGU4YXZQQlB2bVdfbkF0NHQySnRyY0hfMlcyQ2hTS29jblJtZWVhTmY2Ry1Qb1pUS3Q5YWZrYnFGSFJXMFJHZWUxaWRmMkRpV2hVMTFzYUlXc01GdE5YN256R2xhTnVveEdmS1RQZ3laRkN3VlNLcElDTVlPYmdFbmhHY3JBYjFtbWhQdEtHODBUNkRJWWVfcUpYMzNESGM?oc=5"
-  },
-  {
-   "time_utc": "2026-11-23 16:25",
-   "source": "CNBC",
-   "headline": "Stop agonizing over the ‘right’ choice—to avoid regret, save time and reduce stress, take these 3 steps",
-   "url": "https://www.cnbc.com/make-it/2026/11/23/stop-maximizing-make-decisions.html"
-  },
-  {
-   "time_utc": "2026-11-23 16:07",
-   "source": "Reuters",
-   "headline": "EXCLUSIVE: US discussing military training for Syrian forces - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNd2tMTDZEYUhaR0lYVlhOTVpicEV6a3VJN2RSV1pVdXMxRmJwQkFUd1hzNWZEa0pSUkJaQ0l6SVNjM1pfMllVR2hNV2FNb2FZUTNuclJzLTdkenNHU3RncUJKUzRKcWswcTJkRkRQZjBuU0h3dDJBdlV0V25nU2xpQlA5UWFnMkZSZnlFMXRsbmQ?oc=5"
-  },
-  {
-   "time_utc": "2026-11-23 14:58",
-   "source": "Reuters",
-   "headline": "Israeli strikes kill at least three in Gaza, including worker with UN Palestinian agency - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaFR0Y0tNMTl0MmFKSU02ZGd1MElscXdzQnlya2RHU3cyN3dFaUdOeVVPNTQzMjVobjk4WGxsdGtQcDYzbkpvcm42RXdlTVlUb1pvV3lJaW95OHBrSXU4bjdwWXRQMnhTZkVieER1ZVE5cVVWYVJQek1qeWRlOGstYlU5RnVoX0FXRXdfQ2ZQb1NLekZKXzF2X2hxQS1hRURFR1lRSG1mXy1iNTc1OWtULTVRZlpxRXg0M0l2VW13QUR0Zm8?oc=5"
-  },
-  {
-   "time_utc": "2026-11-23 14:35",
-   "source": "CNBC",
-   "headline": "JPMorgan's top books and experiences for the wealthy this holiday season",
-   "url": "https://www.cnbc.com/2026/11/23/jpmorgans-top-books-experiences-for-the-wealthy-this-holiday-season.html"
-  }
- ],
+ "market_news": [],
  "errors": []
 }
