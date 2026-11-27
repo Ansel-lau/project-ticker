@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "session_date": "2026-11-25",
- "generated_at_utc": "2026-11-26 22:20",
+ "generated_at_utc": "2026-11-27 04:16",
  "sources": {
   "prices": "Yahoo Finance via yfinance (adjusted closes)",
   "rates": "US Treasury and New York Fed (FRED as fallback); see each series' source",
@@ -1238,6 +1238,30 @@
  },
  "market_news": [
   {
+   "time_utc": "2026-11-27 02:01",
+   "source": "Reuters",
+   "headline": "Shares find footing after bruising month, dollar set for third monthly gain - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeDB1T1E2SVA0LVpuZFR6d2d5dWFobkEwdkN5aFVmZUZKN1pSVWExbEJzWlZhV0tKcklRQ09yZlFTZklkLTBNSGFwbHBfbHR2SWZoQTdXcWtFdEViWGdQamN2a0JjWjZ4M0Mydmlpc1lrQUdYaFBNVkFBdTQ4djVpbjZrRQ?oc=5"
+  },
+  {
+   "time_utc": "2026-11-27 01:55",
+   "source": "Reuters",
+   "headline": "Brent trades near month's high as Mideast conflict threatens supply - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTzVQVzE5aGdzbGVhNEUtVl94M0V3RjN5Rks4UDU0U0plazFDcjFnUTBMMHBvdk9BRzFaVHljSXk1ZFdzSjlRTVRXNGZ0cnRyUWRRbFJaRjBsVWNFbDZqSnQ0cHo0TW5fRDlwMWlKWDI3V2ROcnlXczVET1RqSXR6UGtZSTZ0OTQtY1YwaG1yYTRwQnZ6TW43azNGNTFqMmpkNFhtbVJwRnVkVERhR1NnSlFIMzExZw?oc=5"
+  },
+  {
+   "time_utc": "2026-11-27 00:35",
+   "source": "Reuters",
+   "headline": "Trump says Putin can come to G20 if he wants - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUjY3Sm9MUkZXUEQyNDc3MFdwRlFBaWcyWkpxbDRYT21RVFYySkgtUm9WeFNFb1lZUU9lM1BqbDBWLW5VLW9PR1ZvMjFxVHZNX2Q2b01rNXdVQUJIYmZ5ZHd4eEI1RkI3dlctelgwODgwczQta2ZWZEpDU2Jwa29MT21ZMlJ1clVNMkM0?oc=5"
+  },
+  {
+   "time_utc": "2026-11-27 00:25",
+   "source": "Reuters",
+   "headline": "Trump says Wednesday's market had him briefly 'concerned' before stocks recovered - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWHRXZnN1TmZVRDJ6VUJtNjhuRm85eGlQVmdGNGQ0SC0yeHlPVUlKSksyLVNZa0VqRGdqUWVtaW1oNHhjQldDdHlKYnZ0TVgtbkpEcmJfVEcyTUxnNkNYeEdaYXlWUmQwcnhyLUtrUERoYnhIdnVxV3lFeUhza21Wc3U2WW9yd2loWmpxeXE4SG9OT2Rlai1reWtSemRkYnlBZndLaFVNOHJHeDF4ZkVmckpqSzZSbElNZHpfdUFLTTBsOW9C?oc=5"
+  },
+  {
    "time_utc": "2026-11-26 20:56",
    "source": "Reuters",
    "headline": "Hamas weighs response after Israel kills 10 people in Gaza - Reuters",
@@ -1274,6 +1298,12 @@
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOWczelB1MldEZ2RSX1luOHBST0ZrMGtNMl81TTgwVE5fQTZtNnJxeElKMmlzSmdnLVpVTDRfVjluMVZSa09QaTluWGk5X2VTcEw2aFlPcmx1VmlsVHd5eUFMaWM4Nm5EX29OYlhlMzZyZW9fMmcxLUxkZ2kycGFiLWtQbU1jSVBsbWRwM3p0RDFEUU8yXzVOOGM5T3pRTWx0ZDZkTmptem0teU1WVjZCdk5lcDFpZ2F2UU1mbTVHOHJqRWVnRUFYdmR3?oc=5"
   },
   {
+   "time_utc": "2026-11-26 17:37",
+   "source": "Reuters",
+   "headline": "UK's Imperial Brands says Altria weighs possible offer - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWHV2aHhOY1ZmZ2N0bFZXLUxSSHNlaGtRZnVLWlJwNHY0RlB5b2VFLThsUkhwa3pEY29SMVB2X1kzT19XVlNkamxnQkJlbHREd0F5cmo1VTRvU3ZzTUlUWnBpUzVkejg4V1NkVTA3UDlsTlhucEp3OWxfR3M5NFJwYTdSRS1fbVJGX3poWmlzNlp4VWtiYnVBWng1amxrclE?oc=5"
+  },
+  {
    "time_utc": "2026-11-26 17:32",
    "source": "Reuters",
    "headline": "Iraq closes two border crossings in Kurdistan region with Syria and Iran - Reuters",
@@ -1296,36 +1326,6 @@
    "source": "Reuters",
    "headline": "Argentina's Senate poised to suspend primaries, boosting Milei's re-election bid - Reuters",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOME12Z2hWeXJDdjhYQll0TW9vYWFaMzgwdWdBQ05BR3k4ckdrdFo3SkdfOXZrOGVXU1VUOTNtYXRXWEJBYlExUllERjdYRGxqR3lCelZyQTJxd0o2Q1VacWw0Sk5QajJWbGlDaDV1Y2hjWDE4dEVjNFpSQXdhQWg4MmFydGdDMEhmQjI2TjNiMUliZ1hBX1lXaDBoRlN0RHoxeUpxV3JuMkU2TmFncHhfWXdyOFNaUlVrUC1NZnlSS0NoRFE?oc=5"
-  },
-  {
-   "time_utc": "2026-11-26 16:04",
-   "source": "Reuters",
-   "headline": "Trump demands probe of GDP data released before midterms - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdjAtVm85ZE55RGw0MXhaM3NVV1NlaHdlazNjODRQQjRPOGh2eDQ5aWYzcmxNSHpVWHNacEhhMDFaRDZ3YWIxalJzY3JCTXdjLVE4RXpmbktlZXNZTUc3RlE0LVhtTlo5Rl8xMm9nOXVPZmZ1eEd2XzJjcXQxX2otajdiUHN6djBScGpldmJvUXBIaG9UeUJxeW5kSWtnTTQ?oc=5"
-  },
-  {
-   "time_utc": "2026-11-26 15:51",
-   "source": "Reuters",
-   "headline": "Stocks rally, Europe sizes up next ECB chief - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUWRTQ2N0czgwTVhPdVhvZDUzeDNDRUJ6cFd0MWx1N05aSTJHaUlOdTQ5X2xieEVueHJ3VTRrb0ppNEtzbFVBRm1fU3VvV0xpMWVlUWg3c0NvWXJxS2ZabkwwejhwenhCVmhYRUdweUwwdHhTTWd1bTh2QlR1dFpvVDFHVQ?oc=5"
-  },
-  {
-   "time_utc": "2026-11-26 15:21",
-   "source": "Reuters",
-   "headline": "Iraqi Kurds protest against Baghdad leader's moves to assert central control - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ2xrakttQVBBRkRuMG9VbFRZaFJxcnIxZE1TV3EzdTFtV0w2anEwMWgxb2VDdzhFazVicDR0cW45TExKWFZlbVAzd05hUEhwVUt6YzBGVXJBOGtFYk5pUjRsVVJJYVNrRjFwSGk2bGdiY0poRXBqNDBFT3QybWZKT0FHUmRSdEZJUU5TWUJNQ205UmlpbFpiajFXTVZ1X3dxMU5NZEwyN2pEa2ZOVWtrcFFfbWcxczcyektCWlRlWnlyZw?oc=5"
-  },
-  {
-   "time_utc": "2026-11-26 14:57",
-   "source": "Reuters",
-   "headline": "Spain's De Cos set to be nominated by EU countries as next head of ECB - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOV8wZkxRVTY5U0ZQeVZwSGtCMVZJTjV2d2t5TlhsSVoxQmpLRXI4OTV1R0QwQkV1QmZma3BDN0lrOEJTNGFVeloyeE5HbnhmWDZfR1VrbzN5TzZrck5WTTlKNTBaeFhVbDd4RldhY0hZMnFsczlsTURLY0FpWWgzeE5YVVc2NUZqMy1KbldQVDJfcUtsVEhINHF2emJ5SEFrMXozWUdTM3BFQQ?oc=5"
-  },
-  {
-   "time_utc": "2026-11-26 14:38",
-   "source": "Reuters",
-   "headline": "French actor Gerard Depardieu to face trial for rape, court rules - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWHRHWGdZSTZmMFAtdFFZbVlVOTRTUEdYNDlQQVVVaGdua3JjQk1YRmlEOXhSeXk5a0thWjdtSUt2cWZpTVNkV3dveE9McHRhSWVpdjIxd2FuOW84bkRBTlNGcDJ4S3Z3MFBCd3RyWlBDai1mMXlKMkpFUnVBWmtDWk5tVzhFX2F6bzNuS3lYV0Q2bUtCbjlpMUlUZFJwYlM4eGhwcmdB?oc=5"
   }
  ],
  "errors": []
