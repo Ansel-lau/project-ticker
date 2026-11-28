@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "session_date": "2026-11-27",
- "generated_at_utc": "2026-11-27 22:21",
+ "generated_at_utc": "2026-11-28 03:55",
  "sources": {
   "prices": "Yahoo Finance via yfinance (adjusted closes)",
   "rates": "US Treasury and New York Fed (FRED as fallback); see each series' source",
@@ -61,12 +61,6 @@
    "symbol": "GC=F",
    "close": 3668.5,
    "move_pct": 3.753
-  },
-  {
-   "name": "Bitcoin",
-   "symbol": "BTC-USD",
-   "close": 59637.6602,
-   "move_pct": -1.4167
   }
  ],
  "sectors": [
@@ -166,6 +160,30 @@
    },
    "headlines": [
     {
+     "time_utc": "2026-11-27 23:23",
+     "source": "Yahoo",
+     "headline": "Plot Twist: Nvidia’s Vera Rubin Gets 2-6.5x GB300’s Tokens per Dollar. Amazon’s Trainium Edge Was Against the Old Chip",
+     "url": "https://finnhub.io/api/news?id=e299fe88567a7a659bfd5f2a6daa4f621b9279aa134e42209b2c5a991d644c68"
+    },
+    {
+     "time_utc": "2026-11-27 23:22",
+     "source": "Yahoo",
+     "headline": "Amazon Hits Its Lowest P/E Ever. Jim Cramer Predicts It Will “Prove to Be the Winner”",
+     "url": "https://finnhub.io/api/news?id=2c8719ae3e9df30828f37aa996a5510f5dcc46ef776688975e731fc800aae5a0"
+    },
+    {
+     "time_utc": "2026-11-27 23:21",
+     "source": "Yahoo",
+     "headline": "Warning for Alphabet Investors: MScience Data Show Q4 Search Revenue Tracking Below Consensus",
+     "url": "https://finnhub.io/api/news?id=8153645d613ea30a27601556b33d74a143425db59f257658d76f0f4af8743e36"
+    },
+    {
+     "time_utc": "2026-11-27 21:51",
+     "source": "SeekingAlpha",
+     "headline": "Tracking David Tepper's Appaloosa Management Portfolio - Q3 2026 Update",
+     "url": "https://finnhub.io/api/news?id=93e15087d8c657014617ad52b0e55f08fbd14d968fcdebdfe496c189ad3145fc"
+    },
+    {
      "time_utc": "2026-11-27 21:06",
      "source": "Yahoo",
      "headline": "Jensen Huang Is Back. Nvidia’s (NVDA) Bull Case Remains",
@@ -176,6 +194,12 @@
      "source": "Yahoo",
      "headline": "Alphabet Down Nearly 20%: What Would Its CEO Say?",
      "url": "https://finnhub.io/api/news?id=29855fa31f3e1aeb9b90a71c6ac4405c1d0fe62c74956217a16b9e1ffff9d6c3"
+    },
+    {
+     "time_utc": "2026-11-27 19:50",
+     "source": "SeekingAlpha",
+     "headline": "Big Tech Turns Down The Volume On 'AI'",
+     "url": "https://finnhub.io/api/news?id=aef6883f0edd44bd985466f1f77642e50d0ce6c3d071f418318dc35e4767467f"
     },
     {
      "time_utc": "2026-11-27 19:18",
@@ -194,36 +218,6 @@
      "source": "Yahoo",
      "headline": "Top Stock Reports for Alphabet, Meta & Bank of America",
      "url": "https://finnhub.io/api/news?id=f91b2d3ba76cb8fb0419b65518914d1a60d5f0a1610c8c71cda29eab59fb8c9a"
-    },
-    {
-     "time_utc": "2026-11-27 18:16",
-     "source": "Yahoo",
-     "headline": "AppLovin vs. Magnite: Which Technology Stock Is a Better Buy for 2027?",
-     "url": "https://finnhub.io/api/news?id=7c28502531c24e46c34f3a61bf24a094fbd91e5fe10600c813f2109691f673a1"
-    },
-    {
-     "time_utc": "2026-11-27 18:10",
-     "source": "Yahoo",
-     "headline": "What Does Alphabet (GOOGL) Need To Prove After The Air Force Cloud Breach?",
-     "url": "https://finnhub.io/api/news?id=09420bdb8738b20d8df31ee16ba375a402049e78b854c752e3203a8091b3651f"
-    },
-    {
-     "time_utc": "2026-11-27 18:00",
-     "source": "Yahoo",
-     "headline": "Franklin Templeton Flags Hidden Risk in S&P 500 Investing",
-     "url": "https://finnhub.io/api/news?id=6b741eaabadea5c1133ac344199758ac77d0db41abf443feaf638a41272b3dcf"
-    },
-    {
-     "time_utc": "2026-11-27 17:52",
-     "source": "Yahoo",
-     "headline": "Snap vs. The Trade Desk: Which Stock Is a Better Buy for 2027?",
-     "url": "https://finnhub.io/api/news?id=05b04c14d3e59d572ef4053213e1e21729ea9a13bccc3b7dc3e56bace8dd1da1"
-    },
-    {
-     "time_utc": "2026-11-27 17:51",
-     "source": "Yahoo",
-     "headline": "Tech Stock Sell-Off: Down 32%, Is Alphabet a Buy Now?",
-     "url": "https://finnhub.io/api/news?id=bcb79eaa7bb684ea0edd2e5bf2061e709cd034e5f3399a3b76ce828a444d8c47"
     }
    ],
    "earnings": []
@@ -267,6 +261,18 @@
    },
    "headlines": [
     {
+     "time_utc": "2026-11-27 23:23",
+     "source": "Yahoo",
+     "headline": "Meta’s (META) Muse Could Unlock a New Revenue Stream",
+     "url": "https://finnhub.io/api/news?id=6c0b1d8a81b7a16611173daa81e760f9518d0e515d9496b2b0ffc6437b553dc5"
+    },
+    {
+     "time_utc": "2026-11-27 21:51",
+     "source": "SeekingAlpha",
+     "headline": "Tracking David Tepper's Appaloosa Management Portfolio - Q3 2026 Update",
+     "url": "https://finnhub.io/api/news?id=93e15087d8c657014617ad52b0e55f08fbd14d968fcdebdfe496c189ad3145fc"
+    },
+    {
      "time_utc": "2026-11-27 21:06",
      "source": "Yahoo",
      "headline": "Jensen Huang Is Back. Nvidia’s (NVDA) Bull Case Remains",
@@ -277,6 +283,12 @@
      "source": "Yahoo",
      "headline": "Can Meta's Business Pay For Its Spending?",
      "url": "https://finnhub.io/api/news?id=d710d9383dd9f54f4dce4ab2f8a23d21703b039faecf2916fcfe668dfadd1a7a"
+    },
+    {
+     "time_utc": "2026-11-27 19:50",
+     "source": "SeekingAlpha",
+     "headline": "Big Tech Turns Down The Volume On 'AI'",
+     "url": "https://finnhub.io/api/news?id=aef6883f0edd44bd985466f1f77642e50d0ce6c3d071f418318dc35e4767467f"
     },
     {
      "time_utc": "2026-11-27 19:18",
@@ -307,24 +319,6 @@
      "source": "Yahoo",
      "headline": "New $799 smart glasses challenge Apple, but with a major catch",
      "url": "https://finnhub.io/api/news?id=df3420d27b98f5d43714b8aae10b4aad058833a88850c06784ee14ab7c50ec45"
-    },
-    {
-     "time_utc": "2026-11-27 17:11",
-     "source": "Yahoo",
-     "headline": "What Is Meta Platforms (META) Up Against With Australia And EU AI Rules?",
-     "url": "https://finnhub.io/api/news?id=b037b9e29cbf5524ff7543f693b7884973d6912b2a0db4b8d19d7eaf03b4242f"
-    },
-    {
-     "time_utc": "2026-11-27 17:09",
-     "source": "Yahoo",
-     "headline": "Meta, Anthropic in Talks to Build AI Data Centers in Japan",
-     "url": "https://finnhub.io/api/news?id=70739c7fb3a3a00b96a3f72bc76d09bdd583d1666368b27fd95fe90cd0add5ab"
-    },
-    {
-     "time_utc": "2026-11-27 16:43",
-     "source": "Yahoo",
-     "headline": "Tech Stock Sell-Off: Down 23%, Is Meta a Buy Now?",
-     "url": "https://finnhub.io/api/news?id=79b23f394e21acacdf4a7dbbf234cffe13053428bc5f008f5713468eff79a2c6"
     }
    ],
    "earnings": []
@@ -370,6 +364,12 @@
    },
    "headlines": [
     {
+     "time_utc": "2026-11-28 01:09",
+     "source": "Yahoo",
+     "headline": "Vanguard's Growth ETF Has 3 Stocks Making Up More Than a Third of It. Only 1 Has Held Up in the Tech Sell-Off.",
+     "url": "https://finnhub.io/api/news?id=8a9bc66e9716dd14bf14d42e26a153ca10dfa86e3292230084d6f99d149b9846"
+    },
+    {
      "time_utc": "2026-11-27 21:37",
      "source": "Yahoo",
      "headline": "Billionaire Chase Coleman’s Tiger Global Raised Its Cerebras Stake 48% to $790 Million",
@@ -380,6 +380,12 @@
      "source": "Yahoo",
      "headline": "Should You Pick Palantir Over Its Big Tech Rivals?",
      "url": "https://finnhub.io/api/news?id=4a7f034c51c2d80d968bb3d780789e526e2b17a6b2394b32564dc556666c53c0"
+    },
+    {
+     "time_utc": "2026-11-27 19:50",
+     "source": "SeekingAlpha",
+     "headline": "Big Tech Turns Down The Volume On 'AI'",
+     "url": "https://finnhub.io/api/news?id=aef6883f0edd44bd985466f1f77642e50d0ce6c3d071f418318dc35e4767467f"
     },
     {
      "time_utc": "2026-11-27 19:09",
@@ -416,18 +422,6 @@
      "source": "Yahoo",
      "headline": "Sector Update: Energy Stocks Rise Friday Afternoon",
      "url": "https://finnhub.io/api/news?id=b59c85cc0dd16b1c9893d1569ad901efb3ce27956eeec186986fc2cfd657c58d"
-    },
-    {
-     "time_utc": "2026-11-27 17:37",
-     "source": "Yahoo",
-     "headline": "HSBC Makes Bullish 2027 Call as Tech Stocks Struggle",
-     "url": "https://finnhub.io/api/news?id=28af8b6da9dd10d59fd6314603e8d7a068dd9e2ffefa79fcfbe2b56d696790c6"
-    },
-    {
-     "time_utc": "2026-11-27 17:27",
-     "source": "Yahoo",
-     "headline": "Sector Update: Tech Stocks Gain Friday Afternoon",
-     "url": "https://finnhub.io/api/news?id=91668ffe619d0500787099ad56d6896853e7f837b4348f3792aa60e827382374"
     }
    ],
    "earnings": []
@@ -471,6 +465,24 @@
    },
    "headlines": [
     {
+     "time_utc": "2026-11-28 00:01",
+     "source": "Yahoo",
+     "headline": "US Fintech Weekly: Payment Networks Rally Into Black Friday As Wedbush Backs Brokerages",
+     "url": "https://finnhub.io/api/news?id=19ab1aa6a503e3ce1a5b23096b964b45d5eef551fb92ff998be68fe0ea64eb42"
+    },
+    {
+     "time_utc": "2026-11-27 21:59",
+     "source": "Yahoo",
+     "headline": "Billionaire Andreas Halvorsen’s Viking Opened an $818 Million Mastercard Stake While Cutting Its Visa Shares 32.6%",
+     "url": "https://finnhub.io/api/news?id=8b75c03a162da9df1a8f025785daa2daa5c49ad4db4a4f92ae7508558159e13b"
+    },
+    {
+     "time_utc": "2026-11-27 21:52",
+     "source": "SeekingAlpha",
+     "headline": "Dividend Champion, Contender, And Challenger Highlights: Week November 29",
+     "url": "https://finnhub.io/api/news?id=7f5a7e214d69d543468aa4db0db96e64820b5ebff89b1a65861a47c9e5b89edc"
+    },
+    {
      "time_utc": "2026-11-27 20:39",
      "source": "Yahoo",
      "headline": "Every Holiday Swipe Pays a Toll—And These 2 Buffett Stocks Own It",
@@ -481,6 +493,12 @@
      "source": "Yahoo",
      "headline": "What Is The One Risk Facing Visa Stock Now?",
      "url": "https://finnhub.io/api/news?id=87304f024c423d81cdb00666b19120d6f4300abb1b19f7e9a5c08273de0364ff"
+    },
+    {
+     "time_utc": "2026-11-27 17:51",
+     "source": "Yahoo",
+     "headline": "Visa Stock: Is V Outperforming the Financial Sector?",
+     "url": "https://finnhub.io/api/news?id=67ee2e63ece8183a8ae124c2c33d5a254bd12b373b6eb945513d7f31d235cd2a"
     },
     {
      "time_utc": "2026-11-27 14:30",
@@ -505,30 +523,6 @@
      "source": "Yahoo",
      "headline": "What Is Visa (V) Doing With Stablecoin Payments In Europe And Asia?",
      "url": "https://finnhub.io/api/news?id=b9b3c3d5bc0b0d486d665343d0f3e458b05408b49b1f1083901ab32106dd63f1"
-    },
-    {
-     "time_utc": "2026-11-27 06:45",
-     "source": "Yahoo",
-     "headline": "Visa and NBX plan stablecoin-linked payment card",
-     "url": "https://finnhub.io/api/news?id=450afd184b3add9822247ad30495fcc6c4940b7adea77fae4e2372a241101ec2"
-    },
-    {
-     "time_utc": "2026-11-26 21:33",
-     "source": "Yahoo",
-     "headline": "The Nasdaq Composite Is in a Correction, but These 3 Dividend Stocks Are Near 52-Week Highs. Here's Why They're Still Worth Buying Right Now.",
-     "url": "https://finnhub.io/api/news?id=3a1d0862f827c6c657a91ba818520876b8edb92a070d7acab98e15bfc9f2cf26"
-    },
-    {
-     "time_utc": "2026-11-26 20:46",
-     "source": "Yahoo",
-     "headline": "Billionaire Chris Hohn’s TCI Has 30% of Its $49.6 Billion Stock Portfolio in GE Aerospace",
-     "url": "https://finnhub.io/api/news?id=88c191173c15d2c39ea7b663e63097fa444d20089f9dec11ba130631543c1780"
-    },
-    {
-     "time_utc": "2026-11-26 18:37",
-     "source": "Yahoo",
-     "headline": "Mastercard Stocks Rise 1.94% as Payment Networks Gain in AI Selloff Rotation",
-     "url": "https://finnhub.io/api/news?id=bad91d1b7d857baf216cdde6a3c5b7eaba52884f75a56b545d14c406db0d89fb"
     }
    ],
    "earnings": []
@@ -1106,10 +1100,10 @@
    },
    "peers": {
     "EURUSD=X": {
-     "move_pct": -0.2877
+     "move_pct": 0.0186
     },
     "JPY=X": {
-     "move_pct": 0.1884
+     "move_pct": 0.0415
     }
    }
   },
@@ -1119,10 +1113,10 @@
    "class": "fx",
    "symbol": "SGD=X",
    "notes": [],
-   "close": 1.2903,
+   "close": 1.2902,
    "prev_date": "2026-11-26",
-   "move_pct": 0.0233,
-   "sigma": 0.1446,
+   "move_pct": 0.0186,
+   "sigma": 0.1157,
    "above_2_sigma": false,
    "attribution": {
     "na_reason": "no split for rates, FX, policy or the market itself"
@@ -1139,42 +1133,8 @@
    "class": "crypto",
    "symbol": "BTC-USD",
    "notes": [
-    "Split measured from 2026-11-25 (last day all benchmarks traded), so its move (-1.23%) differs from the headline move.",
-    "Crypto trades 24/7; the move is close-to-close on Yahoo's UTC daily bars and the latest bar may be partial."
-   ],
-   "close": 59637.6602,
-   "prev_date": "2026-11-26",
-   "move_pct": -1.4167,
-   "sigma": -0.7084,
-   "above_2_sigma": false,
-   "attribution": {
-    "market": "QQQ",
-    "sector": null,
-    "move_pct": -1.23,
-    "interval_start": "2026-11-25",
-    "market_pp": 2.3,
-    "sector_pp": null,
-    "specific_pp": -3.5,
-    "beta_market": 0.86,
-    "beta_sector": null,
-    "r2": 0.211,
-    "observations": 252,
-    "na_reason": null,
-    "notes": [
-     "R^2 below 0.25: treat the split as rough"
-    ]
-   },
-   "peers": {
-    "ETH-USD": {
-     "move_pct": -1.8819
-    },
-    "COIN": {
-     "move_pct": 3.2009
-    },
-    "MSTR": {
-     "move_pct": 2.076
-    }
-   }
+    "No price on 2026-11-27 (holiday or not yet updated)."
+   ]
   }
  ],
  "fred": {
@@ -1221,6 +1181,12 @@
  },
  "market_news": [
   {
+   "time_utc": "2026-11-27 23:26",
+   "source": "Reuters",
+   "headline": "Son of Hamas chief survives Israeli strike, Hamas says - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQXhxUTlzbVROVWJBME9JOGtIQnZUczNMMXdBTUV0QlByWWRCWThyeXlfcDA0T2MyaHlVbFlFSW0wbkpjbGd1WXVjQkZQaDNuZFM1VFkxaU9fN2lXUGtwa0xmQ0xHZHVaYko0M3FfVmdmd0l1LUpJOVhrNF9vTzk2OUJ0bVB4MU9JNnFCWFdESncyd0NBbHJodGpyUlRLNXRRRjhDYXJTRQ?oc=5"
+  },
+  {
    "time_utc": "2026-11-27 20:56",
    "source": "Reuters",
    "headline": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform - Reuters",
@@ -1237,12 +1203,6 @@
    "source": "CNBC",
    "headline": "Jensen Huang's return did little to ease AI jitters. We used the weakness to buy",
    "url": "https://www.cnbc.com/investingclub/2026/11/27/jensen-huangs-return-did-little-to-ease-ai-jitters-we-bought-on-weakness.html"
-  },
-  {
-   "time_utc": "2026-11-27 18:33",
-   "source": "Reuters",
-   "headline": "Son of Hamas chief survives Israeli strike, Hamas says - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQXhxUTlzbVROVWJBME9JOGtIQnZUczNMMXdBTUV0QlByWWRCWThyeXlfcDA0T2MyaHlVbFlFSW0wbkpjbGd1WXVjQkZQaDNuZFM1VFkxaU9fN2lXUGtwa0xmQ0xHZHVaYko0M3FfVmdmd0l1LUpJOVhrNF9vTzk2OUJ0bVB4MU9JNnFCWFdESncyd0NBbHJodGpyUlRLNXRRRjhDYXJTRQ?oc=5"
   },
   {
    "time_utc": "2026-11-27 17:16",
@@ -1299,16 +1259,16 @@
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUh5OURIMC1MRmNIM3pMa2ZMUnBhZjl4TjRVUWl6QTg4Mk9FdXluQWVubzNSOUNMUmROMGdnWGp2Wlp3Y1NxdFdaQ0tubFFoZTVlS3hydlBkcDJUWURvLVZKamppQTlvSm8yYkV0NE5rRlp6TVUtSzNsOUtGYUJtR1pWMl94TjA5UFRta3lPVldBaGtxQm95Wng2UVlwckszVVhaTHFYQ044cjNPQUE?oc=5"
   },
   {
+   "time_utc": "2026-11-27 11:13",
+   "source": "Reuters",
+   "headline": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcVE1ZllSR0xRNHFVUjR0WWJjQXF2MllxbUV3WUQ2Vno2WFFCbzkyODBvWjE1WmtscC1rdkVLdVJXUDhUUXFiMDZQbS01akV2UjhQQUFwMWp2aWdrdm5ZQy11b0tvX3BkSVU1WmdUV2J4N2l0UF9tcHVqRzBuWkxhRUVsU1FtMTl1aEhRWkx3RFI2VDlraEhKemFOV0ZEX0todDFpTTBsTndhZk0zclNaWk5lNA?oc=5"
+  },
+  {
    "time_utc": "2026-11-27 11:00",
    "source": "CNBC",
    "headline": "Inflation has shoppers hunting for value. That bodes well for Black Friday",
    "url": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html"
-  },
-  {
-   "time_utc": "2026-11-27 10:59",
-   "source": "Reuters",
-   "headline": "FACTBOX Spain election: what the main parties are proposing - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQWRyM0NQRDdFNTJsMVZKTzVoMEd3UXpzOWZQYjZSejZXc29xbVA3emVPcC1XV0lSMnRXWWhObmJ6cDJrMTdzV005ZVJlT3Z2UGJLWTBNeDE1T0hsOUtXNkp4T3VtV0VJeE83SkFUTjZlTkxRYUI5NTNPdTVsek5RNWdaSXM0Q3FCM1JRM2x1UlhaSzk0bWxkWFdHdw?oc=5"
   }
  ],
  "errors": []
